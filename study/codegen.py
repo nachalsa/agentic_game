@@ -8,6 +8,8 @@ import datetime
 # .env 파일 로드
 load_dotenv()
 
+# 크루 AI 텔레메트리 비활성화
+os.environ.setdefault("OTEL_SDK_DISABLED", "true")
 # 환경 변수 가져오기 (또는 직접 설정)
 MODEL_NAME = os.getenv("DEFAULT_LLM", "cpatonn/Devstral-Small-2507-AWQ")
 API_BASE_URL = os.getenv("DEFAULT_URL", "http://localhost:54321")
