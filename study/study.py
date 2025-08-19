@@ -145,7 +145,7 @@ def setup_litellm_global_config():
     os.environ['LITELLM_LOG'] = 'INFO'
     logger.info("LiteLLM 전역 설정 완료")
 
-# ===== [수정됨] 에이전트 생성 함수 =====
+# ===== [수정 없음] 에이전트 생성 함수 =====
 def create_agents():
     """
     동적 검색을 위한 에이전트들을 생성합니다.
@@ -216,7 +216,7 @@ def create_tasks(planner, researcher, writer):
         각 쿼리는 명확하고 독립적으로 검색 가능해야 합니다.''',
         
         expected_output='''연구 목표를 달성하기 위한 4~5개의 영어 검색 쿼리 목록.
-        각 쿼리는 한 줄로 명확하게 구분되어야 합니다.
+        각 쿼리는 한 줄로 명확하게 구분되어야 합니다. (예: `- "query"` 형식)
         예시:
         - "latest breakthroughs in multimodal generative AI 2025"
         - "new architectures for large language models 2025"
@@ -228,18 +228,34 @@ def create_tasks(planner, researcher, writer):
     
     # 2. 생성된 계획에 따라 웹 검색을 수행하고 요약하는 작업
     research_task = Task(
-        description='''제공된 검색 쿼리 목록을 사용하여 웹 검색을 수행하고, 
-        2025년 최신 AI 트렌드에 대한 주요 발견 사항을 요약합니다.
+        description='''[이전 단계에서 생성된 검색 쿼리 목록]을 활용하여 2025년 최신 AI 트렌드에 대한 심층 웹 검색을 수행하고, 
+        주요 발견 사항을 종합적으로 요약합니다.
 
-        각 쿼리에 대해 'Web Search Tool'을 개별적으로 사용하세요.
-        검색된 정보를 비판적으로 분석하고, 가장 신뢰할 수 있고 최신 정보를 종합하여
-        핵심적인 인사이트와 통계, 구체적인 예시를 포함한 보고서를 작성하세요.
-        
-        보고서는 주요 트렌드별로 구조화하여 정리해야 합니다.''',
+        **수행 절차:**
+        1. 이전 Task의 결과물에서 제공된 **각각의 검색 쿼리(예: `- "query"` 형식)**를 정확히 추출합니다.
+        2. 추출된 **모든 쿼리에 대해** 'Web Search Tool'을 **순서대로 개별적으로 사용**합니다.
+           각 검색 후에는 결과를 분석하고, 다음 쿼리로 진행합니다.
+           예시:
+           Thought: 첫 번째 쿼리 "latest breakthroughs in multimodal generative AI 2025"로 검색해야겠다.
+           Action: Web Search Tool
+           Action Input: {"query": "latest breakthroughs in multimodal generative AI 2025"}
+           Observation: (검색 결과)
+           Thought: 이제 두 번째 쿼리 "new architectures for large language models 2025"로 검색해야겠다.
+           Action: Web Search Tool
+           Action Input: {"query": "new architectures for large language models 2025"}
+           Observation: (검색 결과)
+           ... 이런 방식으로 **모든 쿼리를 소진**할 때까지 반복합니다.
+        3. 모든 검색이 완료되면, 수집된 **모든 정보**를 비판적으로 분석하고, 가장 신뢰할 수 있고 최신 정보를 종합하여
+           핵심적인 인사이트, 최신 통계, 그리고 구체적인 예시를 포함한 보고서를 작성합니다.
+           (주의: 검색 결과는 영어일 수 있으나, 보고서는 한국어로 핵심 내용을 요약하여 작성되어야 합니다.)
+        4. 보고서는 주요 트렌드별로 구조화하여 정리해야 합니다.
+
+        모든 쿼리를 사용하여 충분한 정보를 수집했는지 다시 한번 확인하세요.
+        ''',
         
         expected_output='''2025년 AI 트렌드에 대한 주요 통찰력, 최신 통계 및 실제 예시를 포함하는 
-        400-500단어 분량의 상세한 연구 요약 보고서.
-        동적으로 생성된 쿼리를 통해 얻은 최신 정보를 바탕으로 작성되어야 합니다.''',
+        400-500단어 분량의 상세한 연구 요약 보고서 (한국어).
+        **동적으로 생성된 모든 쿼리**를 통해 얻은 최신 정보를 바탕으로 작성되어야 합니다.''',
         
         agent=researcher,
         context=[planning_task]  # planning_task의 결과(검색어 목록)를 이 task의 context로 사용
@@ -249,6 +265,9 @@ def create_tasks(planner, researcher, writer):
     write_task = Task(
         description='''연구 요약 보고서를 바탕으로 "2025년 AI 혁명: 현실이 된 미래 기술들"이라는 
         제목의 한국어 블로그 게시물을 작성합니다.
+        
+        **매우 중요:** 모든 내용은 **한국어**로 작성되어야 합니다. 연구 보고서 내용 중 영어 표현이 있다면, 
+        이를 자연스럽고 명확한 한국어로 번역하여 본문에 포함시키세요.
         
         요구사항:
         - 700-900단어 분량
@@ -261,7 +280,8 @@ def create_tasks(planner, researcher, writer):
         대상 독자: AI에 관심있는 일반 대중 및 비즈니스 전문가''',
         
         expected_output='''독자의 참여를 유도하고 정보가 풍부하며 잘 구성된 700-900단어 분량의 
-        블로그 게시물. 동적 웹 검색 결과를 반영한 현실적이고 유용한 내용 포함.''',
+        블로그 게시물. 모든 내용은 한국어로 작성되었으며, 동적 웹 검색 결과를 반영한 
+        현실적이고 유용한 내용 포함.''',
         
         agent=writer,
         context=[research_task]
@@ -292,7 +312,7 @@ def save_result(result):
         logger.error(f"결과 저장 실패: {e}")
         return None
 
-# ===== [수정됨] Crew 실행 함수 =====
+# ===== [verbose=True로 수정됨] Crew 실행 함수 =====
 def run_crew_with_error_handling():
     """에러 처리가 포함된 크루 실행 함수 (동적 웹 검색 포함)"""
     try:
@@ -316,7 +336,7 @@ def run_crew_with_error_handling():
             agents=[planner, researcher, writer],
             tasks=[planning_task, research_task, write_task],
             process=Process.sequential,
-            verbose=True,
+            verbose=True, # ✅ 이 부분을 True로 수정했습니다.
             max_execution_time=MAX_EXECUTION_TIME
         )
         
