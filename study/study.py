@@ -30,6 +30,8 @@ os.environ.setdefault("CREWAI_DISABLE_TELEMETRY", "true")
 MODEL_NAME = os.getenv("DEFAULT_LLM", "cpatonn/Devstral-Small-2507-AWQ")
 API_BASE_URL = os.getenv("DEFAULT_URL", "http://localhost:54321")
 API_KEY = os.getenv("DEFAULT_API_KEY", "huntr/x_How_It's_Done")
+TIMEOUT = int(os.getenv("TIMEOUT", "30"))
+MAX_EXECUTION_TIME = int(os.getenv("MAX_EXECUTION_TIME", "300"))
 
 # URL 정규화 - /v1이 이미 포함되어 있는지 확인
 if not API_BASE_URL.endswith('/v1'):
@@ -56,37 +58,6 @@ def managed_session():
     finally:
         session.close()
 
-def test_vllm_connection():
-    """VLLM 서버 연결을 테스트합니다."""
-    def _test():
-        with managed_session() as session:
-            chat_url = API_BASE_URL + '/chat/completions'
-            test_data = {
-                "model": MODEL_NAME,
-                "messages": [{"role": "user", "content": "연결 테스트입니다."}],
-                "temperature": 0.7,
-                "max_tokens": 50
-            }
-            headers = {
-                "Content-Type": "application/json",
-                "Authorization": f"Bearer {API_KEY}"
-            }
-            
-            response = session.post(chat_url, json=test_data, headers=headers, timeout=30)
-            logger.info(f"VLLM 서버 응답 상태: {response.status_code}")
-            
-            if response.status_code == 200:
-                result = response.json()
-                if 'choices' in result and len(result['choices']) > 0:
-                    test_response = result['choices'][0]['message']['content']
-                    logger.info(f"테스트 응답: {test_response}")
-                    return True
-            else:
-                logger.error(f"VLLM 서버 응답 오류 ({response.status_code}): {response.text}")
-                raise Exception(f"HTTP {response.status_code}: {response.text}")
-    
-    return retry_with_backoff(_test)
-
 def test_litellm_connection():
     """LiteLLM을 통한 연결 테스트"""
     def _test():
@@ -99,7 +70,7 @@ def test_litellm_connection():
             api_key=API_KEY,
             temperature=0.7,
             max_tokens=100,
-            timeout=30,
+            timeout=TIMEOUT,
             drop_params=True  # 지원하지 않는 파라미터 자동 제거
         )
         
@@ -199,8 +170,6 @@ def save_result(result):
         logger.error(f"결과 저장 실패: {e}")
         return None
 
-
-
 def run_crew_with_error_handling():
     """에러 처리가 포함된 크루 실행 함수"""
     try:
@@ -208,13 +177,10 @@ def run_crew_with_error_handling():
         logger.info(f"모델: {MODEL_NAME}")
         logger.info(f"API Base: {API_BASE_URL}")
         logger.info(f"API Key: {'설정됨' if API_KEY else '설정되지 않음'}")
+        logger.info(f"Timeout: {TIMEOUT}초")
         
         # 연결 테스트
         logger.info("=" * 50)
-        logger.info("VLLM 서버 연결 테스트 중...")
-        test_vllm_connection()
-        logger.info("✅ VLLM 서버 연결 성공")
-
         logger.info("LiteLLM 연결 테스트 중...")
         test_litellm_connection()
         logger.info("✅ LiteLLM 연결 성공")
@@ -235,7 +201,7 @@ def run_crew_with_error_handling():
             tasks=[research_task, write_task],
             process=Process.sequential,
             verbose=True,
-            max_execution_time=300  # 5분으로 충분히 설정
+            max_execution_time=MAX_EXECUTION_TIME
         )
         
         logger.info("=" * 50)
@@ -263,11 +229,12 @@ def run_crew_with_error_handling():
         
         # 구체적인 문제 해결 방법 제시
         logger.info("\n🔧 문제 해결 방법:")
-        logger.info("1. VLLM 서버가 실행 중인지 확인하세요")
+        logger.info("1. API 서버가 실행 중인지 확인하세요")
         logger.info("2. 모델 이름이 정확한지 확인하세요")
         logger.info("3. API 키와 엔드포인트가 올바른지 확인하세요")
         logger.info("4. 네트워크 연결을 확인하세요")
-        logger.info("5. 로그 파일을 확인하여 상세한 오류 정보를 확인하세요")
+        logger.info("5. 타임아웃 설정을 늘려보세요")
+        logger.info("6. 로그 파일을 확인하여 상세한 오류 정보를 확인하세요")
         
         return None
 
