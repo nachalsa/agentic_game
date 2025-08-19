@@ -58,20 +58,42 @@ MAX_EXECUTION_TIME = int(os.getenv("MAX_EXECUTION_TIME", "600"))
 if not API_BASE_URL.endswith('/v1'):
     API_BASE_URL = API_BASE_URL.rstrip('/') + '/v1'
 
-# 웹 검색 도구
+# 웹 검색 도구 (개선된 버전)
 @tool("Web Search Tool")
 def web_search_tool(query: str) -> str:
     """웹에서 정보를 검색하는 도구"""
     try:
-        logger.info(f"웹 검색: '{query}'")
+        logger.info(f"🔍 웹 검색 시작: '{query}'")
         ddgs = DDGS()
         results = ddgs.text(query=query, region='wt-wt', safesearch='moderate', max_results=5)
         
         if not results:
-            return f"'{query}'에 대한 검색 결과를 찾을 수 없습니다."
+            logger.warning(f"⚠️ '{query}' 검색 결과 없음")
+            return f"'{query}'에 대한 검색 결과를 찾을 수 없습니다. 다른 검색어를 시도해보세요."
+        
+        # 중복 URL 제거 및 관련성 필터링
+        filtered_results = []
+        seen_urls = set()
+        
+        for result in results:
+            url = result.get('href', '')
+            title = result.get('title', '제목 없음')
+            body = result.get('body', '설명 없음')
+            
+            # 중복 URL 제거
+            if url not in seen_urls and url:
+                # 관련성 없는 결과 필터링 (매우 기본적)
+                if not any(spam_word in title.lower() + body.lower() for spam_word in 
+                          ['자전거', '컴퓨터', '마우스', '키보드', 'bicycle', 'mouse', 'keyboard']):
+                    filtered_results.append(result)
+                    seen_urls.add(url)
+        
+        if not filtered_results:
+            logger.warning(f"⚠️ '{query}' 관련성 있는 결과 없음")
+            return f"'{query}'에 대한 관련성 있는 검색 결과를 찾을 수 없습니다."
         
         formatted_results = f"🔍 '{query}' 검색 결과:\n\n"
-        for i, result in enumerate(results, 1):
+        for i, result in enumerate(filtered_results, 1):
             title = result.get('title', '제목 없음')
             body = result.get('body', '설명 없음')
             href = result.get('href', '#')
@@ -80,11 +102,11 @@ def web_search_tool(query: str) -> str:
             formatted_results += f"   📄 {body[:200]}{'...' if len(body) > 200 else ''}\n"
             formatted_results += f"   🔗 {href}\n\n"
         
-        logger.info(f"검색 완료: {len(results)}개 결과")
+        logger.info(f"✅ 검색 완료: {len(filtered_results)}개 관련 결과")
         return formatted_results
         
     except Exception as e:
-        error_msg = f"검색 오류: {str(e)}"
+        error_msg = f"❌ 검색 오류: {str(e)}"
         logger.error(error_msg)
         return error_msg
 
@@ -178,11 +200,24 @@ class UniversalResearchCrew:
             4. 미래 전망 및 예측 (future outlook, predictions, forecasts)
             5. 산업별 영향 및 활용 (industry impact, implementation)
             
+            **중요한 형식 요구사항:**
+            - 각 쿼리는 서로 다른 키워드를 사용해야 합니다
+            - 정확히 다음 형식으로 출력하세요:
+            SEARCH_QUERY_1: "첫 번째 검색어"
+            SEARCH_QUERY_2: "두 번째 검색어"  
+            SEARCH_QUERY_3: "세 번째 검색어"
+            SEARCH_QUERY_4: "네 번째 검색어"
+            SEARCH_QUERY_5: "다섯 번째 검색어"
+            
             각 쿼리는 명확하고 독립적으로 검색 가능해야 하며, 2024-2025년 최신 정보를 얻을 수 있도록 구성하세요.''',
             
-            expected_output=f'''{self.config.search_queries_count}개의 영어 검색 쿼리 목록.
-            각 쿼리는 한 줄로 명확하게 구분되어야 합니다. (예: `- "query"` 형식)
-            주제: {self.config.topic}에 최적화된 검색어들''',
+            expected_output=f'''정확히 다음 형식의 {self.config.search_queries_count}개 영어 검색 쿼리:
+            SEARCH_QUERY_1: "query1"
+            SEARCH_QUERY_2: "query2"
+            SEARCH_QUERY_3: "query3"
+            SEARCH_QUERY_4: "query4"  
+            SEARCH_QUERY_5: "query5"
+            주제: {self.config.topic}에 최적화된 서로 다른 검색어들''',
             agent=planner
         )
         
@@ -190,23 +225,31 @@ class UniversalResearchCrew:
         research_task = Task(
             description=f'''이전 단계에서 생성된 검색 쿼리 목록을 활용하여 "{self.config.topic}"에 대한 심층 웹 검색을 수행합니다.
 
-            **수행 절차:**
-            1. 이전 Task 결과에서 제공된 **각각의 검색 쿼리**를 정확히 추출합니다.
-            2. 추출된 **모든 쿼리에 대해** 'Web Search Tool'을 **순서대로 개별적으로 사용**합니다.
-            3. 각 검색 결과를 분석하고 다음 쿼리로 진행합니다.
-            4. 모든 검색 완료 후, 수집된 **모든 정보**를 종합 분석하여 보고서를 작성합니다.
+            **필수 수행 절차:**
+            1. 이전 Task 결과에서 "SEARCH_QUERY_1:", "SEARCH_QUERY_2:" 등의 형식으로 된 검색 쿼리들을 찾아 추출합니다.
+            2. 각 SEARCH_QUERY_X에서 따옴표 안의 검색어만 추출합니다.
+            3. 추출된 **모든 검색어를 하나씩 순서대로** 'Web Search Tool'을 사용하여 검색합니다.
+            4. 검색할 때마다 "🔍 검색 중: X/5 - [검색어]" 형태로 진행상황을 알려주세요.
+            5. 만약 어떤 검색이 실패하거나 관련없는 결과가 나오면, 해당 주제의 대체 검색어를 만들어 다시 검색하세요.
             
-            보고서는 다음을 포함해야 합니다:
+            **검색 예시:**
+            첫 번째: Web Search Tool 사용 → "AI trends 2025"
+            두 번째: Web Search Tool 사용 → "artificial intelligence research 2025"  
+            세 번째: Web Search Tool 사용 → "AI applications industry 2025"
+            (이런 식으로 **각각 다른 검색어로** 총 5번 검색)
+            
+            **보고서 작성 요구사항:**
+            모든 검색 완료 후, 수집된 정보를 바탕으로 다음을 포함한 종합 보고서를 **반드시 {self.config.language}로** 작성하세요:
             - 주요 트렌드 및 발전사항
-            - 핵심 통계 및 데이터
+            - 핵심 통계 및 데이터  
             - 구체적 사례 및 실무 적용
             - 전문가 의견 및 분석
             - 미래 전망
             
-            **중요:** 검색 결과가 영어로 나와도 보고서는 {self.config.language}로 작성해야 합니다.''',
+            **절대적으로 중요**: 검색 결과가 영어로 나와도 보고서는 **무조건 {self.config.language}로만** 작성해야 합니다.''',
             
             expected_output=f'''"{self.config.topic}"에 대한 주요 인사이트, 최신 통계 및 실제 예시를 포함하는 
-            400-500단어 분량의 상세한 연구 요약 보고서 ({self.config.language}).
+            400-500단어 분량의 상세한 연구 요약 보고서 (**반드시 {self.config.language}로 작성**).
             모든 생성된 검색 쿼리를 통해 얻은 최신 정보를 바탕으로 작성.''',
             
             agent=researcher,
@@ -216,28 +259,34 @@ class UniversalResearchCrew:
         # 3. 콘텐츠 작성
         write_task = Task(
             description=f'''연구 요약 보고서를 바탕으로 "{self.config.topic}"에 대한 
-            {self.config.language} {self.config.report_type}을 작성합니다.
+            **반드시 {self.config.language}로만 작성된** {self.config.report_type}을 작성합니다.
             
-            **요구사항:**
+            **절대적 언어 요구사항:**
+            - **모든 내용은 {self.config.language}로만 작성**해야 합니다
+            - 제목, 소제목, 본문, 모든 텍스트가 {self.config.language}여야 합니다
+            - 영어 단어나 문장은 절대 사용하지 마세요
+            
+            **구체적 요구사항:**
             - 분량: {self.config.word_count_range[0]}-{self.config.word_count_range[1]}단어
-            - 언어: {self.config.language}
-            - 매력적인 제목과 부제목 사용
-            - 명확하고 이해하기 쉬운 언어
+            - 매력적인 {self.config.language} 제목과 부제목 사용
+            - 명확하고 이해하기 쉬운 {self.config.language} 표현
             - 연구 보고서의 최신 정보를 반영한 현실적인 내용
             - 독자의 관심을 끄는 구성
             - 실제 사례나 구체적 예시 포함
             
-            **구조:**
+            **구조 ({self.config.language}로 작성):**
             1. 흥미로운 도입부
             2. 주요 내용 (연구 결과 기반)
             3. 실생활/산업 적용 사례
             4. 미래 전망
             5. 결론 및 요약
             
+            **다시 한번 강조**: 단 한 단어도 영어로 작성하지 말고, 모든 내용을 {self.config.language}로만 작성하세요.
+            
             대상 독자: 해당 분야에 관심있는 일반인 및 전문가''',
             
             expected_output=f'''독자 친화적이고 정보가 풍부한 {self.config.word_count_range[0]}-{self.config.word_count_range[1]}단어 분량의 
-            {self.config.report_type}. {self.config.language}로 작성되었으며, 
+            {self.config.report_type}. **완전히 {self.config.language}로만 작성**되었으며, 
             동적 웹 검색 결과를 반영한 현실적이고 유용한 내용 포함.''',
             
             agent=writer,
