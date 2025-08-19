@@ -10,7 +10,10 @@ from crewai.tools import tool
 from dotenv import load_dotenv
 
 # DuckDuckGo Search 추가
-from duckduckgo_search import DDGS
+try:
+    from ddgs import DDGS  # 새 패키지명
+except ImportError:
+    from duckduckgo_search import DDGS  # 기존 패키지명 (fallback)
 
 # 로깅 설정
 logging.basicConfig(
@@ -58,10 +61,10 @@ def search_web(query: str) -> str:
         # DuckDuckGo 검색 실행
         ddgs = DDGS()
         results = ddgs.text(
-            keywords=query, 
-            region='kr-ko',  # 한국 지역 설정
+            query=query, 
+            region='wt-wt',  # 전세계 검색으로 변경 (더 많은 AI 관련 결과)
             safesearch='moderate', 
-            max_results=5
+            max_results=7  # 결과 수 증가
         )
         
         if not results:
@@ -86,10 +89,18 @@ def search_web(query: str) -> str:
         logger.error(error_msg)
         return error_msg
 
-# CrewAI 툴로 래핑
+# CrewAI 툴로 래핑 (입력 스키마 명확화)
 @tool("Web Search Tool")
 def web_search_tool(query: str) -> str:
-    """웹에서 정보를 검색하는 도구입니다. 최신 정보나 트렌드를 찾을 때 사용하세요."""
+    """
+    웹에서 정보를 검색하는 도구입니다. 최신 정보나 트렌드를 찾을 때 사용하세요.
+    
+    Args:
+        query: 검색할 키워드나 질문 (예: "2025년 AI 트렌드", "최신 생성형 AI 발전사항")
+    
+    Returns:
+        str: 검색 결과 목록 (제목, 설명, 링크 포함)
+    """
     return search_web(query)
 
 def should_use_web_search(description: str) -> bool:
@@ -167,7 +178,8 @@ def setup_litellm_global_config():
     litellm.api_base = API_BASE_URL
     litellm.api_key = API_KEY
     litellm.drop_params = True
-    litellm.set_verbose = True
+    # 새로운 방식으로 로그 설정
+    os.environ['LITELLM_LOG'] = 'INFO'  # 'DEBUG'에서 'INFO'로 변경하여 로그 줄이기
     logger.info("LiteLLM 전역 설정 완료")
 
 def create_agents():
@@ -207,12 +219,15 @@ def create_tasks(researcher, writer):
     
     research_task = Task(
         description='''2025년 최신 AI 트렌드를 조사하고 주요 발견 사항을 요약합니다.
-        웹 검색을 적극 활용하여 다음 영역의 최신 정보를 수집하세요:
         
-        1. 생성형 AI의 최신 발전사항 (2025년 기준)
-        2. 대규모 언어 모델(LLM)의 새로운 기능과 모델들
-        3. AI 윤리 및 규제 동향 (최근 정책 변화)
-        4. 산업별 AI 적용 사례 (최신 도입 사례)
+        다음 단계별로 웹 검색을 수행하세요 (영어 키워드 사용 권장):
+        1. "generative AI latest developments 2025" 검색
+        2. "large language models new features 2025" 검색  
+        3. "AI ethics regulations trends 2025" 검색
+        4. "AI industry applications 2025 cases" 검색
+        
+        각 검색은 Web Search Tool을 사용하여 개별적으로 수행하세요.
+        검색할 때는 한 번에 하나의 쿼리만 사용하세요.
         
         각 영역에 대해 구체적인 예시와 최신 통계를 포함하세요.
         웹 검색을 통해 얻은 정보는 출처를 명시해주세요.''',
@@ -225,7 +240,7 @@ def create_tasks(researcher, writer):
 
     write_task = Task(
         description='''연구 요약을 바탕으로 "2025년 AI 혁명: 현실이 된 미래 기술들"이라는 
-        제목의 블로그 게시물을 작성합니다.
+        제목의 한국어 블로그 게시물을 작성합니다.
         
         요구사항:
         - 700-900단어 분량
