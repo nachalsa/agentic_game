@@ -381,6 +381,38 @@ def main():
     else:
         print(f"\n❌ 작업 실패. 로그를 확인해보세요.")
 
+def run_default():
+    """기본 실행 함수 - CLI 없이 바로 동작"""
+    print("🚀 범용 AI 리서치 크루 시작!")
+    print("📋 기본 주제로 보고서를 생성합니다...")
+    
+    # 기본 설정으로 연구 실행
+    config = ResearchConfig(
+        topic="2025년 최신 AI 트렌드",
+        search_queries_count=5,
+        word_count_range=(700, 900),
+        language="한국어",
+        report_type="블로그"
+    )
+    
+    print(f"🎯 연구 주제: {config.topic}")
+    print(f"📊 보고서 유형: {config.report_type}")
+    print(f"🔍 검색 쿼리: {config.search_queries_count}개")
+    print(f"📝 목표 단어 수: {config.word_count_range[0]}-{config.word_count_range[1]}단어")
+    print("\n" + "="*60)
+    
+    # 리서치 실행
+    crew = UniversalResearchCrew(config)
+    result = crew.research()
+    
+    if result:
+        print(f"\n✅ '{config.topic}' 연구 보고서가 성공적으로 생성되었습니다!")
+        print("💡 다른 주제로 연구하려면: python script.py --topic '원하는 주제'")
+    else:
+        print(f"\n❌ 작업 실패. 로그를 확인해보세요.")
+    
+    return result
+
 if __name__ == "__main__":
     # 패키지 확인
     try:
@@ -391,4 +423,9 @@ if __name__ == "__main__":
         print("💡 설치 명령: pip install duckduckgo-search")
         exit(1)
     
-    main()
+    # 명령행 인자가 있으면 CLI 모드, 없으면 기본 실행
+    import sys
+    if len(sys.argv) > 1:
+        main()  # CLI 모드
+    else:
+        run_default()  # 기본 실행 모드
