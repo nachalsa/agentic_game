@@ -1,0 +1,335 @@
+2025-08-19 17:40:34,830 - INFO - ✅ duckduckgo-search 패키지 확인됨
+2025-08-19 17:41:07,717 - INFO - ✅ duckduckgo-search 패키지 확인됨
+2025-08-19 17:41:07,717 - INFO - 환경 설정 완료
+2025-08-19 17:41:07,717 - INFO - 🚀 '2025년 블록체인 기술 동향' 연구 시작 (모드: korean_optimized)
+2025-08-19 17:41:07,773 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:41:17,033 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:41:17,038 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:41:17,092 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:41:19,010 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:41:19,010 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:41:19,025 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:41:20,421 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:41:20,424 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:41:20,427 - INFO - 🔍 웹 검색 시작: '2025 blockchain trends and developments'
+2025-08-19 17:41:20,643 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=2025%20blockchain%20trends%20and%20developments): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:41:21,136 - INFO - response: https://search.brave.com/search?q=2025+blockchain+trends+and+developments&source=web 200
+2025-08-19 17:41:21,258 - INFO - response: https://search.yahoo.com/search;_ylt=IirLyVsWCFnqGr3oby6O5NSb;_ylu=_RiWmEmgSBkrPm-pROxD9FXcxhYb7vYFOvzjcqvx6nJn7Gg?p=2025+blockchain+trends+and+developments 200
+2025-08-19 17:41:21,968 - INFO - ✅ 검색 완료: 5개 결과
+2025-08-19 17:41:21,973 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:41:23,702 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:41:23,704 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:41:23,708 - INFO - 🔍 웹 검색 시작: '2025 blockchain trends'
+2025-08-19 17:41:23,719 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=2025%20blockchain%20trends): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:41:24,175 - INFO - response: https://search.brave.com/search?q=2025+blockchain+trends&source=web 200
+2025-08-19 17:41:24,989 - INFO - response: https://www.mojeek.com/search?q=2025+blockchain+trends 403
+2025-08-19 17:41:24,991 - INFO - ✅ 검색 완료: 5개 결과
+2025-08-19 17:41:24,999 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:41:27,019 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:41:27,022 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:41:27,031 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:41:28,642 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:41:28,644 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:41:28,651 - INFO - 🔍 웹 검색 시작: 'What are the latest developments in blockchain technology for 2025?'
+2025-08-19 17:41:28,659 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=What%20are%20the%20latest%20developments%20in%20blockchain%20technology%20for%202025%3F): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:41:28,771 - INFO - response: https://www.bing.com/search?q=What+are+the+latest+developments+in+blockchain+technology+for+2025%3F&pq=What+are+the+latest+developments+in+blockchain+technology+for+2025%3F&cc=wt 200
+2025-08-19 17:41:29,445 - INFO - response: https://www.google.com/search?q=What+are+the+latest+developments+in+blockchain+technology+for+2025%3F&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_Dr9BTzynMfH4kymmb05MNwQ_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 17:41:29,586 - INFO - ✅ 검색 완료: 5개 결과
+2025-08-19 17:41:29,593 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:41:31,780 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:41:31,782 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:41:31,791 - INFO - 🔍 웹 검색 시작: 'Blockchain Technology Trends 2025'
+2025-08-19 17:41:31,891 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Blockchain%20Technology%20Trends%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:41:32,037 - INFO - response: https://www.bing.com/search?q=Blockchain+Technology+Trends+2025&pq=Blockchain+Technology+Trends+2025&cc=wt 200
+2025-08-19 17:41:32,600 - INFO - response: https://www.google.com/search?q=Blockchain+Technology+Trends+2025&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_Dr9BTzynMfH4kymmb05MNwQ_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 17:41:32,696 - INFO - ✅ 검색 완료: 5개 결과
+2025-08-19 17:41:32,704 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:41:34,974 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:41:34,977 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:41:34,986 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:41:36,946 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:41:36,948 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:41:36,957 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:41:38,797 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:41:38,799 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:41:38,803 - INFO - 🔍 웹 검색 시작: '2025 Blockchain Technology Predictions and Trends'
+2025-08-19 17:41:39,107 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=2025%20Blockchain%20Technology%20Predictions%20and%20Trends): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:41:39,464 - INFO - response: https://search.yahoo.com/search;_ylt=7jLKKz6bTC_0JE3zScDiD3iz;_ylu=YZMuUD2KHEJkhwg6ddQ40Ykxv7jg_9AyYfiv4-DVoNbS4ic?p=2025+Blockchain+Technology+Predictions+and+Trends 200
+2025-08-19 17:41:40,330 - INFO - response: https://www.mojeek.com/search?q=2025+Blockchain+Technology+Predictions+and+Trends 403
+2025-08-19 17:41:40,362 - INFO - ✅ 검색 완료: 5개 결과
+2025-08-19 17:41:40,371 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:41:43,028 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:41:43,029 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:41:43,035 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:41:44,281 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:41:44,282 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:41:44,287 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:41:45,391 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:41:45,393 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:41:45,402 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:41:47,138 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:41:47,141 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:41:47,150 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:41:48,503 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:41:48,505 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:41:48,514 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:41:50,304 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:41:50,307 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:41:50,313 - INFO - 🔍 웹 검색 시작: 'Future of Blockchain Technology 2025 and Beyond'
+2025-08-19 17:41:50,389 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Future%20of%20Blockchain%20Technology%202025%20and%20Beyond): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:41:50,481 - INFO - response: https://www.bing.com/search?q=Future+of+Blockchain+Technology+2025+and+Beyond&pq=Future+of+Blockchain+Technology+2025+and+Beyond&cc=wt 200
+2025-08-19 17:41:51,061 - INFO - response: https://www.google.com/search?q=Future+of+Blockchain+Technology+2025+and+Beyond&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_Dr9BTzynMfH4kymmb05MNwQ_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 17:41:51,164 - INFO - ✅ 검색 완료: 5개 결과
+2025-08-19 17:41:51,171 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:41:53,673 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:41:53,676 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:41:53,686 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:41:56,221 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:41:56,223 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:41:56,228 - INFO - 🔍 웹 검색 시작: 'Future of Blockchain Technology 2025'
+2025-08-19 17:41:56,237 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Future%20of%20Blockchain%20Technology%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:41:56,859 - INFO - response: https://search.yahoo.com/search;_ylt=EyrDWLntt17J5iblzGy2iEhn;_ylu=T_QhbcvoFMJwyEGLl-WaXA2ZysRwXeT7O67FDqjdTKAhNb8?p=Future+of+Blockchain+Technology+2025 200
+2025-08-19 17:41:56,999 - INFO - response: https://search.brave.com/search?q=Future+of+Blockchain+Technology+2025&source=web 200
+2025-08-19 17:41:57,629 - INFO - ✅ 검색 완료: 5개 결과
+2025-08-19 17:41:57,637 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:41:59,786 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:41:59,788 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:41:59,797 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:42:01,511 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:42:01,513 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:42:01,521 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:42:03,476 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:42:03,478 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:42:03,483 - INFO - 🔍 웹 검색 시작: 'Latest Blockchain Trends 2025'
+2025-08-19 17:42:03,564 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Latest%20Blockchain%20Trends%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:42:04,153 - INFO - response: https://www.google.com/search?q=Latest+Blockchain+Trends+2025&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_Dr9BTzynMfH4kymmb05MNwQ_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 17:42:05,158 - INFO - response: https://yandex.com/search/site/?text=Latest+Blockchain+Trends+2025&web=1&searchid=1615561 200
+2025-08-19 17:42:05,239 - INFO - ✅ 검색 완료: 5개 결과
+2025-08-19 17:42:05,247 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:42:07,626 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:42:07,629 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:42:07,639 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:42:09,448 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:42:09,449 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:42:09,453 - INFO - 🔍 웹 검색 시작: 'Blockchain Trends 2025'
+2025-08-19 17:42:09,458 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Blockchain%20Trends%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:42:09,911 - INFO - response: https://search.brave.com/search?q=Blockchain+Trends+2025&source=web 200
+2025-08-19 17:42:10,820 - INFO - response: https://www.mojeek.com/search?q=Blockchain+Trends+2025 403
+2025-08-19 17:42:10,822 - INFO - ✅ 검색 완료: 5개 결과
+2025-08-19 17:42:10,830 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:42:13,004 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:42:13,007 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:42:13,018 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:42:21,581 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:42:21,584 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:42:21,641 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:42:41,486 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:42:41,487 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:42:41,543 - INFO - ✅ 결과 저장 완료: research_report_2025년_블록체인_기술_동향_korean_optimized_20250819_174241.md
+2025-08-19 17:42:41,543 - INFO - ✅ '2025년 블록체인 기술 동향' 연구 완료
+2025-08-19 17:45:51,452 - INFO - ✅ duckduckgo-search 패키지 확인됨
+2025-08-19 17:46:36,711 - INFO - ✅ duckduckgo-search 패키지 확인됨
+2025-08-19 17:46:36,711 - INFO - 환경 설정 완료
+2025-08-19 17:46:36,711 - INFO - 🚀 '2025년 블록체인 기술 발전' 연구 시작 (모드: korean_optimized)
+2025-08-19 17:46:36,735 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:46:45,686 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:46:45,694 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:46:45,757 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:46:47,949 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:46:47,952 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:46:47,972 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:46:53,040 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:46:53,042 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:46:53,102 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:47:37,801 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:47:37,804 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:47:37,868 - INFO - ✅ 결과 저장 완료: research_report_2025년_블록체인_기술_발전_korean_optimized_20250819_174737.md
+2025-08-19 17:47:37,868 - INFO - ✅ '2025년 블록체인 기술 발전' 연구 완료
+2025-08-19 17:49:15,760 - INFO - ✅ duckduckgo-search 패키지 확인됨
+2025-08-19 17:49:15,761 - INFO - 환경 설정 완료
+2025-08-19 17:49:15,761 - INFO - 🚀 '2025년 블록체인 기술 발전' 연구 시작 (모드: korean_optimized)
+2025-08-19 17:49:15,815 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:49:20,176 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:49:20,183 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:49:20,246 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:49:22,102 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:49:22,103 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:49:22,109 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:49:24,135 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:49:24,138 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:49:24,141 - INFO - 🔍 웹 검색 시작: '"Latest trends in blockchain technology 2024-2025"'
+2025-08-19 17:49:24,277 - INFO - response: https://www.bing.com/search?q=%22Latest+trends+in+blockchain+technology+2024-2025%22&pq=%22Latest+trends+in+blockchain+technology+2024-2025%22&cc=wt 200
+2025-08-19 17:49:24,353 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%22Latest%20trends%20in%20blockchain%20technology%202024-2025%22): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:49:24,354 - INFO - ✅ 검색 완료: 5개 결과
+2025-08-19 17:49:24,361 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:49:26,403 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:49:26,405 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:49:26,407 - INFO - 🔍 웹 검색 시작: '"blockchain technology 2024-2025"'
+2025-08-19 17:49:26,417 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%22blockchain%20technology%202024-2025%22): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:49:26,485 - INFO - response: https://www.bing.com/search?q=%22blockchain+technology+2024-2025%22&pq=%22blockchain+technology+2024-2025%22&cc=wt 200
+2025-08-19 17:49:27,697 - INFO - response: https://www.mojeek.com/search?q=%22blockchain+technology+2024-2025%22 403
+2025-08-19 17:49:27,698 - INFO - ✅ 검색 완료: 5개 결과
+2025-08-19 17:49:27,707 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:49:30,096 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:49:30,098 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:49:30,100 - INFO - 🔍 웹 검색 시작: '"blockchain technology developments 2024-2025"'
+2025-08-19 17:49:30,109 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%22blockchain%20technology%20developments%202024-2025%22): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:49:30,242 - INFO - response: https://www.bing.com/search?q=%22blockchain+technology+developments+2024-2025%22&pq=%22blockchain+technology+developments+2024-2025%22&cc=wt 200
+2025-08-19 17:49:30,789 - INFO - response: https://search.yahoo.com/search;_ylt=_YNGCTxWLTNus65fzJYbwmR7;_ylu=88f6hQIv5q76S-wodimN7Rm9XKyXTjslUPHed53z0Za8F6U?p=%22blockchain+technology+developments+2024-2025%22 200
+2025-08-19 17:49:31,161 - INFO - ✅ 검색 완료: 5개 결과
+2025-08-19 17:49:31,170 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:49:33,540 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:49:33,543 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:49:33,550 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:49:35,349 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:49:35,352 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:49:35,354 - INFO - 🔍 웹 검색 시작: 'blockchain technology developments 2024-2025 news'
+2025-08-19 17:49:35,435 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=blockchain%20technology%20developments%202024-2025%20news): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:49:35,515 - INFO - response: https://www.bing.com/search?q=blockchain+technology+developments+2024-2025+news&pq=blockchain+technology+developments+2024-2025+news&cc=wt 200
+2025-08-19 17:49:36,997 - INFO - response: https://yandex.com/search/site/?text=blockchain+technology+developments+2024-2025+news&web=1&searchid=8063567 200
+2025-08-19 17:49:37,079 - INFO - ✅ 검색 완료: 5개 결과
+2025-08-19 17:49:37,088 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:49:38,742 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:49:38,745 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:49:38,747 - INFO - 🔍 웹 검색 시작: '"blockchain technology developments 2024-2025 news"'
+2025-08-19 17:49:38,757 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%22blockchain%20technology%20developments%202024-2025%20news%22): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:49:38,809 - INFO - response: https://www.bing.com/search?q=%22blockchain+technology+developments+2024-2025+news%22&pq=%22blockchain+technology+developments+2024-2025+news%22&cc=wt 200
+2025-08-19 17:49:39,588 - INFO - response: https://www.google.com/search?q=%22blockchain+technology+developments+2024-2025+news%22&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_J8ERozrxTADkfTscVC_LZ_M_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 17:49:39,734 - INFO - ✅ 검색 완료: 5개 결과
+2025-08-19 17:49:39,742 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:49:42,358 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:49:42,361 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:49:42,363 - INFO - 🔍 웹 검색 시작: 'Recent advancements and future trends in blockchain technology until 2025'
+2025-08-19 17:49:42,373 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Recent%20advancements%20and%20future%20trends%20in%20blockchain%20technology%20until%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:49:42,474 - INFO - response: https://www.bing.com/search?q=Recent+advancements+and+future+trends+in+blockchain+technology+until+2025&pq=Recent+advancements+and+future+trends+in+blockchain+technology+until+2025&cc=wt 200
+2025-08-19 17:49:43,105 - INFO - response: https://www.google.com/search?q=Recent+advancements+and+future+trends+in+blockchain+technology+until+2025&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_J8ERozrxTADkfTscVC_LZ_M_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 17:49:43,154 - INFO - ✅ 검색 완료: 5개 결과
+2025-08-19 17:49:43,163 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:49:45,520 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:49:45,522 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:49:45,526 - INFO - 🔍 웹 검색 시작: 'Advancements and future trends in blockchain technology between 2018 and 2025'
+2025-08-19 17:49:45,533 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Advancements%20and%20future%20trends%20in%20blockchain%20technology%20between%202018%20and%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:49:45,635 - INFO - response: https://www.bing.com/search?q=Advancements+and+future+trends+in+blockchain+technology+between+2018+and+2025&pq=Advancements+and+future+trends+in+blockchain+technology+between+2018+and+2025&cc=wt 200
+2025-08-19 17:49:46,241 - INFO - response: https://www.google.com/search?q=Advancements+and+future+trends+in+blockchain+technology+between+2018+and+2025&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_J8ERozrxTADkfTscVC_LZ_M_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 17:49:46,317 - INFO - ✅ 검색 완료: 5개 결과
+2025-08-19 17:49:46,321 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:49:48,912 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:49:48,915 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:49:48,917 - INFO - 🔍 웹 검색 시작: 'Latest advancements and trends of blockchain technology until 2025'
+2025-08-19 17:49:48,927 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Latest%20advancements%20and%20trends%20of%20blockchain%20technology%20until%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:49:49,010 - INFO - response: https://www.bing.com/search?q=Latest+advancements+and+trends+of+blockchain+technology+until+2025&pq=Latest+advancements+and+trends+of+blockchain+technology+until+2025&cc=wt 200
+2025-08-19 17:49:49,727 - INFO - response: https://search.brave.com/search?q=Latest+advancements+and+trends+of+blockchain+technology+until+2025&source=web 200
+2025-08-19 17:49:49,736 - INFO - ✅ 검색 완료: 5개 결과
+2025-08-19 17:49:49,745 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:49:52,325 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:49:52,327 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:49:52,329 - INFO - 🔍 웹 검색 시작: 'Latest advancements in blockchain technology by 2025'
+2025-08-19 17:49:52,339 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Latest%20advancements%20in%20blockchain%20technology%20by%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:49:52,404 - INFO - response: https://www.bing.com/search?q=Latest+advancements+in+blockchain+technology+by+2025&pq=Latest+advancements+in+blockchain+technology+by+2025&cc=wt 200
+2025-08-19 17:49:53,072 - INFO - response: https://search.brave.com/search?q=Latest+advancements+in+blockchain+technology+by+2025&source=web 200
+2025-08-19 17:49:53,080 - INFO - ✅ 검색 완료: 5개 결과
+2025-08-19 17:49:53,088 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:49:55,717 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:49:55,719 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:49:55,721 - INFO - 🔍 웹 검색 시작: 'Latest advancements and trends in blockchain technology up until 2025'
+2025-08-19 17:49:55,732 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Latest%20advancements%20and%20trends%20in%20blockchain%20technology%20up%20until%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:49:56,339 - INFO - response: https://www.google.com/search?q=Latest+advancements+and+trends+in+blockchain+technology+up+until+2025&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_J8ERozrxTADkfTscVC_LZ_M_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 17:49:57,032 - INFO - response: https://www.mojeek.com/search?q=Latest+advancements+and+trends+in+blockchain+technology+up+until+2025 403
+2025-08-19 17:49:57,034 - INFO - ✅ 검색 완료: 5개 결과
+2025-08-19 17:49:57,042 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:49:59,593 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:49:59,596 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:49:59,597 - INFO - 🔍 웹 검색 시작: 'Latest advancements in blockchain technology up until 2025'
+2025-08-19 17:49:59,607 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Latest%20advancements%20in%20blockchain%20technology%20up%20until%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:50:00,309 - INFO - response: https://www.google.com/search?q=Latest+advancements+in+blockchain+technology+up+until+2025&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_J8ERozrxTADkfTscVC_LZ_M_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 17:50:00,510 - INFO - response: https://search.brave.com/search?q=Latest+advancements+in+blockchain+technology+up+until+2025&source=web 200
+2025-08-19 17:50:00,518 - INFO - ✅ 검색 완료: 5개 결과
+2025-08-19 17:50:00,526 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:50:03,198 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:50:03,201 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:50:03,203 - INFO - 🔍 웹 검색 시작: 'Recent advancements in blockchain technology up until 2025'
+2025-08-19 17:50:03,282 - INFO - response: https://www.bing.com/search?q=Recent+advancements+in+blockchain+technology+up+until+2025&pq=Recent+advancements+in+blockchain+technology+up+until+2025&cc=wt 200
+2025-08-19 17:50:03,380 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Recent%20advancements%20in%20blockchain%20technology%20up%20until%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:50:03,381 - INFO - ✅ 검색 완료: 5개 결과
+2025-08-19 17:50:03,389 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:50:05,675 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:50:05,677 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:50:05,678 - INFO - 🔍 웹 검색 시작: 'Recent advancements in blockchain technology from 2015 to 2025'
+2025-08-19 17:50:05,688 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Recent%20advancements%20in%20blockchain%20technology%20from%202015%20to%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:50:05,757 - INFO - response: https://www.bing.com/search?q=Recent+advancements+in+blockchain+technology+from+2015+to+2025&pq=Recent+advancements+in+blockchain+technology+from+2015+to+2025&cc=wt 200
+2025-08-19 17:50:06,314 - INFO - response: https://search.yahoo.com/search;_ylt=0qWmWZspP8trXsEexVP6-16c;_ylu=W1co_CFr2rYJ8mVdAvnTdaUfx92W5bM9CYNM2aSBv2LSvPA?p=Recent+advancements+in+blockchain+technology+from+2015+to+2025 200
+2025-08-19 17:50:07,069 - INFO - ✅ 검색 완료: 5개 결과
+2025-08-19 17:50:07,077 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:50:09,425 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:50:09,428 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:50:09,430 - INFO - 🔍 웹 검색 시작: 'Recent advancements in blockchain technology by 2025'
+2025-08-19 17:50:09,441 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Recent%20advancements%20in%20blockchain%20technology%20by%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:50:10,135 - INFO - response: https://www.google.com/search?q=Recent+advancements+in+blockchain+technology+by+2025&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_J8ERozrxTADkfTscVC_LZ_M_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 17:50:11,109 - INFO - response: https://yandex.com/search/site/?text=Recent+advancements+in+blockchain+technology+by+2025&web=1&searchid=6985355 200
+2025-08-19 17:50:11,204 - INFO - ✅ 검색 완료: 5개 결과
+2025-08-19 17:50:11,212 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:50:13,390 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:50:13,390 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:50:13,392 - INFO - 🔍 웹 검색 시작: 'latest developments in blockchain technology by 2025'
+2025-08-19 17:50:13,397 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=latest%20developments%20in%20blockchain%20technology%20by%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:50:14,649 - INFO - response: https://www.mojeek.com/search?q=latest+developments+in+blockchain+technology+by+2025 403
+2025-08-19 17:50:14,986 - INFO - response: https://yandex.com/search/site/?text=latest+developments+in+blockchain+technology+by+2025&web=1&searchid=8364566 200
+2025-08-19 17:50:15,067 - INFO - ✅ 검색 완료: 5개 결과
+2025-08-19 17:50:15,075 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:50:17,480 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:50:17,482 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:50:17,539 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:50:37,046 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:50:37,049 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:50:37,065 - INFO - ✅ 결과 저장 완료: research_report_2025년_블록체인_기술_발전_korean_optimized_20250819_175037.md
+2025-08-19 17:50:37,065 - INFO - ✅ '2025년 블록체인 기술 발전' 연구 완료

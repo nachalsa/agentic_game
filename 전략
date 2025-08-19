@@ -1,0 +1,7 @@
+gpuserver 접근 불가 vllm 실행 불가능
+ollama cpu로 ollama run mistral-small3.2 "D&D에 대해 설명해줘" 가능, 느리지만 24B 모델 실행가능
+api로 호출도 가능할거니까 api호출로 lts 서버에서 mistral-small3.2로 실행
+RAG 리트리버는 xpu로 실행? 가능하다면
+
+
+python3 unified_research_crew.py --topic blockchain --quality korean_optimized --queries 3 &> log

@@ -1,0 +1,1165 @@
+2025-08-19 16:38:07,170 - INFO - ✅ ddgs 패키지가 설치되어 있습니다.
+2025-08-19 16:38:07,272 - INFO - response: https://www.bing.com/search?q=AI+test&pq=AI+test&cc=en 200
+2025-08-19 16:38:08,104 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=AI%20test 200
+2025-08-19 16:38:08,452 - INFO - response: https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&titles=AI%20Test%20Kitchen&explaintext=0&exintro=0&redirects=1 200
+2025-08-19 16:38:08,453 - INFO - ✅ DuckDuckGo 검색 테스트 성공
+2025-08-19 16:38:08,454 - INFO - ==================================================
+2025-08-19 16:38:08,454 - INFO - 🚀 CrewAI DuckDuckGo 검색 시스템 시작
+2025-08-19 16:38:08,454 - INFO - 📋 주제: 2025년 최신 AI 트렌드
+2025-08-19 16:38:08,454 - INFO - ==================================================
+2025-08-19 16:38:08,459 - INFO - 🎯 작업 시작: 검색 전략 → 정보 수집 → 보고서 작성
+2025-08-19 16:38:08,512 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:38:11,294 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:38:11,301 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:38:11,363 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:38:12,436 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:38:12,437 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:38:12,439 - INFO - DuckDuckGo 검색: '2025 artificial intelligence trends latest developments'
+2025-08-19 16:38:13,158 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=2025%20artificial%20intelligence%20trends%20latest%20developments 200
+2025-08-19 16:38:14,139 - INFO - response: https://yandex.com/search/site/?text=2025+artificial+intelligence+trends+latest+developments&web=1&searchid=4299647 200
+2025-08-19 16:38:14,211 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:38:14,220 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:38:15,891 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:38:15,894 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:38:15,896 - INFO - DuckDuckGo 검색: 'State of the art AI in 2025: recent advancements and innovations'
+2025-08-19 16:38:16,026 - INFO - response: https://www.bing.com/search?q=State+of+the+art+AI+in+2025%3A+recent+advancements+and+innovations&pq=State+of+the+art+AI+in+2025%3A+recent+advancements+and+innovations&cc=en 200
+2025-08-19 16:38:16,584 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=State%20of%20the%20art%20AI%20in%202025%3A%20recent%20advancements%20and%20innovations 200
+2025-08-19 16:38:16,615 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:38:16,622 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:38:18,505 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:38:18,508 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:38:18,517 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:38:22,031 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:38:22,034 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:38:22,073 - INFO - DuckDuckGo 검색: '최근의 artificial intelligence(AI) 시장상황과 최신 기술 발전에 관한 정보를 수집할 수 있는 안정적인 소스들 중 한 가지는 어떤 것입니까?'
+2025-08-19 16:38:22,141 - INFO - response: https://www.bing.com/search?q=%EC%B5%9C%EA%B7%BC%EC%9D%98+artificial+intelligence%28AI%29+%EC%8B%9C%EC%9E%A5%EC%83%81%ED%99%A9%EA%B3%BC+%EC%B5%9C%EC%8B%A0+%EA%B8%B0%EC%88%A0+%EB%B0%9C%EC%A0%84%EC%97%90+%EA%B4%80%ED%95%9C+%EC%A0%95%EB%B3%B4%EB%A5%BC+%EC%88%98%EC%A7%91%ED%95%A0+%EC%88%98+%EC%9E%88%EB%8A%94+%EC%95%88%EC%A0%95%EC%A0%81%EC%9D%B8+%EC%86%8C%EC%8A%A4%EB%93%A4+%EC%A4%91+%ED%95%9C+%EA%B0%80%EC%A7%80%EB%8A%94+%EC%96%B4%EB%96%A4+%EA%B2%83%EC%9E%85%EB%8B%88%EA%B9%8C%3F&pq=%EC%B5%9C%EA%B7%BC%EC%9D%98+artificial+intelligence%28AI%29+%EC%8B%9C%EC%9E%A5%EC%83%81%ED%99%A9%EA%B3%BC+%EC%B5%9C%EC%8B%A0+%EA%B8%B0%EC%88%A0+%EB%B0%9C%EC%A0%84%EC%97%90+%EA%B4%80%ED%95%9C+%EC%A0%95%EB%B3%B4%EB%A5%BC+%EC%88%98%EC%A7%91%ED%95%A0+%EC%88%98+%EC%9E%88%EB%8A%94+%EC%95%88%EC%A0%95%EC%A0%81%EC%9D%B8+%EC%86%8C%EC%8A%A4%EB%93%A4+%EC%A4%91+%ED%95%9C+%EA%B0%80%EC%A7%80%EB%8A%94+%EC%96%B4%EB%96%A4+%EA%B2%83%EC%9E%85%EB%8B%88%EA%B9%8C%3F&cc=en 200
+2025-08-19 16:38:22,779 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EA%B7%BC%EC%9D%98%20artificial%20intelligence%28AI%29%20%EC%8B%9C%EC%9E%A5%EC%83%81%ED%99%A9%EA%B3%BC%20%EC%B5%9C%EC%8B%A0%20%EA%B8%B0%EC%88%A0%20%EB%B0%9C%EC%A0%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A0%95%EB%B3%B4%EB%A5%BC%20%EC%88%98%EC%A7%91%ED%95%A0%20%EC%88%98%20%EC%9E%88%EB%8A%94%20%EC%95%88%EC%A0%95%EC%A0%81%EC%9D%B8%20%EC%86%8C%EC%8A%A4%EB%93%A4%20%EC%A4%91%20%ED%95%9C%20%EA%B0%80%EC%A7%80%EB%8A%94%20%EC%96%B4%EB%96%A4%20%EA%B2%83%EC%9E%85%EB%8B%88%EA%B9%8C%3F 200
+2025-08-19 16:38:22,780 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:38:22,787 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:38:24,946 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:38:24,949 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:38:24,951 - INFO - DuckDuckGo 검색: '안정적인 소스들로서 AI(Artlificial Intelligence)의 최신 기술 발전과 우선 이후 까지의 개발 정보는?”}'
+2025-08-19 16:38:25,591 - INFO - response: https://www.google.com/search?q=%EC%95%88%EC%A0%95%EC%A0%81%EC%9D%B8+%EC%86%8C%EC%8A%A4%EB%93%A4%EB%A1%9C%EC%84%9C+AI%28Artlificial+Intelligence%29%EC%9D%98+%EC%B5%9C%EC%8B%A0+%EA%B8%B0%EC%88%A0+%EB%B0%9C%EC%A0%84%EA%B3%BC+%EC%9A%B0%EC%84%A0+%EC%9D%B4%ED%9B%84+%EA%B9%8C%EC%A7%80%EC%9D%98+%EA%B0%9C%EB%B0%9C+%EC%A0%95%EB%B3%B4%EB%8A%94%3F%E2%80%9D%7D&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_t3I6ygD5VX5Jl7Pbwtem-vY_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+2025-08-19 16:38:25,671 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%95%88%EC%A0%95%EC%A0%81%EC%9D%B8%20%EC%86%8C%EC%8A%A4%EB%93%A4%EB%A1%9C%EC%84%9C%20AI%28Artlificial%20Intelligence%29%EC%9D%98%20%EC%B5%9C%EC%8B%A0%20%EA%B8%B0%EC%88%A0%20%EB%B0%9C%EC%A0%84%EA%B3%BC%20%EC%9A%B0%EC%84%A0%20%EC%9D%B4%ED%9B%84%20%EA%B9%8C%EC%A7%80%EC%9D%98%20%EA%B0%9C%EB%B0%9C%20%EC%A0%95%EB%B3%B4%EB%8A%94%3F%E2%80%9D%7D 200
+2025-08-19 16:38:27,469 - INFO - response: https://yandex.com/search/site/?text=%EC%95%88%EC%A0%95%EC%A0%81%EC%9D%B8+%EC%86%8C%EC%8A%A4%EB%93%A4%EB%A1%9C%EC%84%9C+AI%28Artlificial+Intelligence%29%EC%9D%98+%EC%B5%9C%EC%8B%A0+%EA%B8%B0%EC%88%A0+%EB%B0%9C%EC%A0%84%EA%B3%BC+%EC%9A%B0%EC%84%A0+%EC%9D%B4%ED%9B%84+%EA%B9%8C%EC%A7%80%EC%9D%98+%EA%B0%9C%EB%B0%9C+%EC%A0%95%EB%B3%B4%EB%8A%94%3F%E2%80%9D%7D&web=1&searchid=6489491 200
+2025-08-19 16:38:27,560 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:38:27,568 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:38:29,662 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:38:29,664 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:38:29,666 - INFO - DuckDuckGo 검색: 'AI advances in renewable energy 2023'
+2025-08-19 16:38:30,390 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=AI%20advances%20in%20renewable%20energy%202023 200
+2025-08-19 16:38:30,407 - INFO - response: https://www.google.com/search?q=AI+advances+in+renewable+energy+2023&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_t3I6ygD5VX5Jl7Pbwtem-vY_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+2025-08-19 16:38:30,498 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:38:30,502 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:38:33,481 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:38:33,483 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:38:33,485 - INFO - DuckDuckGo 검색: '현재 AI 기술의 주요 발전 및 목표 – 노벨 AI 배터리 (뉴모발드)'
+2025-08-19 16:38:34,196 - INFO - response: https://search.brave.com/search?q=%ED%98%84%EC%9E%AC+AI+%EA%B8%B0%EC%88%A0%EC%9D%98+%EC%A3%BC%EC%9A%94+%EB%B0%9C%EC%A0%84+%EB%B0%8F+%EB%AA%A9%ED%91%9C+%E2%80%93+%EB%85%B8%EB%B2%A8+AI+%EB%B0%B0%ED%84%B0%EB%A6%AC+%28%EB%89%B4%EB%AA%A8%EB%B0%9C%EB%93%9C%29&source=web 200
+2025-08-19 16:38:34,210 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%ED%98%84%EC%9E%AC%20AI%20%EA%B8%B0%EC%88%A0%EC%9D%98%20%EC%A3%BC%EC%9A%94%20%EB%B0%9C%EC%A0%84%20%EB%B0%8F%20%EB%AA%A9%ED%91%9C%20%E2%80%93%20%EB%85%B8%EB%B2%A8%20AI%20%EB%B0%B0%ED%84%B0%EB%A6%AC%20%28%EB%89%B4%EB%AA%A8%EB%B0%9C%EB%93%9C%29 200
+2025-08-19 16:38:34,211 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:38:34,219 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:38:37,428 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:38:37,430 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:38:37,432 - INFO - DuckDuckGo 검색: '최신 AI 기술이 배터리 개발 및 운용에서의 노블 AI 적용을 목표로 하는 연구 현황 – 노벨 AI 뉴모발드'
+2025-08-19 16:38:38,168 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%8B%A0%20AI%20%EA%B8%B0%EC%88%A0%EC%9D%B4%20%EB%B0%B0%ED%84%B0%EB%A6%AC%20%EA%B0%9C%EB%B0%9C%20%EB%B0%8F%20%EC%9A%B4%EC%9A%A9%EC%97%90%EC%84%9C%EC%9D%98%20%EB%85%B8%EB%B8%94%20AI%20%EC%A0%81%EC%9A%A9%EC%9D%84%20%EB%AA%A9%ED%91%9C%EB%A1%9C%20%ED%95%98%EB%8A%94%20%EC%97%B0%EA%B5%AC%20%ED%98%84%ED%99%A9%20%E2%80%93%20%EB%85%B8%EB%B2%A8%20AI%20%EB%89%B4%EB%AA%A8%EB%B0%9C%EB%93%9C 200
+2025-08-19 16:38:38,331 - INFO - response: https://search.yahoo.com/search;_ylt=8ph0N-5iQzKuWUHics9LiCt_;_ylu=cNKrRjyJ0NUeSvTA7iSh4UDOF0g7gk0ax7lK2euf4pmb0c8?p=%EC%B5%9C%EC%8B%A0+AI+%EA%B8%B0%EC%88%A0%EC%9D%B4+%EB%B0%B0%ED%84%B0%EB%A6%AC+%EA%B0%9C%EB%B0%9C+%EB%B0%8F+%EC%9A%B4%EC%9A%A9%EC%97%90%EC%84%9C%EC%9D%98+%EB%85%B8%EB%B8%94+AI+%EC%A0%81%EC%9A%A9%EC%9D%84+%EB%AA%A9%ED%91%9C%EB%A1%9C+%ED%95%98%EB%8A%94+%EC%97%B0%EA%B5%AC+%ED%98%84%ED%99%A9+%E2%80%93+%EB%85%B8%EB%B2%A8+AI+%EB%89%B4%EB%AA%A8%EB%B0%9C%EB%93%9C 200
+2025-08-19 16:38:39,027 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:38:39,035 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:38:41,655 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:38:41,658 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:38:41,660 - INFO - DuckDuckGo 검색: '최근 AI가 배터리 개발 및 운용에서의 노블 AI 적용을 목표로 하는 연구 현황 – 노블 AI 뉴모발드'
+2025-08-19 16:38:42,367 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EA%B7%BC%20AI%EA%B0%80%20%EB%B0%B0%ED%84%B0%EB%A6%AC%20%EA%B0%9C%EB%B0%9C%20%EB%B0%8F%20%EC%9A%B4%EC%9A%A9%EC%97%90%EC%84%9C%EC%9D%98%20%EB%85%B8%EB%B8%94%20AI%20%EC%A0%81%EC%9A%A9%EC%9D%84%20%EB%AA%A9%ED%91%9C%EB%A1%9C%20%ED%95%98%EB%8A%94%20%EC%97%B0%EA%B5%AC%20%ED%98%84%ED%99%A9%20%E2%80%93%20%EB%85%B8%EB%B8%94%20AI%20%EB%89%B4%EB%AA%A8%EB%B0%9C%EB%93%9C 200
+2025-08-19 16:38:43,403 - INFO - response: https://yandex.com/search/site/?text=%EC%B5%9C%EA%B7%BC+AI%EA%B0%80+%EB%B0%B0%ED%84%B0%EB%A6%AC+%EA%B0%9C%EB%B0%9C+%EB%B0%8F+%EC%9A%B4%EC%9A%A9%EC%97%90%EC%84%9C%EC%9D%98+%EB%85%B8%EB%B8%94+AI+%EC%A0%81%EC%9A%A9%EC%9D%84+%EB%AA%A9%ED%91%9C%EB%A1%9C+%ED%95%98%EB%8A%94+%EC%97%B0%EA%B5%AC+%ED%98%84%ED%99%A9+%E2%80%93+%EB%85%B8%EB%B8%94+AI+%EB%89%B4%EB%AA%A8%EB%B0%9C%EB%93%9C&web=1&searchid=2368805 200
+2025-08-19 16:38:43,498 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:38:43,507 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:38:45,902 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:38:45,905 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:38:45,906 - INFO - DuckDuckGo 검색: '최신 주목할만한 AI 프로젝트 - 노블 AI 뉴 모발드'
+2025-08-19 16:38:46,526 - INFO - response: https://search.yahoo.com/search;_ylt=aWypkEuin6kFOoOQqq5tRpEI;_ylu=Y0rhRXADca-u6GKJ3EldAQtnAIeIB0Hvj_eHVMN1AdkF6q8?p=%EC%B5%9C%EC%8B%A0+%EC%A3%BC%EB%AA%A9%ED%95%A0%EB%A7%8C%ED%95%9C+AI+%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8+-+%EB%85%B8%EB%B8%94+AI+%EB%89%B4+%EB%AA%A8%EB%B0%9C%EB%93%9C 200
+2025-08-19 16:38:46,593 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%8B%A0%20%EC%A3%BC%EB%AA%A9%ED%95%A0%EB%A7%8C%ED%95%9C%20AI%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20-%20%EB%85%B8%EB%B8%94%20AI%20%EB%89%B4%20%EB%AA%A8%EB%B0%9C%EB%93%9C 200
+2025-08-19 16:38:46,991 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:38:46,999 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:38:48,821 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:38:48,824 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:38:48,826 - INFO - DuckDuckGo 검색: '최근 최상위 AI 프로젝트 - 노블 AI'
+2025-08-19 16:38:49,506 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EA%B7%BC%20%EC%B5%9C%EC%83%81%EC%9C%84%20AI%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20-%20%EB%85%B8%EB%B8%94%20AI 200
+2025-08-19 16:38:49,517 - INFO - response: https://search.brave.com/search?q=%EC%B5%9C%EA%B7%BC+%EC%B5%9C%EC%83%81%EC%9C%84+AI+%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8+-+%EB%85%B8%EB%B8%94+AI&source=web 200
+2025-08-19 16:38:49,526 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:38:49,532 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:38:51,170 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:38:51,173 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:38:51,176 - INFO - DuckDuckGo 검색: '최상위 AI 프로젝트 - Novel AI'
+2025-08-19 16:38:51,791 - INFO - response: https://search.yahoo.com/search;_ylt=1F5NCPrYfvL9hTewbRH-6qk_;_ylu=dwtqh_H1i-fwoQMnHhWo557ksEwxhYWq2rRmqzEs0nxrOkU?p=%EC%B5%9C%EC%83%81%EC%9C%84+AI+%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8+-+Novel+AI 200
+2025-08-19 16:38:51,857 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%83%81%EC%9C%84%20AI%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20-%20Novel%20AI 200
+2025-08-19 16:38:52,512 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:38:52,521 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:38:54,543 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:38:54,544 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:38:54,545 - INFO - DuckDuckGo 검색: '최신 정보: Но벨 AI'
+2025-08-19 16:38:55,242 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%8B%A0%20%EC%A0%95%EB%B3%B4%3A%20%D0%9D%D0%BE%EB%B2%A8%20AI 200
+2025-08-19 16:38:56,067 - INFO - response: https://www.mojeek.com/search?q=%EC%B5%9C%EC%8B%A0+%EC%A0%95%EB%B3%B4%3A+%D0%9D%D0%BE%EB%B2%A8+AI 403
+2025-08-19 16:38:56,852 - INFO - response: https://search.brave.com/search?q=%EC%B5%9C%EC%8B%A0+%EC%A0%95%EB%B3%B4%3A+%D0%9D%D0%BE%EB%B2%A8+AI&source=web 200
+2025-08-19 16:38:56,859 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:38:56,867 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:38:58,548 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:38:58,549 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:38:58,550 - INFO - DuckDuckGo 검색: '최신 정보: 노벨 AI'
+2025-08-19 16:38:59,248 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%8B%A0%20%EC%A0%95%EB%B3%B4%3A%20%EB%85%B8%EB%B2%A8%20AI 200
+2025-08-19 16:38:59,832 - INFO - response: https://www.mojeek.com/search?q=%EC%B5%9C%EC%8B%A0+%EC%A0%95%EB%B3%B4%3A+%EB%85%B8%EB%B2%A8+AI 403
+2025-08-19 16:39:01,104 - INFO - response: https://yandex.com/search/site/?text=%EC%B5%9C%EC%8B%A0+%EC%A0%95%EB%B3%B4%3A+%EB%85%B8%EB%B2%A8+AI&web=1&searchid=2238052 200
+2025-08-19 16:39:01,741 - INFO - response: https://search.yahoo.com/search;_ylt=Krbj7ZMvaqUGsE-lrV9iJ0s0;_ylu=HrvqAV3DcnhtFA9Zia4jIn4RgpBoS-KtQIZbmQ5s2YYw3vE?p=%EC%B5%9C%EC%8B%A0+%EC%A0%95%EB%B3%B4%3A+%EB%85%B8%EB%B2%A8+AI 200
+2025-08-19 16:39:02,435 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:39:02,445 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:03,691 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:03,694 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:03,710 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:05,077 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:05,079 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:05,083 - INFO - DuckDuckGo 검색: '최신 소식-덕다크고구마 [topic] korean'
+2025-08-19 16:39:05,769 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%8B%A0%20%EC%86%8C%EC%8B%9D-%EB%8D%95%EB%8B%A4%ED%81%AC%EA%B3%A0%EA%B5%AC%EB%A7%88%20%5Btopic%5D%20korean 200
+2025-08-19 16:39:06,768 - INFO - response: https://yandex.com/search/site/?text=%EC%B5%9C%EC%8B%A0+%EC%86%8C%EC%8B%9D-%EB%8D%95%EB%8B%A4%ED%81%AC%EA%B3%A0%EA%B5%AC%EB%A7%88+%5Btopic%5D+korean&web=1&searchid=9365211 200
+2025-08-19 16:39:06,851 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:39:06,864 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:08,543 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:08,545 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:08,547 - INFO - DuckDuckGo 검색: '최신 뉴스 [topic] korean'
+2025-08-19 16:39:09,204 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%8B%A0%20%EB%89%B4%EC%8A%A4%20%5Btopic%5D%20korean 200
+2025-08-19 16:39:09,884 - INFO - response: https://www.mojeek.com/search?q=%EC%B5%9C%EC%8B%A0+%EB%89%B4%EC%8A%A4+%5Btopic%5D+korean 403
+2025-08-19 16:39:11,564 - INFO - response: https://yandex.com/search/site/?text=%EC%B5%9C%EC%8B%A0+%EB%89%B4%EC%8A%A4+%5Btopic%5D+korean&web=1&searchid=4480875 200
+2025-08-19 16:39:11,649 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:39:11,657 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:13,206 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:13,208 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:13,217 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:14,479 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:14,481 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:14,490 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:15,936 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:15,939 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:15,941 - INFO - DuckDuckGo 검색: '최신 뉴스 인공지능 korean'
+2025-08-19 16:39:16,615 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%8B%A0%20%EB%89%B4%EC%8A%A4%20%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20korean 200
+2025-08-19 16:39:16,631 - INFO - response: https://www.google.com/search?q=%EC%B5%9C%EC%8B%A0+%EB%89%B4%EC%8A%A4+%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5+korean&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_t3I6ygD5VX5Jl7Pbwtem-vY_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+2025-08-19 16:39:16,704 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:39:16,711 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:18,674 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:18,677 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:18,684 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:20,024 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:20,027 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:20,036 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:21,983 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:21,984 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:21,989 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:23,782 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:23,785 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:23,794 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:25,201 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:25,204 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:25,205 - INFO - DuckDuckGo 검색: '최시닝 뉴스 인공지능 korean'
+2025-08-19 16:39:25,876 - INFO - response: https://www.google.com/search?q=%EC%B5%9C%EC%8B%9C%EB%8B%9D+%EB%89%B4%EC%8A%A4+%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5+korean&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_t3I6ygD5VX5Jl7Pbwtem-vY_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+2025-08-19 16:39:26,067 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%8B%9C%EB%8B%9D%20%EB%89%B4%EC%8A%A4%20%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20korean 200
+2025-08-19 16:39:27,361 - INFO - response: https://www.mojeek.com/search?q=%EC%B5%9C%EC%8B%9C%EB%8B%9D+%EB%89%B4%EC%8A%A4+%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5+korean 403
+2025-08-19 16:39:28,155 - INFO - response: https://search.brave.com/search?q=%EC%B5%9C%EC%8B%9C%EB%8B%9D+%EB%89%B4%EC%8A%A4+%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5+korean&source=web 200
+2025-08-19 16:39:28,164 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:39:28,173 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:30,136 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:30,138 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:30,140 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:31,183 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:31,185 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:31,187 - INFO - DuckDuckGo 검색: '최신 한국어 인공지능 뉴스'
+2025-08-19 16:39:31,839 - INFO - response: https://www.google.com/search?q=%EC%B5%9C%EC%8B%A0+%ED%95%9C%EA%B5%AD%EC%96%B4+%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5+%EB%89%B4%EC%8A%A4&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_t3I6ygD5VX5Jl7Pbwtem-vY_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+2025-08-19 16:39:32,661 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%8B%A0%20%ED%95%9C%EA%B5%AD%EC%96%B4%20%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EB%89%B4%EC%8A%A4 200
+2025-08-19 16:39:32,662 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:39:32,672 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:34,771 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:34,774 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:34,776 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:35,831 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:35,833 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:35,841 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:37,095 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:37,098 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:37,100 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:37,817 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:37,819 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:37,821 - INFO - DuckDuckGo 검색: '최신 한국어 AI 뉴스'
+2025-08-19 16:39:38,491 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%8B%A0%20%ED%95%9C%EA%B5%AD%EC%96%B4%20AI%20%EB%89%B4%EC%8A%A4 200
+2025-08-19 16:39:39,427 - INFO - response: https://yandex.com/search/site/?text=%EC%B5%9C%EC%8B%A0+%ED%95%9C%EA%B5%AD%EC%96%B4+AI+%EB%89%B4%EC%8A%A4&web=1&searchid=6413276 200
+2025-08-19 16:39:39,510 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:39:39,519 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:41,412 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:41,415 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:41,417 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:42,181 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:42,184 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:42,192 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:43,412 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:43,412 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:43,414 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:44,055 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:44,058 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:44,066 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:45,209 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:45,211 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:45,213 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:45,935 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:45,938 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:45,947 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:47,951 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:47,952 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:47,953 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:48,869 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:48,872 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:48,881 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:51,451 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:51,453 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:51,455 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:52,537 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:52,540 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:52,542 - INFO - DuckDuckGo 검색: '머신러닝과 AI, AI 기술 정보'
+2025-08-19 16:39:53,236 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EA%B3%BC%20AI%2C%20AI%20%EA%B8%B0%EC%88%A0%20%EC%A0%95%EB%B3%B4 200
+2025-08-19 16:39:53,692 - INFO - response: https://www.mojeek.com/search?q=%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EA%B3%BC+AI%2C+AI+%EA%B8%B0%EC%88%A0+%EC%A0%95%EB%B3%B4 403
+2025-08-19 16:39:54,370 - INFO - response: https://search.brave.com/search?q=%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EA%B3%BC+AI%2C+AI+%EA%B8%B0%EC%88%A0+%EC%A0%95%EB%B3%B4&source=web 200
+2025-08-19 16:39:54,377 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:39:54,387 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:56,800 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:56,802 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:56,804 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:39:57,926 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:39:57,928 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:39:57,930 - INFO - DuckDuckGo 검색: '최신 AI 기술 Korea'
+2025-08-19 16:39:58,632 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%8B%A0%20AI%20%EA%B8%B0%EC%88%A0%20Korea 200
+2025-08-19 16:39:59,236 - INFO - response: https://www.mojeek.com/search?q=%EC%B5%9C%EC%8B%A0+AI+%EA%B8%B0%EC%88%A0+Korea 403
+2025-08-19 16:39:59,916 - INFO - response: https://search.yahoo.com/search;_ylt=JCHv_DnoV-rMLejoP1-LurjO;_ylu=yXGKIcegM_yn0_O8kC8vTyCcwsjX34hDzLujOTGMAGGmaGI?p=%EC%B5%9C%EC%8B%A0+AI+%EA%B8%B0%EC%88%A0+Korea 200
+2025-08-19 16:40:00,599 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:40:00,613 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:02,764 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:02,766 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:02,768 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:04,422 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:04,424 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:04,433 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:06,597 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:06,600 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:06,602 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:09,611 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:09,614 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:09,616 - INFO - DuckDuckGo 검색: '최근 기술 업데이트 대한민국 AI'
+2025-08-19 16:40:09,757 - INFO - response: https://www.bing.com/search?q=%EC%B5%9C%EA%B7%BC+%EA%B8%B0%EC%88%A0+%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8+%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD+AI&pq=%EC%B5%9C%EA%B7%BC+%EA%B8%B0%EC%88%A0+%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8+%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD+AI&cc=en 200
+2025-08-19 16:40:10,333 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EA%B7%BC%20%EA%B8%B0%EC%88%A0%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%20%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%20AI 200
+2025-08-19 16:40:10,334 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:40:10,343 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:11,953 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:11,956 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:11,960 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:12,715 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:12,715 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:12,722 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:15,881 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:15,884 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:15,886 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:20,023 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:20,025 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:20,027 - INFO - DuckDuckGo 검색: '최근 AI 기술 업데이트 국내'
+2025-08-19 16:40:20,741 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EA%B7%BC%20AI%20%EA%B8%B0%EC%88%A0%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%20%EA%B5%AD%EB%82%B4 200
+2025-08-19 16:40:21,300 - INFO - response: https://www.mojeek.com/search?q=%EC%B5%9C%EA%B7%BC+AI+%EA%B8%B0%EC%88%A0+%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8+%EA%B5%AD%EB%82%B4 403
+2025-08-19 16:40:21,393 - INFO - response: https://www.bing.com/search?q=%EC%B5%9C%EA%B7%BC+AI+%EA%B8%B0%EC%88%A0+%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8+%EA%B5%AD%EB%82%B4&pq=%EC%B5%9C%EA%B7%BC+AI+%EA%B8%B0%EC%88%A0+%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8+%EA%B5%AD%EB%82%B4&cc=en 200
+2025-08-19 16:40:21,500 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:40:21,508 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:23,001 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:23,004 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:23,044 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:23,839 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:23,842 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:23,852 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:25,053 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:25,055 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:25,057 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:26,706 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:26,708 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:26,717 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:28,412 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:28,415 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:28,417 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:30,524 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:30,526 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:30,531 - INFO - DuckDuckGo 검색: '최근 AI 기술 업데이트 공개'
+2025-08-19 16:40:31,202 - INFO - response: https://www.google.com/search?q=%EC%B5%9C%EA%B7%BC+AI+%EA%B8%B0%EC%88%A0+%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8+%EA%B3%B5%EA%B0%9C&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_t3I6ygD5VX5Jl7Pbwtem-vY_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+2025-08-19 16:40:31,516 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EA%B7%BC%20AI%20%EA%B8%B0%EC%88%A0%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%20%EA%B3%B5%EA%B0%9C 200
+2025-08-19 16:40:31,517 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:40:31,527 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:33,919 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:33,921 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:33,923 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:35,030 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:35,033 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:35,035 - INFO - DuckDuckGo 검색: '최근 AI 주요 업데이트'
+2025-08-19 16:40:35,247 - INFO - response: https://www.bing.com/search?q=%EC%B5%9C%EA%B7%BC+AI+%EC%A3%BC%EC%9A%94+%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&pq=%EC%B5%9C%EA%B7%BC+AI+%EC%A3%BC%EC%9A%94+%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&cc=en 200
+2025-08-19 16:40:35,716 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EA%B7%BC%20AI%20%EC%A3%BC%EC%9A%94%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8 200
+2025-08-19 16:40:35,717 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:40:35,726 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:37,669 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:37,671 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:37,673 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:40,333 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:40,336 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:40,337 - INFO - DuckDuckGo 검색: '최선의 소프트웨어 아이콘' + '과' + 'AI 기술' + '대한민국'
+2025-08-19 16:40:41,076 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%84%A0%EC%9D%98%20%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EC%95%84%EC%9D%B4%EC%BD%98%27%20%2B%20%27%EA%B3%BC%27%20%2B%20%27AI%20%EA%B8%B0%EC%88%A0%27%20%2B%20%27%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD 200
+2025-08-19 16:40:41,475 - INFO - response: https://www.mojeek.com/search?q=%EC%B5%9C%EC%84%A0%EC%9D%98+%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4+%EC%95%84%EC%9D%B4%EC%BD%98%27+%2B+%27%EA%B3%BC%27+%2B+%27AI+%EA%B8%B0%EC%88%A0%27+%2B+%27%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD 403
+2025-08-19 16:40:43,104 - INFO - response: https://yandex.com/search/site/?text=%EC%B5%9C%EC%84%A0%EC%9D%98+%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4+%EC%95%84%EC%9D%B4%EC%BD%98%27+%2B+%27%EA%B3%BC%27+%2B+%27AI+%EA%B8%B0%EC%88%A0%27+%2B+%27%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD&web=1&searchid=8726550 200
+2025-08-19 16:40:43,196 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:40:43,204 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:45,110 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:45,112 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:45,114 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:46,768 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:46,771 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:46,780 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:49,124 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:49,127 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:49,129 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:51,946 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:51,947 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:51,958 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:55,525 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:55,528 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:55,529 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:57,019 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:57,022 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:57,024 - INFO - DuckDuckGo 검색: '최신 AI 기술과 소프트웨어 아이콘 대한민국'
+2025-08-19 16:40:57,093 - INFO - response: https://www.bing.com/search?q=%EC%B5%9C%EC%8B%A0+AI+%EA%B8%B0%EC%88%A0%EA%B3%BC+%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4+%EC%95%84%EC%9D%B4%EC%BD%98+%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD&pq=%EC%B5%9C%EC%8B%A0+AI+%EA%B8%B0%EC%88%A0%EA%B3%BC+%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4+%EC%95%84%EC%9D%B4%EC%BD%98+%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD&cc=en 200
+2025-08-19 16:40:57,821 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%8B%A0%20AI%20%EA%B8%B0%EC%88%A0%EA%B3%BC%20%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EC%95%84%EC%9D%B4%EC%BD%98%20%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD 200
+2025-08-19 16:40:57,822 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:40:57,832 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:40:59,694 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:40:59,697 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:40:59,702 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:00,706 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:00,709 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:00,720 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:02,676 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:02,678 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:02,681 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:03,664 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:03,666 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:03,677 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:05,334 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:05,335 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:05,337 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:07,102 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:07,105 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:07,117 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:12,371 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:12,374 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:12,376 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:14,017 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:14,019 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:14,022 - INFO - DuckDuckGo 검색: '최신 AI 기업들의 소프트웨어와 아이콘 대한민국'
+2025-08-19 16:41:14,703 - INFO - response: https://search.brave.com/search?q=%EC%B5%9C%EC%8B%A0+AI+%EA%B8%B0%EC%97%85%EB%93%A4%EC%9D%98+%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EC%99%80+%EC%95%84%EC%9D%B4%EC%BD%98+%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD&source=web 200
+2025-08-19 16:41:14,722 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%8B%A0%20AI%20%EA%B8%B0%EC%97%85%EB%93%A4%EC%9D%98%20%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EC%99%80%20%EC%95%84%EC%9D%B4%EC%BD%98%20%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD 200
+2025-08-19 16:41:14,723 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:41:14,734 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:17,520 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:17,522 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:17,525 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:19,123 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:19,125 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:19,126 - INFO - DuckDuckGo 검색: '최근 AI 기업들의 소프트웨어와 아이콘 대한민국'
+2025-08-19 16:41:19,752 - INFO - response: https://search.yahoo.com/search;_ylt=-OlcwnrH-Oks-N17EZPAkG-Q;_ylu=woj1SJd1xaXNepKA9rRqNM4QY0-FxKNzKG7FWBRg99gw_b8?p=%EC%B5%9C%EA%B7%BC+AI+%EA%B8%B0%EC%97%85%EB%93%A4%EC%9D%98+%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EC%99%80+%EC%95%84%EC%9D%B4%EC%BD%98+%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD 200
+2025-08-19 16:41:19,866 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EA%B7%BC%20AI%20%EA%B8%B0%EC%97%85%EB%93%A4%EC%9D%98%20%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EC%99%80%20%EC%95%84%EC%9D%B4%EC%BD%98%20%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD 200
+2025-08-19 16:41:20,165 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:41:20,176 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:22,903 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:22,906 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:22,909 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:24,178 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:24,180 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:24,182 - INFO - DuckDuckGo 검색: '최근 대한민국의 AI 기업 소프트웨어와 아이콘'
+2025-08-19 16:41:24,926 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EA%B7%BC%20%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98%20AI%20%EA%B8%B0%EC%97%85%20%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EC%99%80%20%EC%95%84%EC%9D%B4%EC%BD%98 200
+2025-08-19 16:41:25,814 - INFO - response: https://yandex.com/search/site/?text=%EC%B5%9C%EA%B7%BC+%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98+AI+%EA%B8%B0%EC%97%85+%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EC%99%80+%EC%95%84%EC%9D%B4%EC%BD%98&web=1&searchid=5744894 200
+2025-08-19 16:41:25,899 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:41:25,911 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:28,754 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:28,757 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:28,760 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:30,212 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:30,215 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:30,217 - INFO - DuckDuckGo 검색: '최근 대한민국의 AI 소프트웨어와 아이콘 업데이트'
+2025-08-19 16:41:30,987 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EA%B7%BC%20%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98%20AI%20%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EC%99%80%20%EC%95%84%EC%9D%B4%EC%BD%98%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8 200
+2025-08-19 16:41:31,761 - INFO - response: https://yandex.com/search/site/?text=%EC%B5%9C%EA%B7%BC+%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98+AI+%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EC%99%80+%EC%95%84%EC%9D%B4%EC%BD%98+%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&web=1&searchid=8826759 200
+2025-08-19 16:41:31,849 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:41:31,856 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:34,252 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:34,254 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:34,257 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:35,875 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:35,878 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:35,890 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:37,721 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:37,724 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:37,727 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:39,301 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:39,303 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:39,315 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:41,634 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:41,637 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:41,640 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:42,820 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:42,822 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:42,824 - INFO - DuckDuckGo 검색: '최근 대한민국의 AI 사업자'
+2025-08-19 16:41:43,522 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EA%B7%BC%20%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98%20AI%20%EC%82%AC%EC%97%85%EC%9E%90 200
+2025-08-19 16:41:44,421 - INFO - response: https://yandex.com/search/site/?text=%EC%B5%9C%EA%B7%BC+%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98+AI+%EC%82%AC%EC%97%85%EC%9E%90&web=1&searchid=5144808 200
+2025-08-19 16:41:44,503 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:41:44,514 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:46,510 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:46,512 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:46,515 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:48,094 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:48,096 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:48,136 - INFO - DuckDuckGo 검색: '최근 대한민국의 AI 스타트업'
+2025-08-19 16:41:48,821 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EA%B7%BC%20%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98%20AI%20%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85 200
+2025-08-19 16:41:49,556 - INFO - response: https://www.mojeek.com/search?q=%EC%B5%9C%EA%B7%BC+%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98+AI+%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85 403
+2025-08-19 16:41:50,192 - INFO - response: https://www.google.com/search?q=%EC%B5%9C%EA%B7%BC+%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98+AI+%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_t3I6ygD5VX5Jl7Pbwtem-vY_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+2025-08-19 16:41:50,284 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:41:50,295 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:52,513 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:52,516 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:52,518 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:53,741 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:53,744 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:53,747 - INFO - DuckDuckGo 검색: '신작 AI 스타트업 한국'
+2025-08-19 16:41:53,894 - INFO - response: https://www.bing.com/search?q=%EC%8B%A0%EC%9E%91+AI+%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85+%ED%95%9C%EA%B5%AD&pq=%EC%8B%A0%EC%9E%91+AI+%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85+%ED%95%9C%EA%B5%AD&cc=en 200
+2025-08-19 16:41:54,472 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%8B%A0%EC%9E%91%20AI%20%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%20%ED%95%9C%EA%B5%AD 200
+2025-08-19 16:41:54,473 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:41:54,483 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:56,399 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:56,400 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:56,402 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:57,499 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:57,500 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:57,508 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:41:58,990 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:41:58,993 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:41:58,995 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:00,312 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:00,315 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:00,316 - INFO - DuckDuckGo 검색: '2023년 AI 신작 스타트업 일람 한국'
+2025-08-19 16:42:00,950 - INFO - response: https://www.google.com/search?q=2023%EB%85%84+AI+%EC%8B%A0%EC%9E%91+%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85+%EC%9D%BC%EB%9E%8C+%ED%95%9C%EA%B5%AD&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_t3I6ygD5VX5Jl7Pbwtem-vY_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+2025-08-19 16:42:01,017 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=2023%EB%85%84%20AI%20%EC%8B%A0%EC%9E%91%20%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%20%EC%9D%BC%EB%9E%8C%20%ED%95%9C%EA%B5%AD 200
+2025-08-19 16:42:01,018 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:42:01,029 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:03,382 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:03,384 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:03,387 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:04,619 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:04,621 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:04,624 - INFO - DuckDuckGo 검색: '최신 공식 발표된 뉴스에서 2023년 최근 AI 성장 분야의 한국 신작 AI 스타트업'
+2025-08-19 16:42:05,325 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%8B%A0%20%EA%B3%B5%EC%8B%9D%20%EB%B0%9C%ED%91%9C%EB%90%9C%20%EB%89%B4%EC%8A%A4%EC%97%90%EC%84%9C%202023%EB%85%84%20%EC%B5%9C%EA%B7%BC%20AI%20%EC%84%B1%EC%9E%A5%20%EB%B6%84%EC%95%BC%EC%9D%98%20%ED%95%9C%EA%B5%AD%20%EC%8B%A0%EC%9E%91%20AI%20%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85 200
+2025-08-19 16:42:05,915 - INFO - response: https://www.mojeek.com/search?q=%EC%B5%9C%EC%8B%A0+%EA%B3%B5%EC%8B%9D+%EB%B0%9C%ED%91%9C%EB%90%9C+%EB%89%B4%EC%8A%A4%EC%97%90%EC%84%9C+2023%EB%85%84+%EC%B5%9C%EA%B7%BC+AI+%EC%84%B1%EC%9E%A5+%EB%B6%84%EC%95%BC%EC%9D%98+%ED%95%9C%EA%B5%AD+%EC%8B%A0%EC%9E%91+AI+%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85 403
+2025-08-19 16:42:07,483 - INFO - response: https://yandex.com/search/site/?text=%EC%B5%9C%EC%8B%A0+%EA%B3%B5%EC%8B%9D+%EB%B0%9C%ED%91%9C%EB%90%9C+%EB%89%B4%EC%8A%A4%EC%97%90%EC%84%9C+2023%EB%85%84+%EC%B5%9C%EA%B7%BC+AI+%EC%84%B1%EC%9E%A5+%EB%B6%84%EC%95%BC%EC%9D%98+%ED%95%9C%EA%B5%AD+%EC%8B%A0%EC%9E%91+AI+%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85&web=1&searchid=7607567 200
+2025-08-19 16:42:07,576 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:42:07,588 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:10,390 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:10,393 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:10,395 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:11,904 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:11,906 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:11,917 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:13,833 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:13,835 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:13,838 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:15,340 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:15,342 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:15,345 - INFO - DuckDuckGo 검색: '최신 AI 스타트업 뉴스에서 '오픈소스 AI' 분야의 한국 신작 AI 스타rtup 명단'
+2025-08-19 16:42:15,903 - INFO - response: https://www.google.com/search?q=%EC%B5%9C%EC%8B%A0+AI+%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85+%EB%89%B4%EC%8A%A4%EC%97%90%EC%84%9C+%27%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4+AI%27+%EB%B6%84%EC%95%BC%EC%9D%98+%ED%95%9C%EA%B5%AD+%EC%8B%A0%EC%9E%91+AI+%EC%8A%A4%ED%83%80rtup+%EB%AA%85%EB%8B%A8&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_t3I6ygD5VX5Jl7Pbwtem-vY_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+2025-08-19 16:42:16,030 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%8B%A0%20AI%20%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%20%EB%89%B4%EC%8A%A4%EC%97%90%EC%84%9C%20%27%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%20AI%27%20%EB%B6%84%EC%95%BC%EC%9D%98%20%ED%95%9C%EA%B5%AD%20%EC%8B%A0%EC%9E%91%20AI%20%EC%8A%A4%ED%83%80rtup%20%EB%AA%85%EB%8B%A8 200
+2025-08-19 16:42:17,606 - INFO - response: https://yandex.com/search/site/?text=%EC%B5%9C%EC%8B%A0+AI+%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85+%EB%89%B4%EC%8A%A4%EC%97%90%EC%84%9C+%27%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4+AI%27+%EB%B6%84%EC%95%BC%EC%9D%98+%ED%95%9C%EA%B5%AD+%EC%8B%A0%EC%9E%91+AI+%EC%8A%A4%ED%83%80rtup+%EB%AA%85%EB%8B%A8&web=1&searchid=2065095 200
+2025-08-19 16:42:17,941 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:42:17,952 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:20,186 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:20,189 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:20,191 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:21,494 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:21,495 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:21,497 - INFO - DuckDuckGo 검색: '최신 한국 AI 스타트업 명단'
+2025-08-19 16:42:22,132 - INFO - response: https://www.google.com/search?q=%EC%B5%9C%EC%8B%A0+%ED%95%9C%EA%B5%AD+AI+%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85+%EB%AA%85%EB%8B%A8&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_t3I6ygD5VX5Jl7Pbwtem-vY_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+2025-08-19 16:42:22,165 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%8B%A0%20%ED%95%9C%EA%B5%AD%20AI%20%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%20%EB%AA%85%EB%8B%A8 200
+2025-08-19 16:42:22,178 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:42:22,188 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:27,177 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:27,180 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:27,184 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:28,258 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:28,259 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:28,267 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:29,889 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:29,892 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:29,896 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:30,639 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:30,642 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:30,652 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:31,683 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:31,686 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:31,688 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:32,673 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:32,675 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:32,687 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:34,447 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:34,449 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:34,454 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:35,387 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:35,390 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:35,392 - INFO - DuckDuckGo 검색: '최신 한국 AI 스타트업'
+2025-08-19 16:42:36,044 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%8B%A0%20%ED%95%9C%EA%B5%AD%20AI%20%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85 200
+2025-08-19 16:42:36,095 - INFO - response: https://search.yahoo.com/search;_ylt=bCxFq-Qr1do1xIDTNBeJDg2d;_ylu=yEQBuDgmyqZ6Qvvh6AP_O1i-aYTntLAYl8TbZPdGwZq0fbs?p=%EC%B5%9C%EC%8B%A0+%ED%95%9C%EA%B5%AD+AI+%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85 200
+2025-08-19 16:42:36,764 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:42:36,774 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:38,774 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:38,777 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:38,780 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:39,717 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:39,720 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:39,730 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:41,579 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:41,582 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:41,584 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:44,589 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:44,592 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:44,594 - INFO - DuckDuckGo 검색: '최근 진행 중인 대한민국 AI 스타트업'
+2025-08-19 16:42:45,247 - INFO - response: https://www.google.com/search?q=%EC%B5%9C%EA%B7%BC+%EC%A7%84%ED%96%89+%EC%A4%91%EC%9D%B8+%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD+AI+%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_t3I6ygD5VX5Jl7Pbwtem-vY_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+2025-08-19 16:42:45,314 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EA%B7%BC%20%EC%A7%84%ED%96%89%20%EC%A4%91%EC%9D%B8%20%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%20AI%20%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85 200
+2025-08-19 16:42:45,315 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:42:45,326 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:48,261 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:48,262 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:48,263 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:49,265 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:49,268 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:49,279 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:51,037 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:51,040 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:51,042 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:52,082 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:52,084 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:52,095 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:53,957 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:53,960 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:53,962 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:55,194 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:55,196 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:55,206 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:57,209 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:57,210 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:57,212 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:42:58,457 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:42:58,459 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:42:58,471 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:00,634 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:00,637 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:00,639 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:01,672 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:01,675 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:01,685 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:05,142 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:05,144 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:05,147 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:08,173 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:08,176 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:08,186 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:11,904 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:11,905 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:11,906 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:14,506 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:14,508 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:14,520 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:16,855 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:16,858 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:16,860 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:18,204 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:18,207 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:18,209 - INFO - DuckDuckGo 검색: '대한민국 AI 스타트업'
+2025-08-19 16:43:18,398 - INFO - response: https://www.bing.com/search?q=%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD+AI+%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85&pq=%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD+AI+%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85&cc=en 200
+2025-08-19 16:43:18,878 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%20AI%20%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85 200
+2025-08-19 16:43:18,879 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:43:18,890 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:20,570 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:20,572 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:20,577 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:22,051 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:22,053 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:22,055 - INFO - DuckDuckGo 검색: '최근한국 AI 스타트업'
+2025-08-19 16:43:22,763 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EA%B7%BC%ED%95%9C%EA%B5%AD%20AI%20%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85 200
+2025-08-19 16:43:22,856 - INFO - response: https://search.yahoo.com/search;_ylt=J4ddCwKO_MR9Sy3nHiAfsH6Q;_ylu=5RLGoxyi6f1mWlnnDutmm6V23XKBqJKSyiL1HAphYcUElV4?p=%EC%B5%9C%EA%B7%BC%ED%95%9C%EA%B5%AD+AI+%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85 200
+2025-08-19 16:43:23,427 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:43:23,438 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:25,201 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:25,203 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:25,206 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:25,982 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:25,985 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:25,996 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:27,455 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:27,456 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:27,457 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:28,571 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:28,574 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:28,576 - INFO - DuckDuckGo 검색: '최근한국에서 AI스타트업이 활동고리하고 있는지 알아보기'
+2025-08-19 16:43:29,302 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EA%B7%BC%ED%95%9C%EA%B5%AD%EC%97%90%EC%84%9C%20AI%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%EC%9D%B4%20%ED%99%9C%EB%8F%99%EA%B3%A0%EB%A6%AC%ED%95%98%EA%B3%A0%20%EC%9E%88%EB%8A%94%EC%A7%80%20%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0 200
+2025-08-19 16:43:30,199 - INFO - response: https://yandex.com/search/site/?text=%EC%B5%9C%EA%B7%BC%ED%95%9C%EA%B5%AD%EC%97%90%EC%84%9C+AI%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%EC%9D%B4+%ED%99%9C%EB%8F%99%EA%B3%A0%EB%A6%AC%ED%95%98%EA%B3%A0+%EC%9E%88%EB%8A%94%EC%A7%80+%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0&web=1&searchid=2877960 200
+2025-08-19 16:43:30,292 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:43:30,303 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:31,932 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:31,934 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:31,937 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:33,034 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:33,036 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:33,039 - INFO - DuckDuckGo 검색: '최근한국에서 AI스타트업이 활동하고 있는지 알아보기'
+2025-08-19 16:43:33,814 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EA%B7%BC%ED%95%9C%EA%B5%AD%EC%97%90%EC%84%9C%20AI%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%EC%9D%B4%20%ED%99%9C%EB%8F%99%ED%95%98%EA%B3%A0%20%EC%9E%88%EB%8A%94%EC%A7%80%20%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0 200
+2025-08-19 16:43:34,206 - INFO - response: https://www.mojeek.com/search?q=%EC%B5%9C%EA%B7%BC%ED%95%9C%EA%B5%AD%EC%97%90%EC%84%9C+AI%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%EC%9D%B4+%ED%99%9C%EB%8F%99%ED%95%98%EA%B3%A0+%EC%9E%88%EB%8A%94%EC%A7%80+%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0 403
+2025-08-19 16:43:34,905 - INFO - response: https://www.google.com/search?q=%EC%B5%9C%EA%B7%BC%ED%95%9C%EA%B5%AD%EC%97%90%EC%84%9C+AI%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%EC%9D%B4+%ED%99%9C%EB%8F%99%ED%95%98%EA%B3%A0+%EC%9E%88%EB%8A%94%EC%A7%80+%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_t3I6ygD5VX5Jl7Pbwtem-vY_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+2025-08-19 16:43:34,974 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:43:34,987 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:36,652 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:36,654 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:36,657 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:37,521 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:37,522 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:37,523 - INFO - DuckDuckGo 검색: '최근 한국의 AI 스타트업'
+2025-08-19 16:43:38,179 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EA%B7%BC%20%ED%95%9C%EA%B5%AD%EC%9D%98%20AI%20%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85 200
+2025-08-19 16:43:38,786 - INFO - response: https://www.mojeek.com/search?q=%EC%B5%9C%EA%B7%BC+%ED%95%9C%EA%B5%AD%EC%9D%98+AI+%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85 403
+2025-08-19 16:43:39,467 - INFO - response: https://www.google.com/search?q=%EC%B5%9C%EA%B7%BC+%ED%95%9C%EA%B5%AD%EC%9D%98+AI+%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_t3I6ygD5VX5Jl7Pbwtem-vY_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+2025-08-19 16:43:39,540 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:43:39,553 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:41,438 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:41,441 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:41,443 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:42,262 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:42,264 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:42,277 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:43,750 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:43,753 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:43,756 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:44,907 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:44,910 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:44,921 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:46,149 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:46,152 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:46,155 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:47,039 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:47,042 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:47,053 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:48,423 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:48,426 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:48,429 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:49,434 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:49,437 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:49,450 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:52,999 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:53,002 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:53,004 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:55,591 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:55,594 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:55,596 - INFO - DuckDuckGo 검색: '최근 한국 AI 스타트업'
+2025-08-19 16:43:55,694 - INFO - response: https://www.bing.com/search?q=%EC%B5%9C%EA%B7%BC+%ED%95%9C%EA%B5%AD+AI+%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85&pq=%EC%B5%9C%EA%B7%BC+%ED%95%9C%EA%B5%AD+AI+%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85&cc=en 200
+2025-08-19 16:43:56,283 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EA%B7%BC%20%ED%95%9C%EA%B5%AD%20AI%20%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85 200
+2025-08-19 16:43:56,284 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:43:56,297 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:43:58,254 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:43:58,256 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:43:58,259 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:00,111 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:00,113 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:00,116 - INFO - DuckDuckGo 검색: '최근 한국어로 된 한국 IT 기사'
+2025-08-19 16:44:00,731 - INFO - response: https://search.yahoo.com/search;_ylt=kMPBZOSFBm0ZxB-mpCH3p8oV;_ylu=qp2RvzonpSKwLs2qb6mTXNa7OBPNfoWz4qlr5Vor4ukhOuE?p=%EC%B5%9C%EA%B7%BC+%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C+%EB%90%9C+%ED%95%9C%EA%B5%AD+IT+%EA%B8%B0%EC%82%AC 200
+2025-08-19 16:44:00,814 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EA%B7%BC%20%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C%20%EB%90%9C%20%ED%95%9C%EA%B5%AD%20IT%20%EA%B8%B0%EC%82%AC 200
+2025-08-19 16:44:01,122 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:44:01,135 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:02,486 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:02,488 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:02,491 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:03,202 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:03,203 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:03,211 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:04,724 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:04,727 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:04,729 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:06,597 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:06,600 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:06,611 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:09,427 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:09,430 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:09,432 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:10,158 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:10,161 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:10,172 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:11,846 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:11,848 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:11,853 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:12,790 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:12,793 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:12,795 - INFO - DuckDuckGo 검색: '최근 한국어로 된 안드로이드 app, iOS app, 웹 기사'
+2025-08-19 16:44:12,891 - INFO - response: https://www.bing.com/search?q=%EC%B5%9C%EA%B7%BC+%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C+%EB%90%9C+%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C+app%2C+iOS+app%2C+%EC%9B%B9+%EA%B8%B0%EC%82%AC&pq=%EC%B5%9C%EA%B7%BC+%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C+%EB%90%9C+%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C+app%2C+iOS+app%2C+%EC%9B%B9+%EA%B8%B0%EC%82%AC&cc=en 200
+2025-08-19 16:44:13,512 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EA%B7%BC%20%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C%20%EB%90%9C%20%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%20app%2C%20iOS%20app%2C%20%EC%9B%B9%20%EA%B8%B0%EC%82%AC 200
+2025-08-19 16:44:13,513 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:44:13,527 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:16,085 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:16,087 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:16,090 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:16,791 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:16,793 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:16,795 - INFO - DuckDuckGo 검색: '최근 한국어로 된 IT 기사'
+2025-08-19 16:44:17,481 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EA%B7%BC%20%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C%20%EB%90%9C%20IT%20%EA%B8%B0%EC%82%AC 200
+2025-08-19 16:44:17,539 - INFO - response: https://www.google.com/search?q=%EC%B5%9C%EA%B7%BC+%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C+%EB%90%9C+IT+%EA%B8%B0%EC%82%AC&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_t3I6ygD5VX5Jl7Pbwtem-vY_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+2025-08-19 16:44:17,684 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:44:17,697 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:19,158 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:19,160 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:19,163 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:20,087 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:20,090 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:20,092 - INFO - DuckDuckGo 검색: '최근 한국어로 된 IT 기사 DuckDuckGo'
+2025-08-19 16:44:20,802 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EA%B7%BC%20%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C%20%EB%90%9C%20IT%20%EA%B8%B0%EC%82%AC%20DuckDuckGo 200
+2025-08-19 16:44:21,646 - INFO - response: https://yandex.com/search/site/?text=%EC%B5%9C%EA%B7%BC+%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C+%EB%90%9C+IT+%EA%B8%B0%EC%82%AC+DuckDuckGo&web=1&searchid=6865111 200
+2025-08-19 16:44:21,737 - INFO - 검색 완료: 5개 결과
+2025-08-19 16:44:21,749 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:23,494 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:23,496 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:23,499 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:24,423 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:24,426 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:24,439 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:26,783 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:26,784 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:26,787 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:27,771 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:27,772 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:27,781 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:29,207 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:29,210 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:29,212 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:30,181 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:30,184 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:30,197 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:34,599 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:34,601 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:34,604 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:36,954 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:36,957 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:36,971 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:39,400 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:39,403 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:39,405 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:41,638 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:41,641 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:41,654 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:45,375 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:45,377 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:45,380 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:48,334 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:48,337 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:48,353 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:51,827 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:51,830 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:51,833 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:53,824 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:53,825 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:53,836 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:44:56,602 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:44:56,605 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:44:56,607 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:45:10,849 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:45:10,852 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:45:10,922 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:45:38,215 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 16:45:38,218 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 16:45:38,282 - INFO - 결과 저장: ddgs_search_report_2025년_최신_AI_트렌드_20250819_164538.md
+2025-08-19 16:45:38,282 - INFO - 🎉 작업 완료!
+2025-08-19 16:45:38,282 - INFO - 📁 파일 저장: ddgs_search_report_2025년_최신_AI_트렌드_20250819_164538.md
+2025-08-19 16:58:41,923 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=AI%20test 200
+2025-08-19 16:58:42,182 - INFO - response: https://search.yahoo.com/search;_ylt=n77JZhYoNjKzVbd4qwFXkntB;_ylu=Hg5it84l3fZNQuaeDvuPR3KPjS0B06UJIhsWFUzMhKgZJXc?p=AI+test 200
+2025-08-19 16:58:42,409 - INFO - response: https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&titles=AI%20Test%20Kitchen&explaintext=0&exintro=0&redirects=1 200
+2025-08-19 16:58:42,895 - INFO - ✅ DuckDuckGo 검색 테스트 성공
+2025-08-19 16:58:42,896 - INFO - ==================================================
+2025-08-19 16:58:42,896 - INFO - 🚀 CrewAI DuckDuckGo 검색 시스템 시작
+2025-08-19 16:58:42,896 - INFO - 📋 주제: 2025년 최신 AI 트렌드
+2025-08-19 16:58:42,896 - INFO - 🤖 모델: mistral
+2025-08-19 16:58:42,896 - INFO - ==================================================
+2025-08-19 16:58:42,901 - INFO - 🎯 작업 시작: 검색 전략 → 정보 수집 → 보고서 작성
+2025-08-19 16:58:42,954 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 16:58:42,983 - ERROR - ❌ 실행 오류: litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+Traceback (most recent call last):
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 725, in completion
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 627, in completion
+    openai_client: OpenAI = self._get_openai_client(  # type: ignore
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 377, in _get_openai_client
+    _new_client = OpenAI(
+                  ^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/openai/_client.py", line 130, in __init__
+    raise OpenAIError(
+openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/main.py", line 1966, in completion
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/main.py", line 1939, in completion
+    response = openai_chat_completions.completion(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 736, in completion
+    raise OpenAIError(
+litellm.llms.openai.common_utils.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jy/gitwork/agentic_game/study/study.py", line 255, in run_crew
+    result = crew.kickoff()
+             ^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/crew.py", line 657, in kickoff
+    result = self._run_sequential_process()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/crew.py", line 768, in _run_sequential_process
+    return self._execute_tasks(self.tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/crew.py", line 871, in _execute_tasks
+    task_output = task.execute_sync(
+                  ^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/task.py", line 356, in execute_sync
+    return self._execute_core(agent, context, tools)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/task.py", line 504, in _execute_core
+    raise e  # Re-raise the exception after emitting the event
+    ^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/task.py", line 420, in _execute_core
+    result = agent.execute_task(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agent.py", line 458, in execute_task
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agent.py", line 434, in execute_task
+    result = self._execute_without_timeout(task_prompt, task)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agent.py", line 530, in _execute_without_timeout
+    return self.agent_executor.invoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 114, in invoke
+    formatted_answer = self._invoke_loop()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 208, in _invoke_loop
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 154, in _invoke_loop
+    answer = get_llm_response(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/utilities/agent_utils.py", line 160, in get_llm_response
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/utilities/agent_utils.py", line 153, in get_llm_response
+    answer = llm.call(
+             ^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/llm.py", line 1019, in call
+    return self._handle_non_streaming_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/llm.py", line 813, in _handle_non_streaming_response
+    response = litellm.completion(**params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/utils.py", line 1330, in wrapper
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/utils.py", line 1205, in wrapper
+    result = original_function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/main.py", line 3427, in completion
+    raise exception_type(
+          ^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2301, in exception_type
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 423, in exception_type
+    raise AuthenticationError(
+litellm.exceptions.AuthenticationError: litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-08-19 17:00:42,838 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=AI%20test 200
+2025-08-19 17:00:42,934 - INFO - response: https://search.brave.com/search?q=AI+test&source=web 200
+2025-08-19 17:00:43,350 - INFO - response: https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&titles=AI%20Test%20Kitchen&explaintext=0&exintro=0&redirects=1 200
+2025-08-19 17:00:43,351 - INFO - ✅ DuckDuckGo 검색 테스트 성공
+2025-08-19 17:00:43,352 - INFO - ==================================================
+2025-08-19 17:00:43,352 - INFO - 🚀 CrewAI DuckDuckGo 검색 시스템 시작
+2025-08-19 17:00:43,352 - INFO - 📋 주제: 2025년 최신 AI 트렌드
+2025-08-19 17:00:43,352 - INFO - 🤖 모델: mistral
+2025-08-19 17:00:43,352 - INFO - ==================================================
+2025-08-19 17:00:43,357 - INFO - 🎯 작업 시작: 검색 전략 → 정보 수집 → 보고서 작성
+2025-08-19 17:00:43,411 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:00:43,440 - ERROR - ❌ 실행 오류: litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+Traceback (most recent call last):
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 725, in completion
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 627, in completion
+    openai_client: OpenAI = self._get_openai_client(  # type: ignore
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 377, in _get_openai_client
+    _new_client = OpenAI(
+                  ^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/openai/_client.py", line 130, in __init__
+    raise OpenAIError(
+openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/main.py", line 1966, in completion
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/main.py", line 1939, in completion
+    response = openai_chat_completions.completion(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 736, in completion
+    raise OpenAIError(
+litellm.llms.openai.common_utils.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jy/gitwork/agentic_game/study/study.py", line 258, in run_crew
+    result = crew.kickoff()
+             ^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/crew.py", line 657, in kickoff
+    result = self._run_sequential_process()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/crew.py", line 768, in _run_sequential_process
+    return self._execute_tasks(self.tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/crew.py", line 871, in _execute_tasks
+    task_output = task.execute_sync(
+                  ^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/task.py", line 356, in execute_sync
+    return self._execute_core(agent, context, tools)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/task.py", line 504, in _execute_core
+    raise e  # Re-raise the exception after emitting the event
+    ^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/task.py", line 420, in _execute_core
+    result = agent.execute_task(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agent.py", line 458, in execute_task
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agent.py", line 434, in execute_task
+    result = self._execute_without_timeout(task_prompt, task)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agent.py", line 530, in _execute_without_timeout
+    return self.agent_executor.invoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 114, in invoke
+    formatted_answer = self._invoke_loop()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 208, in _invoke_loop
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 154, in _invoke_loop
+    answer = get_llm_response(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/utilities/agent_utils.py", line 160, in get_llm_response
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/utilities/agent_utils.py", line 153, in get_llm_response
+    answer = llm.call(
+             ^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/llm.py", line 1019, in call
+    return self._handle_non_streaming_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/llm.py", line 813, in _handle_non_streaming_response
+    response = litellm.completion(**params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/utils.py", line 1330, in wrapper
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/utils.py", line 1205, in wrapper
+    result = original_function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/main.py", line 3427, in completion
+    raise exception_type(
+          ^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2301, in exception_type
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 423, in exception_type
+    raise AuthenticationError(
+litellm.exceptions.AuthenticationError: litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable

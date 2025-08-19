@@ -1,0 +1,6 @@
+# .env 파일 내용
+DEFAULT_LLM=mistral-small3.2
+DEFAULT_URL=http://192.168.100.26:11434
+DEFAULT_API_KEY=ollama
+TIMEOUT=3000
+OTEL_SDK_DISABLED=true

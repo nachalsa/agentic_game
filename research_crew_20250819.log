@@ -1,0 +1,1090 @@
+2025-08-19 17:09:51,353 - INFO - ✅ duckduckgo-search 패키지 확인됨
+2025-08-19 17:09:51,353 - INFO - 환경 설정 완료
+2025-08-19 17:09:51,353 - INFO - ============================================================
+2025-08-19 17:09:51,353 - INFO - 🚀 범용 AI 리서치 크루 시작
+2025-08-19 17:09:51,353 - INFO - 📋 주제: 2025년 최신 AI 트렌드
+2025-08-19 17:09:51,353 - INFO - 📊 보고서 유형: 블로그
+2025-08-19 17:09:51,353 - INFO - ============================================================
+2025-08-19 17:09:51,356 - INFO - 
+🎯 AI 크루 작업 시작: 2025년 최신 AI 트렌드
+2025-08-19 17:09:51,356 - INFO - 예상 소요 시간: 3-5분
+2025-08-19 17:09:51,406 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:09:57,606 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:09:57,614 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:09:57,673 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:09:59,222 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:09:59,225 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:09:59,228 - INFO - 웹 검색: '2025 latest AI trends'
+2025-08-19 17:09:59,512 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=2025%20latest%20AI%20trends): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:09:59,993 - INFO - response: https://search.yahoo.com/search;_ylt=8S-SB-i6ctt05KWjYtN3j1MB;_ylu=BkLWQhlhsRiAW4WdRzqwNIWUs3UCH5bcoWPdYVNraTCFHpU?p=2025+latest+AI+trends 200
+2025-08-19 17:10:00,909 - INFO - response: https://www.mojeek.com/search?q=2025+latest+AI+trends 403
+2025-08-19 17:10:00,966 - INFO - 검색 완료: 5개 결과
+2025-08-19 17:10:00,974 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:10:03,033 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:10:03,036 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:10:03,043 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:10:03,965 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:10:03,967 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:10:03,975 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:10:04,942 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:10:04,945 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:10:04,946 - INFO - 웹 검색: '2025 AI trends'
+2025-08-19 17:10:05,109 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=2025%20AI%20trends): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:10:05,206 - INFO - response: https://www.bing.com/search?q=2025+AI+trends&pq=2025+AI+trends&cc=wt 200
+2025-08-19 17:10:06,293 - INFO - response: https://www.mojeek.com/search?q=2025+AI+trends 403
+2025-08-19 17:10:06,294 - INFO - 검색 완료: 5개 결과
+2025-08-19 17:10:06,303 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:10:08,124 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:10:08,127 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:10:08,135 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:10:10,182 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:10:10,185 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:10:10,186 - INFO - 웹 검색: 'trends in AI for 2025'
+2025-08-19 17:10:10,362 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=trends%20in%20AI%20for%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:10:10,753 - INFO - response: https://www.google.com/search?q=trends+in+AI+for+2025&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_krVozXY-XhYaLhYVjnKanBc_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 17:10:10,849 - INFO - response: https://search.brave.com/search?q=trends+in+AI+for+2025&source=web 200
+2025-08-19 17:10:10,855 - INFO - 검색 완료: 5개 결과
+2025-08-19 17:10:10,860 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:10:12,517 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:10:12,520 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:10:12,528 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:10:13,690 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:10:13,693 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:10:13,701 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:10:14,827 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:10:14,830 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:10:14,839 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:10:16,221 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:10:16,224 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:10:16,233 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:10:17,400 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:10:17,403 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:10:17,410 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:10:18,587 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:10:18,588 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:10:18,596 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:10:20,166 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:10:20,169 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:10:20,177 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:10:21,207 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:10:21,210 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:10:21,212 - INFO - 웹 검색: 'current AI trends'
+2025-08-19 17:10:21,362 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=current%20AI%20trends): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:10:21,859 - INFO - response: https://search.yahoo.com/search;_ylt=ZV4DPkUhQIcfFwIhplADT_HY;_ylu=6cz1LZOpFEDa03kf6HRpgwhzVkeNnPCGg7HCVi7qwsxcbp8?p=current+AI+trends 200
+2025-08-19 17:10:23,221 - INFO - response: https://yandex.com/search/site/?text=current+AI+trends&web=1&searchid=8345075 200
+2025-08-19 17:10:23,291 - INFO - 검색 완료: 5개 결과
+2025-08-19 17:10:23,300 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:10:25,329 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:10:25,331 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:10:25,341 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:10:32,046 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:10:32,049 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:10:32,102 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:10:46,026 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:10:46,029 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:10:46,085 - INFO - 결과가 research_report_2025년_최신_AI_트렌드_20250819_171046.md에 저장되었습니다.
+2025-08-19 17:10:46,085 - INFO - 
+🎉 크루 작업 완료!
+2025-08-19 17:10:46,085 - INFO - 
+📁 결과가 'research_report_2025년_최신_AI_트렌드_20250819_171046.md' 파일에 저장되었습니다.
+2025-08-19 17:12:46,361 - WARNING - python-dotenv could not parse statement starting at line 4
+2025-08-19 17:12:46,362 - INFO - ✅ duckduckgo-search 패키지 확인됨
+2025-08-19 17:12:46,362 - INFO - 환경 설정 완료
+2025-08-19 17:12:46,362 - INFO - ============================================================
+2025-08-19 17:12:46,362 - INFO - 🚀 범용 AI 리서치 크루 시작
+2025-08-19 17:12:46,362 - INFO - 📋 주제: 2025년 최신 AI 트렌드
+2025-08-19 17:12:46,362 - INFO - 📊 보고서 유형: 블로그
+2025-08-19 17:12:46,362 - INFO - ============================================================
+2025-08-19 17:12:46,365 - INFO - 
+🎯 AI 크루 작업 시작: 2025년 최신 AI 트렌드
+2025-08-19 17:12:46,365 - INFO - 예상 소요 시간: 3-5분
+2025-08-19 17:12:46,415 - INFO - 
+LiteLLM completion() model= cpatonn/Devstral-Small-2507-AWQ; provider = openai
+2025-08-19 17:12:46,531 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-08-19 17:12:46,544 - ERROR - ❌ 리서치 실행 오류: litellm.NotFoundError: NotFoundError: OpenAIException - model "cpatonn/Devstral-Small-2507-AWQ" not found, try pulling it first
+Traceback (most recent call last):
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 725, in completion
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 653, in completion
+    ) = self.make_sync_openai_chat_completion_request(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_utils.py", line 149, in sync_wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 471, in make_sync_openai_chat_completion_request
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 453, in make_sync_openai_chat_completion_request
+    raw_response = openai_client.chat.completions.with_raw_response.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/openai/_legacy_response.py", line 364, in wrapped
+    return cast(LegacyAPIResponse[R], func(*args, **kwargs))
+                                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1150, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.NotFoundError: Error code: 404 - {'error': {'message': 'model "cpatonn/Devstral-Small-2507-AWQ" not found, try pulling it first', 'type': 'api_error', 'param': None, 'code': None}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/main.py", line 1966, in completion
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/main.py", line 1939, in completion
+    response = openai_chat_completions.completion(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 736, in completion
+    raise OpenAIError(
+litellm.llms.openai.common_utils.OpenAIError: Error code: 404 - {'error': {'message': 'model "cpatonn/Devstral-Small-2507-AWQ" not found, try pulling it first', 'type': 'api_error', 'param': None, 'code': None}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jy/gitwork/agentic_game/study/study.py", line 299, in research
+    result = crew.kickoff()
+             ^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/crew.py", line 657, in kickoff
+    result = self._run_sequential_process()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/crew.py", line 768, in _run_sequential_process
+    return self._execute_tasks(self.tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/crew.py", line 871, in _execute_tasks
+    task_output = task.execute_sync(
+                  ^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/task.py", line 356, in execute_sync
+    return self._execute_core(agent, context, tools)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/task.py", line 504, in _execute_core
+    raise e  # Re-raise the exception after emitting the event
+    ^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/task.py", line 420, in _execute_core
+    result = agent.execute_task(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agent.py", line 458, in execute_task
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agent.py", line 434, in execute_task
+    result = self._execute_without_timeout(task_prompt, task)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agent.py", line 530, in _execute_without_timeout
+    return self.agent_executor.invoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 114, in invoke
+    formatted_answer = self._invoke_loop()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 208, in _invoke_loop
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 154, in _invoke_loop
+    answer = get_llm_response(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/utilities/agent_utils.py", line 160, in get_llm_response
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/utilities/agent_utils.py", line 153, in get_llm_response
+    answer = llm.call(
+             ^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/llm.py", line 1019, in call
+    return self._handle_non_streaming_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/llm.py", line 813, in _handle_non_streaming_response
+    response = litellm.completion(**params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/utils.py", line 1330, in wrapper
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/utils.py", line 1205, in wrapper
+    result = original_function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/main.py", line 3427, in completion
+    raise exception_type(
+          ^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2301, in exception_type
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 465, in exception_type
+    raise NotFoundError(
+litellm.exceptions.NotFoundError: litellm.NotFoundError: NotFoundError: OpenAIException - model "cpatonn/Devstral-Small-2507-AWQ" not found, try pulling it first
+2025-08-19 17:12:59,190 - WARNING - python-dotenv could not parse statement starting at line 4
+2025-08-19 17:12:59,191 - INFO - ✅ duckduckgo-search 패키지 확인됨
+2025-08-19 17:12:59,191 - INFO - 환경 설정 완료
+2025-08-19 17:12:59,191 - INFO - ============================================================
+2025-08-19 17:12:59,191 - INFO - 🚀 범용 AI 리서치 크루 시작
+2025-08-19 17:12:59,191 - INFO - 📋 주제: 2025년 최신 AI 트렌드
+2025-08-19 17:12:59,191 - INFO - 📊 보고서 유형: 블로그
+2025-08-19 17:12:59,191 - INFO - ============================================================
+2025-08-19 17:12:59,194 - INFO - 
+🎯 AI 크루 작업 시작: 2025년 최신 AI 트렌드
+2025-08-19 17:12:59,194 - INFO - 예상 소요 시간: 3-5분
+2025-08-19 17:12:59,248 - INFO - 
+LiteLLM completion() model= cpatonn/Devstral-Small-2507-AWQ; provider = openai
+2025-08-19 17:12:59,360 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-08-19 17:12:59,373 - ERROR - ❌ 리서치 실행 오류: litellm.NotFoundError: NotFoundError: OpenAIException - model "cpatonn/Devstral-Small-2507-AWQ" not found, try pulling it first
+Traceback (most recent call last):
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 725, in completion
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 653, in completion
+    ) = self.make_sync_openai_chat_completion_request(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_utils.py", line 149, in sync_wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 471, in make_sync_openai_chat_completion_request
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 453, in make_sync_openai_chat_completion_request
+    raw_response = openai_client.chat.completions.with_raw_response.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/openai/_legacy_response.py", line 364, in wrapped
+    return cast(LegacyAPIResponse[R], func(*args, **kwargs))
+                                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1150, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.NotFoundError: Error code: 404 - {'error': {'message': 'model "cpatonn/Devstral-Small-2507-AWQ" not found, try pulling it first', 'type': 'api_error', 'param': None, 'code': None}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/main.py", line 1966, in completion
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/main.py", line 1939, in completion
+    response = openai_chat_completions.completion(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 736, in completion
+    raise OpenAIError(
+litellm.llms.openai.common_utils.OpenAIError: Error code: 404 - {'error': {'message': 'model "cpatonn/Devstral-Small-2507-AWQ" not found, try pulling it first', 'type': 'api_error', 'param': None, 'code': None}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jy/gitwork/agentic_game/study/study.py", line 299, in research
+    result = crew.kickoff()
+             ^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/crew.py", line 657, in kickoff
+    result = self._run_sequential_process()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/crew.py", line 768, in _run_sequential_process
+    return self._execute_tasks(self.tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/crew.py", line 871, in _execute_tasks
+    task_output = task.execute_sync(
+                  ^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/task.py", line 356, in execute_sync
+    return self._execute_core(agent, context, tools)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/task.py", line 504, in _execute_core
+    raise e  # Re-raise the exception after emitting the event
+    ^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/task.py", line 420, in _execute_core
+    result = agent.execute_task(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agent.py", line 458, in execute_task
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agent.py", line 434, in execute_task
+    result = self._execute_without_timeout(task_prompt, task)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agent.py", line 530, in _execute_without_timeout
+    return self.agent_executor.invoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 114, in invoke
+    formatted_answer = self._invoke_loop()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 208, in _invoke_loop
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 154, in _invoke_loop
+    answer = get_llm_response(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/utilities/agent_utils.py", line 160, in get_llm_response
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/utilities/agent_utils.py", line 153, in get_llm_response
+    answer = llm.call(
+             ^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/llm.py", line 1019, in call
+    return self._handle_non_streaming_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/llm.py", line 813, in _handle_non_streaming_response
+    response = litellm.completion(**params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/utils.py", line 1330, in wrapper
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/utils.py", line 1205, in wrapper
+    result = original_function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/main.py", line 3427, in completion
+    raise exception_type(
+          ^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2301, in exception_type
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 465, in exception_type
+    raise NotFoundError(
+litellm.exceptions.NotFoundError: litellm.NotFoundError: NotFoundError: OpenAIException - model "cpatonn/Devstral-Small-2507-AWQ" not found, try pulling it first
+2025-08-19 17:13:27,171 - INFO - ✅ duckduckgo-search 패키지 확인됨
+2025-08-19 17:13:27,172 - INFO - 환경 설정 완료
+2025-08-19 17:13:27,172 - INFO - ============================================================
+2025-08-19 17:13:27,172 - INFO - 🚀 범용 AI 리서치 크루 시작
+2025-08-19 17:13:27,172 - INFO - 📋 주제: 2025년 최신 AI 트렌드
+2025-08-19 17:13:27,172 - INFO - 📊 보고서 유형: 블로그
+2025-08-19 17:13:27,172 - INFO - ============================================================
+2025-08-19 17:13:27,175 - INFO - 
+🎯 AI 크루 작업 시작: 2025년 최신 AI 트렌드
+2025-08-19 17:13:27,175 - INFO - 예상 소요 시간: 3-5분
+2025-08-19 17:13:27,228 - INFO - 
+LiteLLM completion() model= qwen2.5:14b; provider = openai
+2025-08-19 17:13:41,924 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:13:41,932 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:13:41,994 - INFO - 
+LiteLLM completion() model= qwen2.5:14b; provider = openai
+2025-08-19 17:13:44,703 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:13:44,706 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:13:44,709 - INFO - 웹 검색: 'latest AI trends 2025 developments innovations'
+2025-08-19 17:13:45,056 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=latest%20AI%20trends%202025%20developments%20innovations): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:13:45,441 - INFO - response: https://www.google.com/search?q=latest+AI+trends+2025+developments+innovations&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_-LmQz8WAOVuOpq-uG5rBVSY_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 17:13:45,775 - INFO - response: https://search.yahoo.com/search;_ylt=GcEtM3D4ia8IzmFW0Z4JGz-C;_ylu=Gzgu1bB8Kg4qg1aXZjYme8GjN_ysfpP-KLqxEaWsnO74NvQ?p=latest+AI+trends+2025+developments+innovations 200
+2025-08-19 17:13:46,551 - INFO - 검색 완료: 5개 결과
+2025-08-19 17:13:46,560 - INFO - 
+LiteLLM completion() model= qwen2.5:14b; provider = openai
+2025-08-19 17:13:49,156 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:13:49,159 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:13:49,161 - INFO - 웹 검색: 'AI expert analysis research studies 2024-2025'
+2025-08-19 17:13:49,248 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=AI%20expert%20analysis%20research%20studies%202024-2025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:13:49,953 - INFO - response: https://www.google.com/search?q=AI+expert+analysis+research+studies+2024-2025&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_-LmQz8WAOVuOpq-uG5rBVSY_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 17:13:50,722 - INFO - response: https://yandex.com/search/site/?text=AI+expert+analysis+research+studies+2024-2025&web=1&searchid=6924607 200
+2025-08-19 17:13:50,804 - INFO - 검색 완료: 5개 결과
+2025-08-19 17:13:50,812 - INFO - 
+LiteLLM completion() model= qwen2.5:14b; provider = openai
+2025-08-19 17:13:53,450 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:13:53,453 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:13:53,455 - INFO - 웹 검색: 'AI case studies applications examples 2024-2025'
+2025-08-19 17:13:53,534 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=AI%20case%20studies%20applications%20examples%202024-2025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:13:54,297 - INFO - response: https://www.google.com/search?q=AI+case+studies+applications+examples+2024-2025&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_-LmQz8WAOVuOpq-uG5rBVSY_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 17:13:54,466 - INFO - response: https://search.brave.com/search?q=AI+case+studies+applications+examples+2024-2025&source=web 200
+2025-08-19 17:13:54,473 - INFO - 검색 완료: 5개 결과
+2025-08-19 17:13:54,483 - INFO - 
+LiteLLM completion() model= qwen2.5:14b; provider = openai
+2025-08-19 17:13:55,950 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:13:55,952 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:13:55,960 - INFO - 
+LiteLLM completion() model= qwen2.5:14b; provider = openai
+2025-08-19 17:13:57,609 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:13:57,612 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:13:57,620 - INFO - 
+LiteLLM completion() model= qwen2.5:14b; provider = openai
+2025-08-19 17:14:00,469 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:14:00,472 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:14:00,481 - INFO - 
+LiteLLM completion() model= qwen2.5:14b; provider = openai
+2025-08-19 17:14:03,218 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:14:03,221 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:14:03,230 - INFO - 
+LiteLLM completion() model= qwen2.5:14b; provider = openai
+2025-08-19 17:14:04,657 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:14:04,660 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:14:04,668 - INFO - 
+LiteLLM completion() model= qwen2.5:14b; provider = openai
+2025-08-19 17:14:07,227 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:14:07,230 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:14:07,239 - INFO - 
+LiteLLM completion() model= qwen2.5:14b; provider = openai
+2025-08-19 17:14:13,302 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:14:13,304 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:14:13,314 - INFO - 
+LiteLLM completion() model= qwen2.5:14b; provider = openai
+2025-08-19 17:14:14,744 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:14:14,747 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:14:14,754 - ERROR - ❌ 리서치 실행 오류: Invalid response from LLM call - None or empty.
+Traceback (most recent call last):
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agent.py", line 434, in execute_task
+    result = self._execute_without_timeout(task_prompt, task)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agent.py", line 530, in _execute_without_timeout
+    return self.agent_executor.invoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 114, in invoke
+    formatted_answer = self._invoke_loop()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 221, in _invoke_loop
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 154, in _invoke_loop
+    answer = get_llm_response(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/utilities/agent_utils.py", line 166, in get_llm_response
+    raise ValueError("Invalid response from LLM call - None or empty.")
+ValueError: Invalid response from LLM call - None or empty.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agent.py", line 434, in execute_task
+    result = self._execute_without_timeout(task_prompt, task)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agent.py", line 530, in _execute_without_timeout
+    return self.agent_executor.invoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 114, in invoke
+    formatted_answer = self._invoke_loop()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 221, in _invoke_loop
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 154, in _invoke_loop
+    answer = get_llm_response(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/utilities/agent_utils.py", line 166, in get_llm_response
+    raise ValueError("Invalid response from LLM call - None or empty.")
+ValueError: Invalid response from LLM call - None or empty.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jy/gitwork/agentic_game/study/study.py", line 299, in research
+    result = crew.kickoff()
+             ^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/crew.py", line 657, in kickoff
+    result = self._run_sequential_process()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/crew.py", line 768, in _run_sequential_process
+    return self._execute_tasks(self.tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/crew.py", line 871, in _execute_tasks
+    task_output = task.execute_sync(
+                  ^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/task.py", line 356, in execute_sync
+    return self._execute_core(agent, context, tools)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/task.py", line 504, in _execute_core
+    raise e  # Re-raise the exception after emitting the event
+    ^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/task.py", line 420, in _execute_core
+    result = agent.execute_task(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agent.py", line 470, in execute_task
+    result = self.execute_task(task, context, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agent.py", line 470, in execute_task
+    result = self.execute_task(task, context, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agent.py", line 469, in execute_task
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agent.py", line 434, in execute_task
+    result = self._execute_without_timeout(task_prompt, task)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agent.py", line 530, in _execute_without_timeout
+    return self.agent_executor.invoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 114, in invoke
+    formatted_answer = self._invoke_loop()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 221, in _invoke_loop
+    raise e
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 154, in _invoke_loop
+    answer = get_llm_response(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/jy/gitwork/agentic_game/.venv/lib/python3.12/site-packages/crewai/utilities/agent_utils.py", line 166, in get_llm_response
+    raise ValueError("Invalid response from LLM call - None or empty.")
+ValueError: Invalid response from LLM call - None or empty.
+2025-08-19 17:15:23,006 - INFO - ✅ duckduckgo-search 패키지 확인됨
+2025-08-19 17:15:23,006 - INFO - 환경 설정 완료
+2025-08-19 17:15:23,006 - INFO - ============================================================
+2025-08-19 17:15:23,006 - INFO - 🚀 범용 AI 리서치 크루 시작
+2025-08-19 17:15:23,006 - INFO - 📋 주제: 2025년 최신 AI 트렌드
+2025-08-19 17:15:23,006 - INFO - 📊 보고서 유형: 블로그
+2025-08-19 17:15:23,006 - INFO - ============================================================
+2025-08-19 17:15:23,009 - INFO - 
+🎯 AI 크루 작업 시작: 2025년 최신 AI 트렌드
+2025-08-19 17:15:23,009 - INFO - 예상 소요 시간: 3-5분
+2025-08-19 17:15:23,059 - INFO - 
+LiteLLM completion() model= qwen2.5:14b; provider = openai
+2025-08-19 17:15:26,355 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:15:26,362 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:15:26,421 - INFO - 
+LiteLLM completion() model= qwen2.5:14b; provider = openai
+2025-08-19 17:15:29,049 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:15:29,052 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:15:29,057 - INFO - 웹 검색: 'latest trends in AI 2024-2025'
+2025-08-19 17:15:29,220 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=latest%20trends%20in%20AI%202024-2025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:15:29,304 - INFO - response: https://www.bing.com/search?q=latest+trends+in+AI+2024-2025&pq=latest+trends+in+AI+2024-2025&cc=wt 200
+2025-08-19 17:15:30,323 - INFO - response: https://www.mojeek.com/search?q=latest+trends+in+AI+2024-2025 403
+2025-08-19 17:15:30,324 - INFO - 검색 완료: 5개 결과
+2025-08-19 17:15:30,333 - INFO - 
+LiteLLM completion() model= qwen2.5:14b; provider = openai
+2025-08-19 17:15:40,995 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:15:40,997 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:15:40,999 - INFO - 웹 검색: 'AI expert analysis and research studies 2024-2025'
+2025-08-19 17:15:41,182 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=AI%20expert%20analysis%20and%20research%20studies%202024-2025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:15:41,212 - INFO - response: https://www.bing.com/search?q=AI+expert+analysis+and+research+studies+2024-2025&pq=AI+expert+analysis+and+research+studies+2024-2025&cc=wt 200
+2025-08-19 17:15:42,103 - INFO - response: https://search.brave.com/search?q=AI+expert+analysis+and+research+studies+2024-2025&source=web 200
+2025-08-19 17:15:42,110 - INFO - 검색 완료: 5개 결과
+2025-08-19 17:15:42,115 - INFO - 
+LiteLLM completion() model= qwen2.5:14b; provider = openai
+2025-08-19 17:15:56,642 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:15:56,645 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:15:56,647 - INFO - 웹 검색: 'latest research studies on AI 2024-2025'
+2025-08-19 17:15:56,728 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=latest%20research%20studies%20on%20AI%202024-2025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:15:57,361 - INFO - response: https://search.yahoo.com/search;_ylt=FLt4EN0Go1Ibks4i5pJPUHm_;_ylu=Ao1PQ7q9uAANvvXwMSMfIRsPHeZdELnJ3FNSFdb7PZlyJ-c?p=latest+research+studies+on+AI+2024-2025 200
+2025-08-19 17:15:57,449 - INFO - response: https://www.google.com/search?q=latest+research+studies+on+AI+2024-2025&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_yGW4WGiCIesZMBBWfFL6DBQ_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 17:15:58,174 - INFO - 검색 완료: 5개 결과
+2025-08-19 17:15:58,184 - INFO - 
+LiteLLM completion() model= qwen2.5:14b; provider = openai
+2025-08-19 17:15:59,672 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:15:59,675 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:15:59,682 - INFO - 
+LiteLLM completion() model= qwen2.5:14b; provider = openai
+2025-08-19 17:16:01,981 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:16:01,983 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:16:01,992 - INFO - 
+LiteLLM completion() model= qwen2.5:14b; provider = openai
+2025-08-19 17:16:14,618 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:16:14,621 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:16:14,630 - INFO - 
+LiteLLM completion() model= qwen2.5:14b; provider = openai
+2025-08-19 17:16:48,752 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:16:48,755 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:16:48,812 - INFO - 
+LiteLLM completion() model= qwen2.5:14b; provider = openai
+2025-08-19 17:17:25,584 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:17:25,585 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:17:25,634 - INFO - 결과가 research_report_2025년_최신_AI_트렌드_20250819_171725.md에 저장되었습니다.
+2025-08-19 17:17:25,634 - INFO - 
+🎉 크루 작업 완료!
+2025-08-19 17:17:25,634 - INFO - 
+📁 결과가 'research_report_2025년_최신_AI_트렌드_20250819_171725.md' 파일에 저장되었습니다.
+2025-08-19 17:21:02,314 - INFO - ✅ duckduckgo-search 패키지 확인됨
+2025-08-19 17:21:02,314 - INFO - 환경 설정 완료
+2025-08-19 17:21:02,314 - INFO - ============================================================
+2025-08-19 17:21:02,314 - INFO - 🚀 범용 AI 리서치 크루 시작
+2025-08-19 17:21:02,314 - INFO - 📋 주제: 2025년 최신 AI 트렌드
+2025-08-19 17:21:02,314 - INFO - 📊 보고서 유형: 블로그
+2025-08-19 17:21:02,314 - INFO - ============================================================
+2025-08-19 17:21:02,317 - INFO - 
+🎯 AI 크루 작업 시작: 2025년 최신 AI 트렌드
+2025-08-19 17:21:02,317 - INFO - 예상 소요 시간: 3-5분
+2025-08-19 17:21:02,367 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:21:10,647 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:21:10,655 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:21:10,714 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:21:28,356 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:21:28,359 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:21:28,372 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:21:30,472 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:21:30,475 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:21:30,478 - INFO - 🔍 웹 검색 시작: 'Latest AI trends 2024-2025'
+2025-08-19 17:21:30,563 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Latest%20AI%20trends%202024-2025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:21:31,247 - INFO - response: https://www.google.com/search?q=Latest+AI+trends+2024-2025&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_goeSK90x4jXo-L1cu64CVco_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 17:21:31,738 - INFO - response: https://www.mojeek.com/search?q=Latest+AI+trends+2024-2025 403
+2025-08-19 17:21:31,740 - INFO - ✅ 검색 완료: 5개 관련 결과
+2025-08-19 17:21:31,747 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:21:33,336 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:21:33,339 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:21:33,347 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:21:34,496 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:21:34,498 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:21:34,506 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:21:36,198 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:21:36,201 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:21:36,209 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:21:37,671 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:21:37,673 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:21:37,682 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:21:39,577 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:21:39,580 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:21:39,582 - INFO - 🔍 웹 검색 시작: 'Latest AI trends 2023'
+2025-08-19 17:21:39,591 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Latest%20AI%20trends%202023): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:21:40,270 - INFO - response: https://search.yahoo.com/search;_ylt=Zrdetrxp592QEYZcBgYPZQC5;_ylu=xkuyaVFS0NpLW7s5xON4hbhc9hIQmzQw-hIm6ojwbDHPAgQ?p=Latest+AI+trends+2023 200
+2025-08-19 17:21:41,192 - INFO - response: https://yandex.com/search/site/?text=Latest+AI+trends+2023&web=1&searchid=3129698 200
+2025-08-19 17:21:41,260 - INFO - ✅ 검색 완료: 5개 관련 결과
+2025-08-19 17:21:41,264 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:21:44,169 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:21:44,172 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:21:44,180 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:21:46,614 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:21:46,649 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:21:46,657 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:21:49,668 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:21:49,670 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:21:49,678 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:21:52,099 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:21:52,102 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:21:52,108 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:21:54,506 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:21:54,508 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:21:54,517 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:21:56,914 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:21:56,917 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:21:56,925 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:21:59,440 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:21:59,442 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:21:59,452 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:01,956 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:01,959 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:01,967 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:04,797 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:04,799 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:04,801 - INFO - 🔍 웹 검색 시작: 'AI trends 2023'
+2025-08-19 17:22:04,886 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=AI%20trends%202023): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:22:04,911 - INFO - response: https://www.bing.com/search?q=AI+trends+2023&pq=AI+trends+2023&cc=wt 200
+2025-08-19 17:22:06,431 - INFO - response: https://www.mojeek.com/search?q=AI+trends+2023 403
+2025-08-19 17:22:06,431 - INFO - ✅ 검색 완료: 4개 관련 결과
+2025-08-19 17:22:06,436 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:08,888 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:08,891 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:08,892 - INFO - 🔍 웹 검색 시작: '2025 AI trends'
+2025-08-19 17:22:08,903 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=2025%20AI%20trends): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:22:09,012 - INFO - response: https://www.bing.com/search?q=2025+AI+trends&pq=2025+AI+trends&cc=wt 200
+2025-08-19 17:22:10,470 - INFO - response: https://yandex.com/search/site/?text=2025+AI+trends&web=1&searchid=2072059 200
+2025-08-19 17:22:10,553 - INFO - ✅ 검색 완료: 5개 관련 결과
+2025-08-19 17:22:10,562 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:12,709 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:12,711 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:12,719 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:14,356 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:14,359 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:14,368 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:15,726 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:15,729 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:15,737 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:16,810 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:16,813 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:16,821 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:18,114 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:18,116 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:18,124 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:19,582 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:19,585 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:19,593 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:20,902 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:20,905 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:20,907 - INFO - 🔍 웹 검색 시작: '2025 AI predictions'
+2025-08-19 17:22:20,918 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=2025%20AI%20predictions): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:22:22,224 - INFO - response: https://www.mojeek.com/search?q=2025+AI+predictions 403
+2025-08-19 17:22:22,451 - INFO - response: https://yandex.com/search/site/?text=2025+AI+predictions&web=1&searchid=9936494 200
+2025-08-19 17:22:22,520 - INFO - ✅ 검색 완료: 5개 관련 결과
+2025-08-19 17:22:22,527 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:24,175 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:24,178 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:24,180 - INFO - 🔍 웹 검색 시작: 'AI predictions 2025'
+2025-08-19 17:22:24,191 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=AI%20predictions%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:22:24,354 - INFO - response: https://www.bing.com/search?q=AI+predictions+2025&pq=AI+predictions+2025&cc=wt 200
+2025-08-19 17:22:24,674 - INFO - response: https://search.brave.com/search?q=AI+predictions+2025&source=web 200
+2025-08-19 17:22:24,714 - INFO - ✅ 검색 완료: 5개 관련 결과
+2025-08-19 17:22:24,722 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:26,535 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:26,537 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:26,539 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:27,577 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:27,580 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:27,582 - INFO - 🔍 웹 검색 시작: 'AI trends 2025'
+2025-08-19 17:22:27,704 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=AI%20trends%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:22:28,229 - INFO - response: https://www.google.com/search?q=AI+trends+2025&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_goeSK90x4jXo-L1cu64CVco_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 17:22:28,998 - INFO - response: https://www.mojeek.com/search?q=AI+trends+2025 403
+2025-08-19 17:22:29,000 - INFO - ✅ 검색 완료: 5개 관련 결과
+2025-08-19 17:22:29,008 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:30,687 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:30,690 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:30,691 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:31,772 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:31,772 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:31,777 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:32,810 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:32,811 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:32,812 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:33,402 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:33,403 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:33,408 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:35,167 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:35,170 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:35,172 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:35,953 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:35,956 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:35,958 - INFO - 🔍 웹 검색 시작: 'Current AI trends 2023'
+2025-08-19 17:22:36,040 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Current%20AI%20trends%202023): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:22:36,812 - INFO - response: https://search.yahoo.com/search;_ylt=tcT5PHIJBINb26PoY--iOrJU;_ylu=b9XiZglP6gDmbwCZRBp1B4W5cXYlreYbqRZJFy2vxYbALfk?p=Current+AI+trends+2023 200
+2025-08-19 17:22:37,035 - INFO - response: https://search.brave.com/search?q=Current+AI+trends+2023&source=web 200
+2025-08-19 17:22:37,718 - INFO - ✅ 검색 완료: 5개 관련 결과
+2025-08-19 17:22:37,725 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:39,606 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:39,609 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:39,611 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:40,436 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:40,438 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:40,440 - INFO - 🔍 웹 검색 시작: 'AI trends for 2025'
+2025-08-19 17:22:40,451 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=AI%20trends%20for%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:22:40,927 - INFO - response: https://search.brave.com/search?q=AI+trends+for+2025&source=web 200
+2025-08-19 17:22:41,856 - INFO - response: https://www.mojeek.com/search?q=AI+trends+for+2025 403
+2025-08-19 17:22:41,858 - INFO - ✅ 검색 완료: 5개 관련 결과
+2025-08-19 17:22:41,866 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:43,763 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:43,765 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:43,767 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:44,608 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:44,610 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:44,619 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:46,165 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:46,168 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:46,170 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:47,177 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:47,179 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:47,187 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:48,700 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:48,703 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:48,704 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:49,712 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:49,715 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:49,722 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:51,620 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:51,623 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:51,625 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:52,621 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:52,623 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:52,632 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:55,009 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:55,011 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:55,013 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:55,826 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:55,829 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:55,838 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:57,295 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:57,296 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:57,297 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:22:58,164 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:22:58,165 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:22:58,166 - INFO - 🔍 웹 검색 시작: 'comprehensive insights on AI trends in 2025'
+2025-08-19 17:22:58,361 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=comprehensive%20insights%20on%20AI%20trends%20in%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:22:58,968 - INFO - response: https://www.google.com/search?q=comprehensive+insights+on+AI+trends+in+2025&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_goeSK90x4jXo-L1cu64CVco_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 17:23:01,142 - INFO - response: https://yandex.com/search/site/?text=comprehensive+insights+on+AI+trends+in+2025&web=1&searchid=7542933 200
+2025-08-19 17:23:01,225 - INFO - ✅ 검색 완료: 5개 관련 결과
+2025-08-19 17:23:01,233 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:03,157 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:03,160 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:03,162 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:04,026 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:04,028 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:04,037 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:13,079 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:13,081 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:13,083 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:14,945 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:14,948 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:14,956 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:16,332 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:16,335 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:16,337 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:17,151 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:17,153 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:17,162 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:19,102 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:19,104 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:19,106 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:19,917 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:19,920 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:19,929 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:21,577 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:21,580 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:21,582 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:22,439 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:22,442 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:22,450 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:23,859 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:23,860 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:23,862 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:25,629 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:25,631 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:25,633 - INFO - 🔍 웹 검색 시작: 'Latest AI trends in 2025'
+2025-08-19 17:23:25,776 - INFO - response: https://www.bing.com/search?q=Latest+AI+trends+in+2025&pq=Latest+AI+trends+in+2025&cc=wt 200
+2025-08-19 17:23:25,908 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Latest%20AI%20trends%20in%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:23:25,909 - INFO - ✅ 검색 완료: 5개 관련 결과
+2025-08-19 17:23:25,916 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:27,620 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:27,622 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:27,624 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:28,501 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:28,504 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:28,506 - INFO - 🔍 웹 검색 시작: 'Latest AI trends for the year 2025'
+2025-08-19 17:23:28,516 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Latest%20AI%20trends%20for%20the%20year%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:23:29,004 - INFO - response: https://search.brave.com/search?q=Latest+AI+trends+for+the+year+2025&source=web 200
+2025-08-19 17:23:30,167 - INFO - response: https://yandex.com/search/site/?text=Latest+AI+trends+for+the+year+2025&web=1&searchid=8646279 200
+2025-08-19 17:23:30,252 - INFO - ✅ 검색 완료: 5개 관련 결과
+2025-08-19 17:23:30,261 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:32,766 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:32,769 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:32,772 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:33,778 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:33,781 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:33,782 - INFO - 🔍 웹 검색 시작: 'Latest AI trends for 2025'
+2025-08-19 17:23:33,869 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Latest%20AI%20trends%20for%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:23:34,356 - INFO - response: https://search.brave.com/search?q=Latest+AI+trends+for+2025&source=web 200
+2025-08-19 17:23:34,405 - INFO - response: https://search.yahoo.com/search;_ylt=sPC8yQ1VOZm5XbB9fTQWTTYC;_ylu=aMW_MBmLLZA0kT01o-IX5WY14K67mXP1sQHVnSaYB-9gq88?p=Latest+AI+trends+for+2025 200
+2025-08-19 17:23:35,150 - INFO - ✅ 검색 완료: 5개 관련 결과
+2025-08-19 17:23:35,158 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:36,217 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:36,220 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:36,222 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:37,158 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:37,161 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:37,170 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:38,418 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:38,420 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:38,423 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:39,260 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:39,263 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:39,272 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:41,221 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:41,223 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:41,225 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:42,220 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:42,222 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:42,230 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:43,801 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:43,804 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:43,806 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:44,833 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:44,836 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:44,844 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:47,037 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:47,040 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:47,042 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:48,083 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:48,084 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:48,090 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:50,186 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:50,189 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:50,191 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:51,241 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:51,244 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:51,252 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:53,340 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:53,343 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:53,347 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:54,383 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:54,385 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:54,394 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:55,913 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:55,916 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:55,918 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:57,469 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:57,472 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:57,481 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:23:59,801 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:23:59,804 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:23:59,806 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:01,202 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:01,204 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:01,215 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:02,919 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:02,921 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:02,923 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:04,171 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:04,174 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:04,183 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:06,127 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:06,129 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:06,131 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:07,258 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:07,261 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:07,272 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:09,238 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:09,241 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:09,243 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:10,393 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:10,395 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:10,404 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:12,212 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:12,214 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:12,216 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:13,388 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:13,391 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:13,400 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:15,258 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:15,258 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:15,260 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:16,426 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:16,428 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:16,439 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:17,950 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:17,952 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:17,954 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:19,164 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:19,167 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:19,169 - INFO - 🔍 웹 검색 시작: 'Latest AI trends 2025'
+2025-08-19 17:24:19,179 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Latest%20AI%20trends%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 17:24:19,797 - INFO - response: https://search.yahoo.com/search;_ylt=F7GPGcZkf8YubCyFTveLUOvB;_ylu=3RB02W-DT_c_w2JHLyadYdoqLQ0MSQLvuETAkn9Ux2TXFz8?p=Latest+AI+trends+2025 200
+2025-08-19 17:24:20,478 - INFO - response: https://www.mojeek.com/search?q=Latest+AI+trends+2025 403
+2025-08-19 17:24:20,482 - INFO - ✅ 검색 완료: 5개 관련 결과
+2025-08-19 17:24:20,491 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:22,852 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:22,855 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:22,857 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:24,131 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:24,133 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:24,142 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:25,714 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:25,716 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:25,718 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:26,940 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:26,943 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:26,952 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:28,885 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:28,887 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:28,890 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:30,132 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:30,135 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:30,144 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:31,888 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:31,891 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:31,893 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:33,180 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:33,183 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:33,192 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:35,547 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:35,550 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:35,552 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:36,836 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:36,839 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:36,849 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:39,717 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:39,718 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:39,719 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:24:42,148 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:24:42,151 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:24:42,209 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 17:25:00,124 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 17:25:00,127 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 17:25:00,183 - INFO - 결과가 research_report_2025년_최신_AI_트렌드_20250819_172500.md에 저장되었습니다.
+2025-08-19 17:25:00,183 - INFO - 
+🎉 크루 작업 완료!
+2025-08-19 17:25:00,183 - INFO - 
+📁 결과가 'research_report_2025년_최신_AI_트렌드_20250819_172500.md' 파일에 저장되었습니다.

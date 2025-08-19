@@ -1,0 +1,110 @@
+2025-08-19 14:42:55,805 - INFO - ✅ duckduckgo-search 패키지 확인됨
+2025-08-19 14:42:55,806 - INFO - ======================================================================
+2025-08-19 14:42:55,806 - INFO - 🚀 Dynamic Adaptive CrewAI 시작
+2025-08-19 14:42:55,806 - INFO - 📋 연구 주제: 2025년 최신 AI 트렌드
+2025-08-19 14:42:55,806 - INFO - ======================================================================
+2025-08-19 14:42:55,806 - INFO - 🔧 환경 설정: mistral @ http://192.168.100.26:11434/v1
+2025-08-19 14:42:55,806 - INFO - LiteLLM 연결 테스트 중...
+2025-08-19 14:42:55,810 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 14:43:00,910 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 14:43:00,917 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 14:43:00,926 - INFO - LiteLLM 테스트 성공:  안녕하세요! 연결이 정상적으로 되어있습니다. 질문이나 도움이 필요한 점이 있으시면 자유롭게 물어보세요!
+
+(Hello, this is a test of connection. Hello! The connection is working fine. Feel free to ask any questions or seek help you need!)
+2025-08-19 14:43:00,927 - INFO - 웹 검색 기능 테스트 중...
+2025-08-19 14:43:00,927 - INFO - 스마트 웹 검색 시작: 'AI trends 2025' (최대 2개)
+2025-08-19 14:43:01,178 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=AI%20trends%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 14:43:01,248 - INFO - response: https://www.bing.com/search?q=AI+trends+2025&pq=AI+trends+2025&cc=wt 200
+2025-08-19 14:43:02,761 - INFO - response: https://yandex.com/search/site/?text=AI+trends+2025&web=1&searchid=3477969 200
+2025-08-19 14:43:02,842 - INFO - 스마트 웹 검색 완료: 2개 결과 반환
+2025-08-19 14:43:02,842 - INFO - ✅ 웹 검색 테스트 성공
+2025-08-19 14:43:02,843 - INFO - LiteLLM 전역 설정 완료
+2025-08-19 14:43:02,843 - INFO - 
+🤖 지능형 AI 연구팀 구성 중...
+2025-08-19 14:43:02,849 - INFO - 
+======================================================================
+2025-08-19 14:43:02,849 - INFO - 🎯 동적 적응형 AI 연구 시작
+2025-08-19 14:43:02,849 - INFO - ⏱️  예상 소요 시간: 5-8분
+2025-08-19 14:43:02,849 - INFO - 🔍 특징: 검색 결과에 따른 지능적 방향 조정
+2025-08-19 14:43:02,849 - INFO - ======================================================================
+2025-08-19 14:43:02,897 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 14:43:04,271 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 14:43:04,274 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 14:43:04,277 - INFO - 주제 분석 가이드 요청: '2025년 최신 AI 트렌드'
+2025-08-19 14:43:04,277 - ERROR - 주제 분석 가이드 생성 중 오류: "Tool" object has no field "usage_count"
+2025-08-19 14:43:04,283 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 14:43:05,566 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 14:43:05,568 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 14:43:05,570 - INFO - 주제 분석 가이드 요청: '최신 AI 트렌드'
+2025-08-19 14:43:05,570 - ERROR - 주제 분석 가이드 생성 중 오류: "Tool" object has no field "usage_count"
+2025-08-19 14:43:05,576 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 14:43:06,669 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 14:43:06,672 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 14:43:06,681 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 14:43:07,999 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 14:43:08,040 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 14:44:08,051 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 14:44:09,302 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 14:44:09,305 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 14:44:09,313 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 14:44:10,553 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 14:44:10,554 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 14:44:10,559 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 14:44:12,520 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 14:44:12,521 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 14:44:12,526 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 14:44:13,783 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 14:44:13,785 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 14:44:13,787 - INFO - 주제 분석 가이드 요청: '최근 AI 발전 동향'
+2025-08-19 14:44:13,787 - ERROR - 주제 분석 가이드 생성 중 오류: "Tool" object has no field "usage_count"
+2025-08-19 14:45:13,794 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 14:45:15,250 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 14:45:15,252 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 14:45:15,261 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 14:45:17,413 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 14:45:17,416 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 14:45:17,417 - INFO - 주제 분석 가이드 요청: 'Maximizing Efficiency in the Data-Driven Future'
+2025-08-19 14:45:17,417 - ERROR - 주제 분석 가이드 생성 중 오류: "Tool" object has no field "usage_count"
+2025-08-19 14:45:17,424 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 14:45:19,737 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 14:45:19,739 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 14:45:19,741 - INFO - 주제 분석 가이드 요청: 'Artificial Intelligence in the Financial Market'
+2025-08-19 14:45:19,741 - ERROR - 주제 분석 가이드 생성 중 오류: "Tool" object has no field "usage_count"
+2025-08-19 14:45:19,748 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 14:45:21,982 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 14:45:21,984 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 14:45:21,986 - INFO - 주제 분석 가이드 요청: '2025년 최근 AI 트렌드'
+2025-08-19 14:45:21,986 - ERROR - 주제 분석 가이드 생성 중 오류: "Tool" object has no field "usage_count"
+2025-08-19 14:46:21,996 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 14:46:24,277 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 14:46:24,279 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 14:46:24,281 - INFO - 주제 분석 가이드 요청: '최근 AI 분석 기술'
+2025-08-19 14:46:24,281 - ERROR - 주제 분석 가이드 생성 중 오류: "Tool" object has no field "usage_count"
+2025-08-19 14:46:24,288 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 14:46:26,435 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 14:46:26,438 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 14:46:26,440 - INFO - 주제 분석 가이드 요청: '2025년 AI 트렌드'
+2025-08-19 14:46:26,440 - ERROR - 주제 분석 가이드 생성 중 오류: "Tool" object has no field "usage_count"
+2025-08-19 14:46:26,446 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 14:46:27,990 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 14:46:27,992 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 14:46:28,002 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 14:46:30,293 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 14:46:30,296 - INFO - Wrapper: Completed Call, calling success_handler

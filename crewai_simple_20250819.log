@@ -1,0 +1,1293 @@
+2025-08-19 15:15:58,445 - INFO - ============================================================
+2025-08-19 15:15:58,445 - INFO - 🚀 간단한 CrewAI 시스템 시작
+2025-08-19 15:15:58,445 - INFO - 📋 연구 주제: 2025년 최신 AI 트렌드
+2025-08-19 15:15:58,445 - INFO - ============================================================
+2025-08-19 15:15:58,445 - INFO - 🔧 설정: mistral @ http://192.168.100.26:11434/v1
+2025-08-19 15:15:58,445 - INFO - LiteLLM 연결 테스트 중...
+2025-08-19 15:15:58,450 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:03,635 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:03,642 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:03,650 - INFO - LiteLLM 테스트 성공
+2025-08-19 15:16:03,650 - INFO - 웹 검색 기능 테스트 중...
+2025-08-19 15:16:03,650 - INFO - 웹 검색 시작: 'AI 2025'
+2025-08-19 15:16:03,937 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=AI%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:16:04,006 - INFO - response: https://www.bing.com/search?q=AI+2025&pq=AI+2025&cc=wt 200
+2025-08-19 15:16:04,143 - INFO - response: https://search.brave.com/search?q=AI+2025&source=web 200
+2025-08-19 15:16:04,151 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:16:04,151 - INFO - ✅ 웹 검색 테스트 성공
+2025-08-19 15:16:04,151 - INFO - LiteLLM 전역 설정 완료
+2025-08-19 15:16:04,151 - INFO - 
+🤖 3단계 AI 팀 구성 중...
+2025-08-19 15:16:04,158 - INFO - 
+============================================================
+2025-08-19 15:16:04,158 - INFO - 🎯 3단계 AI 팀 작업 시작
+2025-08-19 15:16:04,158 - INFO - 1️⃣ 검색 전략 수립 → 2️⃣ 정보 수집 → 3️⃣ 콘텐츠 작성
+2025-08-19 15:16:04,158 - INFO - ============================================================
+2025-08-19 15:16:04,209 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:06,853 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:06,856 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:06,909 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:08,323 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:08,326 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:08,329 - INFO - 웹 검색 시작: 'Latest advances in AI technology 2025'
+2025-08-19 15:16:08,713 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Latest%20advances%20in%20AI%20technology%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:16:08,824 - INFO - response: https://www.bing.com/search?q=Latest+advances+in+AI+technology+2025&pq=Latest+advances+in+AI+technology+2025&cc=wt 200
+2025-08-19 15:16:09,635 - INFO - response: https://www.mojeek.com/search?q=Latest+advances+in+AI+technology+2025 403
+2025-08-19 15:16:09,635 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:16:09,640 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:11,613 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:11,616 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:11,622 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:12,895 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:12,898 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:12,907 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:14,935 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:14,937 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:14,944 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:16,137 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:16,140 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:16,147 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:17,327 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:17,330 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:17,337 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:18,934 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:18,936 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:18,944 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:20,095 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:20,097 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:20,105 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:21,365 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:21,367 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:21,375 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:22,810 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:22,812 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:22,820 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:24,315 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:24,317 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:24,325 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:26,854 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:26,856 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:26,858 - INFO - 웹 검색 시작: 'AI advancements 2025'
+2025-08-19 15:16:26,921 - INFO - response: https://www.bing.com/search?q=AI+advancements+2025&pq=AI+advancements+2025&cc=wt 200
+2025-08-19 15:16:27,132 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=AI%20advancements%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:16:27,132 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:16:27,141 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:29,512 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:29,514 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:29,522 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:31,293 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:31,296 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:31,298 - INFO - 웹 검색 시작: 'AI news 2025'
+2025-08-19 15:16:31,603 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=AI%20news%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:16:31,662 - INFO - response: https://www.bing.com/search?q=AI+news+2025&pq=AI+news+2025&cc=wt 200
+2025-08-19 15:16:32,279 - INFO - response: https://search.yahoo.com/search;_ylt=GUh0Bs-fjN3NDTSDLoMzFi-E;_ylu=Os4M4WfsU44vdORLo4fpHk_Du79zliRixF4irFkg0jkDmiE?p=AI+news+2025 200
+2025-08-19 15:16:33,000 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:16:33,008 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:35,161 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:35,162 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:35,163 - INFO - 웹 검색 시작: 'AI trends 2025'
+2025-08-19 15:16:35,284 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=AI%20trends%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:16:35,677 - INFO - response: https://www.google.com/search?q=AI+trends+2025&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_rHd1YrV1KPqJEGO6cjRlBXM_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 15:16:37,110 - INFO - response: https://yandex.com/search/site/?text=AI+trends+2025&web=1&searchid=3548359 200
+2025-08-19 15:16:37,182 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:16:37,191 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:39,667 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:39,669 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:39,677 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:42,054 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:42,056 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:42,065 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:43,474 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:43,476 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:43,484 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:45,429 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:45,431 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:45,433 - INFO - 웹 검색 시작: 'AI trends in 2025'
+2025-08-19 15:16:45,582 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=AI%20trends%20in%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:16:45,668 - INFO - response: https://www.bing.com/search?q=AI+trends+in+2025&pq=AI+trends+in+2025&cc=wt 200
+2025-08-19 15:16:45,939 - INFO - response: https://search.brave.com/search?q=AI+trends+in+2025&source=web 200
+2025-08-19 15:16:45,947 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:16:45,954 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:48,343 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:48,348 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:48,350 - INFO - 웹 검색 시작: 'AI trends for organizations in 2025'
+2025-08-19 15:16:48,528 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=AI%20trends%20for%20organizations%20in%202025): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:16:49,957 - INFO - response: https://yandex.com/search/site/?text=AI+trends+for+organizations+in+2025&web=1&searchid=9206647 200
+2025-08-19 15:16:49,958 - INFO - response: https://www.mojeek.com/search?q=AI+trends+for+organizations+in+2025 403
+2025-08-19 15:16:50,038 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:16:50,046 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:52,185 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:52,187 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:52,197 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:54,850 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:54,853 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:54,861 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:56,111 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:56,114 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:56,122 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:16:58,954 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:16:58,957 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:16:58,965 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:17:01,818 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:17:01,820 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:17:01,828 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:17:03,406 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:17:03,409 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:17:03,411 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:17:06,013 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:17:06,015 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:17:06,025 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:17:07,943 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:17:07,945 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:17:07,947 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:17:09,783 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:17:09,786 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:17:09,788 - INFO - 웹 검색 시작: 'latest trends in AI for business'
+2025-08-19 15:17:09,865 - INFO - response: https://www.bing.com/search?q=latest+trends+in+AI+for+business&pq=latest+trends+in+AI+for+business&cc=wt 200
+2025-08-19 15:17:10,164 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=latest%20trends%20in%20AI%20for%20business): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:17:10,165 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:17:10,173 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:17:12,979 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:17:12,982 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:17:12,984 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:17:14,798 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:17:14,801 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:17:14,806 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:17:15,919 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:17:15,921 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:17:15,923 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:17:16,595 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:17:16,598 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:17:16,607 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:17:18,293 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:17:18,295 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:18:18,300 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:18:19,260 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:18:19,263 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:18:19,271 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:18:20,937 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:18:20,939 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:18:20,941 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:18:21,862 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:18:21,865 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:18:21,867 - INFO - 웹 검색 시작: 'latest AI trends for businesses'
+2025-08-19 15:18:22,039 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=latest%20AI%20trends%20for%20businesses): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:18:22,780 - INFO - response: https://search.yahoo.com/search;_ylt=Px1HvFDn9jlCQp31meQ6X1YP;_ylu=OsTiLdyE_FZlr3_xY9HTkpbkPZS53NYvkO_8bFAUl8w1_YM?p=latest+AI+trends+for+businesses 200
+2025-08-19 15:18:23,510 - INFO - response: https://yandex.com/search/site/?text=latest+AI+trends+for+businesses&web=1&searchid=4934016 200
+2025-08-19 15:18:23,608 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:18:23,615 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:18:25,792 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:18:25,795 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:18:25,797 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:18:26,778 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:18:26,781 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:18:26,783 - INFO - 웹 검색 시작: 'latest ai trends for businesses'
+2025-08-19 15:18:26,866 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=latest%20ai%20trends%20for%20businesses): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:18:27,516 - INFO - response: https://www.google.com/search?q=latest+ai+trends+for+businesses&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_rHd1YrV1KPqJEGO6cjRlBXM_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 15:18:28,449 - INFO - response: https://yandex.com/search/site/?text=latest+ai+trends+for+businesses&web=1&searchid=7812593 200
+2025-08-19 15:18:28,520 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:18:28,528 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:18:30,075 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:18:30,078 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:18:30,079 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:18:31,111 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:18:31,114 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:18:31,115 - INFO - 웹 검색 시작: 'AI trends in business'
+2025-08-19 15:18:31,193 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=AI%20trends%20in%20business): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:18:31,771 - INFO - response: https://www.google.com/search?q=AI+trends+in+business&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_rHd1YrV1KPqJEGO6cjRlBXM_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 15:18:32,408 - INFO - response: https://www.mojeek.com/search?q=AI+trends+in+business 403
+2025-08-19 15:18:32,409 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:18:32,417 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:18:34,452 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:18:34,454 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:18:34,456 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:18:35,494 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:18:35,496 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:18:35,504 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:18:37,041 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:18:37,044 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:18:37,046 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:18:38,095 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:18:38,097 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:18:38,106 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:18:40,239 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:18:40,242 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:18:40,244 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:18:42,501 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:18:42,502 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:18:42,503 - INFO - 웹 검색 시작: 'Latest trends in artificial intelligence and e-commerce'
+2025-08-19 15:18:42,579 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Latest%20trends%20in%20artificial%20intelligence%20and%20e-commerce): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:18:43,499 - INFO - response: https://www.google.com/search?q=Latest+trends+in+artificial+intelligence+and+e-commerce&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_rHd1YrV1KPqJEGO6cjRlBXM_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 15:18:44,070 - INFO - response: https://yandex.com/search/site/?text=Latest+trends+in+artificial+intelligence+and+e-commerce&web=1&searchid=7134838 200
+2025-08-19 15:18:44,153 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:18:44,162 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:18:46,657 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:18:46,659 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:18:46,662 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:18:47,736 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:18:47,738 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:18:47,746 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:18:49,129 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:18:49,132 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:18:49,134 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:18:50,221 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:18:50,224 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:18:50,234 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:18:52,088 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:18:52,091 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:18:52,095 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:18:53,062 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:18:53,064 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:18:53,066 - INFO - 웹 검색 시작: 'Latest trends in AI and e-commerce'
+2025-08-19 15:18:53,436 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Latest%20trends%20in%20AI%20and%20e-commerce): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:18:53,788 - INFO - response: https://www.google.com/search?q=Latest+trends+in+AI+and+e-commerce&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_rHd1YrV1KPqJEGO6cjRlBXM_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 15:18:55,087 - INFO - response: https://yandex.com/search/site/?text=Latest+trends+in+AI+and+e-commerce&web=1&searchid=3994491 200
+2025-08-19 15:18:55,168 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:18:55,176 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:18:57,279 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:18:57,281 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:18:57,283 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:18:59,822 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:18:59,825 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:18:59,827 - INFO - 웹 검색 시작: 'latest trends in AI and e-commerce'
+2025-08-19 15:18:59,837 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=latest%20trends%20in%20AI%20and%20e-commerce): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:19:00,482 - INFO - response: https://search.yahoo.com/search;_ylt=LGlExb_M_8RdV6dUjRTkrlcb;_ylu=ww0idKOJiEkb2Eg5WmBb0TwYSC3_WhoFLDiAH3ODJGp9mdw?p=latest+trends+in+AI+and+e-commerce 200
+2025-08-19 15:19:01,368 - INFO - response: https://yandex.com/search/site/?text=latest+trends+in+AI+and+e-commerce&web=1&searchid=4931572 200
+2025-08-19 15:19:01,434 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:19:01,443 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:02,340 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:02,340 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:02,342 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:03,120 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:03,121 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:03,122 - INFO - 웹 검색 시작: 'Latest news in technology'
+2025-08-19 15:19:03,323 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Latest%20news%20in%20technology): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:19:03,421 - INFO - response: https://www.bing.com/search?q=Latest+news+in+technology&pq=Latest+news+in+technology&cc=wt 200
+2025-08-19 15:19:03,747 - INFO - response: https://search.yahoo.com/search;_ylt=0qctE9gKYUAUYCaM2eCI6-Qr;_ylu=35caxSvwI-cx3btAC7E6Qn7CLq6Vtuu8f5xY-EG42nHPec8?p=Latest+news+in+technology 200
+2025-08-19 15:19:04,482 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:19:04,491 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:06,587 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:06,588 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:06,589 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:07,676 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:07,677 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:07,682 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:09,301 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:09,304 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:09,309 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:10,453 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:10,456 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:10,465 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:12,388 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:12,391 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:12,393 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:13,259 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:13,261 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:13,263 - INFO - 웹 검색 시작: 'latest technology news in korean'
+2025-08-19 15:19:13,592 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=latest%20technology%20news%20in%20korean): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:19:13,654 - INFO - response: https://www.bing.com/search?q=latest+technology+news+in+korean&pq=latest+technology+news+in+korean&cc=wt 200
+2025-08-19 15:19:14,099 - INFO - response: https://search.brave.com/search?q=latest+technology+news+in+korean&source=web 200
+2025-08-19 15:19:14,107 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:19:14,114 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:16,316 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:16,319 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:16,321 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:18,343 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:18,346 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:18,348 - INFO - 웹 검색 시작: 'latest news on technology in korea'
+2025-08-19 15:19:18,434 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=latest%20news%20on%20technology%20in%20korea): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:19:18,497 - INFO - response: https://www.bing.com/search?q=latest+news+on+technology+in+korea&pq=latest+news+on+technology+in+korea&cc=wt 200
+2025-08-19 15:19:19,964 - INFO - response: https://yandex.com/search/site/?text=latest+news+on+technology+in+korea&web=1&searchid=7092126 200
+2025-08-19 15:19:20,035 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:19:20,043 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:21,960 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:21,962 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:21,964 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:22,960 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:22,963 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:22,973 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:25,890 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:25,893 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:25,895 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:27,715 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:27,717 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:27,719 - INFO - 웹 검색 시작: '최신 기술 뉴스 조회'
+2025-08-19 15:19:27,902 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%8B%A0%20%EA%B8%B0%EC%88%A0%20%EB%89%B4%EC%8A%A4%20%EC%A1%B0%ED%9A%8C): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:19:28,460 - INFO - response: https://www.google.com/search?q=%EC%B5%9C%EC%8B%A0+%EA%B8%B0%EC%88%A0+%EB%89%B4%EC%8A%A4+%EC%A1%B0%ED%9A%8C&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_rHd1YrV1KPqJEGO6cjRlBXM_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 15:19:28,549 - INFO - response: https://search.brave.com/search?q=%EC%B5%9C%EC%8B%A0+%EA%B8%B0%EC%88%A0+%EB%89%B4%EC%8A%A4+%EC%A1%B0%ED%9A%8C&source=web 200
+2025-08-19 15:19:28,555 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:19:28,562 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:31,167 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:31,169 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:31,172 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:33,024 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:33,025 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:33,026 - INFO - 웹 검색 시작: '최신 기술 뉴스 korea'
+2025-08-19 15:19:33,032 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%8B%A0%20%EA%B8%B0%EC%88%A0%20%EB%89%B4%EC%8A%A4%20korea): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:19:33,615 - INFO - response: https://www.google.com/search?q=%EC%B5%9C%EC%8B%A0+%EA%B8%B0%EC%88%A0+%EB%89%B4%EC%8A%A4+korea&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_rHd1YrV1KPqJEGO6cjRlBXM_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 15:19:33,851 - INFO - response: https://search.brave.com/search?q=%EC%B5%9C%EC%8B%A0+%EA%B8%B0%EC%88%A0+%EB%89%B4%EC%8A%A4+korea&source=web 200
+2025-08-19 15:19:33,858 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:19:33,865 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:35,989 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:35,992 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:35,994 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:36,815 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:36,818 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:36,828 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:42,709 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:42,712 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:42,714 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:44,882 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:44,884 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:44,886 - INFO - 웹 검색 시작: '현재 시나리오의 AI 전문가 역할'
+2025-08-19 15:19:45,073 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%ED%98%84%EC%9E%AC%20%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4%EC%9D%98%20AI%20%EC%A0%84%EB%AC%B8%EA%B0%80%20%EC%97%AD%ED%95%A0): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:19:46,377 - INFO - response: https://www.mojeek.com/search?q=%ED%98%84%EC%9E%AC+%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4%EC%9D%98+AI+%EC%A0%84%EB%AC%B8%EA%B0%80+%EC%97%AD%ED%95%A0 403
+2025-08-19 15:19:46,578 - INFO - response: https://yandex.com/search/site/?text=%ED%98%84%EC%9E%AC+%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4%EC%9D%98+AI+%EC%A0%84%EB%AC%B8%EA%B0%80+%EC%97%AD%ED%95%A0&web=1&searchid=9903069 200
+2025-08-19 15:19:46,677 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:19:46,686 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:48,589 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:48,592 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:48,594 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:49,499 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:49,502 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:49,504 - INFO - 웹 검색 시작: 'AI specialist roles in current scenario'
+2025-08-19 15:19:49,685 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=AI%20specialist%20roles%20in%20current%20scenario): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:19:49,763 - INFO - response: https://www.bing.com/search?q=AI+specialist+roles+in+current+scenario&pq=AI+specialist+roles+in+current+scenario&cc=wt 200
+2025-08-19 15:19:50,228 - INFO - response: https://www.google.com/search?q=AI+specialist+roles+in+current+scenario&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_rHd1YrV1KPqJEGO6cjRlBXM_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 15:19:50,297 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:19:50,305 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:52,905 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:52,907 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:52,910 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:54,505 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:54,508 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:54,509 - INFO - 웹 검색 시작: 'top AI roles in current scenario'
+2025-08-19 15:19:54,725 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=top%20AI%20roles%20in%20current%20scenario): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:19:55,324 - INFO - response: https://www.google.com/search?q=top+AI+roles+in+current+scenario&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_rHd1YrV1KPqJEGO6cjRlBXM_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 15:19:55,543 - INFO - response: https://search.yahoo.com/search;_ylt=y1-_HXCTjRZqVLbMFux1-t2U;_ylu=63b6dCSRKVwkIIxi-20L_f1VvnylTA2TMRPZ4uRxdRcVGjk?p=top+AI+roles+in+current+scenario 200
+2025-08-19 15:19:56,281 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:19:56,290 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:58,583 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:58,584 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:58,585 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:19:59,511 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:19:59,513 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:19:59,515 - INFO - 웹 검색 시작: 'top AI roles in current scenario korean'
+2025-08-19 15:19:59,525 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=top%20AI%20roles%20in%20current%20scenario%20korean): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:20:00,140 - INFO - response: https://search.yahoo.com/search;_ylt=iQyeVjATf4SOoE8IzRjgm7HE;_ylu=5PWzPHlfcWoI4W5dgNcs15lF9gddqNMSNqdCDy66TlWrn3k?p=top+AI+roles+in+current+scenario+korean 200
+2025-08-19 15:20:01,077 - INFO - response: https://yandex.com/search/site/?text=top+AI+roles+in+current+scenario+korean&web=1&searchid=9537638 200
+2025-08-19 15:20:01,158 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:20:01,167 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:20:03,327 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:20:03,329 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:20:03,332 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:20:04,237 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:20:04,278 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:20:04,288 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:20:05,703 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:20:05,706 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:20:05,708 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:20:07,438 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:20:07,441 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:20:07,450 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:20:09,200 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:20:09,203 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:20:09,205 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:20:11,258 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:20:11,260 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:20:11,262 - INFO - 웹 검색 시작: 'top ai roles in current scenario korean'
+2025-08-19 15:20:11,537 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=top%20ai%20roles%20in%20current%20scenario%20korean): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:20:12,089 - INFO - response: https://search.brave.com/search?q=top+ai+roles+in+current+scenario+korean&source=web 200
+2025-08-19 15:20:12,839 - INFO - response: https://www.mojeek.com/search?q=top+ai+roles+in+current+scenario+korean 403
+2025-08-19 15:20:12,841 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:20:12,849 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:20:14,751 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:20:14,754 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:20:14,756 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:20:15,747 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:20:15,749 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:20:15,759 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:20:17,230 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:20:17,232 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:20:17,235 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:20:18,142 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:20:18,144 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:20:18,154 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:20:20,552 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:20:20,554 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:20:20,559 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:20:22,648 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:20:22,650 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:20:22,652 - INFO - 웹 검색 시작: 'top ai roles in current scenario korea'
+2025-08-19 15:20:22,922 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=top%20ai%20roles%20in%20current%20scenario%20korea): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:20:23,434 - INFO - response: https://search.brave.com/search?q=top+ai+roles+in+current+scenario+korea&source=web 200
+2025-08-19 15:20:23,537 - INFO - response: https://search.yahoo.com/search;_ylt=QfMSZCStP-aiZQw1kg6nm7r9;_ylu=Annu84KEl9jyJonyb4rcnnkSXRDKndxPVmWfrjpg_eu0_2M?p=top+ai+roles+in+current+scenario+korea 200
+2025-08-19 15:20:24,233 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:20:24,239 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:20:32,010 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:20:32,012 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:21:32,017 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:21:34,147 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:21:34,150 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:21:34,159 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:21:35,697 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:21:35,700 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:21:35,702 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:21:37,732 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:21:37,735 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:21:37,745 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:21:39,397 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:21:39,398 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:21:39,399 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:21:42,861 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:21:42,863 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:21:42,874 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:21:45,687 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:21:45,689 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:21:45,691 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:21:49,445 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:21:49,448 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:21:49,459 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:21:51,583 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:21:51,585 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:21:51,587 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:21:52,374 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:21:52,376 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:21:52,378 - INFO - 웹 검색 시작: '<keyword>'
+2025-08-19 15:21:52,582 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%3Ckeyword%3E): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:21:53,966 - INFO - response: https://yandex.com/search/site/?text=%3Ckeyword%3E&web=1&searchid=6058693 200
+2025-08-19 15:21:54,022 - INFO - response: https://www.mojeek.com/search?q=%3Ckeyword%3E 403
+2025-08-19 15:21:54,025 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:21:54,035 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:21:55,745 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:21:55,747 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:21:55,749 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:21:56,938 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:21:56,941 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:21:56,951 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:21:58,024 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:21:58,026 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:21:58,029 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:21:59,959 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:21:59,961 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:21:59,963 - INFO - 웹 검색 시작: 'Keyword Cannibalization 한국어'
+2025-08-19 15:22:00,166 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Keyword%20Cannibalization%20%ED%95%9C%EA%B5%AD%EC%96%B4): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:22:00,778 - INFO - response: https://search.brave.com/search?q=Keyword+Cannibalization+%ED%95%9C%EA%B5%AD%EC%96%B4&source=web 200
+2025-08-19 15:22:00,857 - INFO - response: https://search.yahoo.com/search;_ylt=5P_SvbUi7siKvVH4fvaKgyGo;_ylu=HieU4PVS4r0sCvlLAcsbwxH7L8Bcq60JH-yRDJ6UG-ZlP0M?p=Keyword+Cannibalization+%ED%95%9C%EA%B5%AD%EC%96%B4 200
+2025-08-19 15:22:01,315 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:22:01,325 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:03,288 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:03,291 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:03,293 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:04,505 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:04,506 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:04,507 - INFO - 웹 검색 시작: 'Keyword Cannibalization 최신 정보'
+2025-08-19 15:22:04,754 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Keyword%20Cannibalization%20%EC%B5%9C%EC%8B%A0%20%EC%A0%95%EB%B3%B4): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:22:05,762 - INFO - response: https://www.mojeek.com/search?q=Keyword+Cannibalization+%EC%B5%9C%EC%8B%A0+%EC%A0%95%EB%B3%B4 403
+2025-08-19 15:22:05,991 - INFO - response: https://search.brave.com/search?q=Keyword+Cannibalization+%EC%B5%9C%EC%8B%A0+%EC%A0%95%EB%B3%B4&source=web 200
+2025-08-19 15:22:05,998 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:22:06,008 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:08,083 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:08,085 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:08,088 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:09,337 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:09,340 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:09,350 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:10,997 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:10,999 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:11,002 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:13,403 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:13,406 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:13,408 - INFO - 웹 검색 시작: 'What is the latest information about Keyword Cannibalization?'
+2025-08-19 15:22:13,419 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=What%20is%20the%20latest%20information%20about%20Keyword%20Cannibalization%3F): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:22:13,504 - INFO - response: https://www.bing.com/search?q=What+is+the+latest+information+about+Keyword+Cannibalization%3F&pq=What+is+the+latest+information+about+Keyword+Cannibalization%3F&cc=wt 200
+2025-08-19 15:22:14,183 - INFO - response: https://search.yahoo.com/search;_ylt=7GDAt5ar_TM6-VzQsouyb6hT;_ylu=-C4tb6Vw8o1HjahqsfkODcVYub8lYIOsMtQg-41a8lQzlxw?p=What+is+the+latest+information+about+Keyword+Cannibalization%3F 200
+2025-08-19 15:22:14,643 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:22:14,654 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:16,154 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:16,156 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:16,159 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:17,023 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:17,026 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:17,028 - INFO - 웹 검색 시작: 'Keyword Cannibalization'
+2025-08-19 15:22:17,038 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Keyword%20Cannibalization): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:22:17,131 - INFO - response: https://www.bing.com/search?q=Keyword+Cannibalization&pq=Keyword+Cannibalization&cc=wt 200
+2025-08-19 15:22:18,598 - INFO - response: https://yandex.com/search/site/?text=Keyword+Cannibalization&web=1&searchid=3205897 200
+2025-08-19 15:22:18,657 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:22:18,667 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:20,703 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:20,705 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:20,707 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:21,592 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:21,594 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:21,604 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:24,840 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:24,843 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:24,845 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:25,733 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:25,735 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:25,746 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:27,501 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:27,503 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:27,506 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:31,294 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:31,295 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:31,296 - INFO - 웹 검색 시작: '최신 정보 수집하기'
+2025-08-19 15:22:31,509 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%8B%A0%20%EC%A0%95%EB%B3%B4%20%EC%88%98%EC%A7%91%ED%95%98%EA%B8%B0): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:22:31,764 - INFO - response: https://www.google.com/search?q=%EC%B5%9C%EC%8B%A0+%EC%A0%95%EB%B3%B4+%EC%88%98%EC%A7%91%ED%95%98%EA%B8%B0&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_rHd1YrV1KPqJEGO6cjRlBXM_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 15:22:32,293 - INFO - response: https://search.brave.com/search?q=%EC%B5%9C%EC%8B%A0+%EC%A0%95%EB%B3%B4+%EC%88%98%EC%A7%91%ED%95%98%EA%B8%B0&source=web 200
+2025-08-19 15:22:32,346 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:22:32,360 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:33,997 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:33,999 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:34,002 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:35,060 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:35,063 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:35,065 - INFO - 웹 검색 시작: '최신 데이터 수집'
+2025-08-19 15:22:35,282 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%8B%A0%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%88%98%EC%A7%91): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:22:35,377 - INFO - response: https://www.bing.com/search?q=%EC%B5%9C%EC%8B%A0+%EB%8D%B0%EC%9D%B4%ED%84%B0+%EC%88%98%EC%A7%91&pq=%EC%B5%9C%EC%8B%A0+%EB%8D%B0%EC%9D%B4%ED%84%B0+%EC%88%98%EC%A7%91&cc=wt 200
+2025-08-19 15:22:35,590 - INFO - response: https://www.google.com/search?q=%EC%B5%9C%EC%8B%A0+%EB%8D%B0%EC%9D%B4%ED%84%B0+%EC%88%98%EC%A7%91&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_rHd1YrV1KPqJEGO6cjRlBXM_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 15:22:35,635 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:22:35,646 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:37,409 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:37,412 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:37,415 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:38,075 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:38,077 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:38,089 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:40,665 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:40,667 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:40,670 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:42,530 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:42,533 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:42,535 - INFO - 웹 검색 시작: '최근 데이터 스택'
+2025-08-19 15:22:42,544 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EA%B7%BC%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%8A%A4%ED%83%9D): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:22:42,698 - INFO - response: https://search.brave.com/search?q=%EC%B5%9C%EA%B7%BC+%EB%8D%B0%EC%9D%B4%ED%84%B0+%EC%8A%A4%ED%83%9D&source=web 429
+2025-08-19 15:22:43,801 - INFO - response: https://www.mojeek.com/search?q=%EC%B5%9C%EA%B7%BC+%EB%8D%B0%EC%9D%B4%ED%84%B0+%EC%8A%A4%ED%83%9D 403
+2025-08-19 15:22:45,462 - INFO - response: https://yandex.com/search/site/?text=%EC%B5%9C%EA%B7%BC+%EB%8D%B0%EC%9D%B4%ED%84%B0+%EC%8A%A4%ED%83%9D&web=1&searchid=3835388 200
+2025-08-19 15:22:45,559 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:22:45,570 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:49,744 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:49,746 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:49,749 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:50,568 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:50,570 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:50,573 - INFO - 웹 검색 시작: 'data stack modern'
+2025-08-19 15:22:50,778 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=data%20stack%20modern): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:22:51,304 - INFO - response: https://www.google.com/search?q=data+stack+modern&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_rHd1YrV1KPqJEGO6cjRlBXM_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 15:22:52,103 - INFO - response: https://yandex.com/search/site/?text=data+stack+modern&web=1&searchid=4714309 200
+2025-08-19 15:22:52,162 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:22:52,176 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:53,929 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:53,930 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:53,931 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:54,806 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:54,807 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:54,808 - INFO - 웹 검색 시작: 'modern data stack'
+2025-08-19 15:22:54,847 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=modern%20data%20stack): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:22:54,869 - INFO - response: https://www.bing.com/search?q=modern+data+stack&pq=modern+data+stack&cc=wt 200
+2025-08-19 15:22:56,090 - INFO - response: https://www.mojeek.com/search?q=modern+data+stack 403
+2025-08-19 15:22:56,092 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:22:56,102 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:57,848 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:57,851 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:57,853 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:22:59,150 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:22:59,152 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:22:59,162 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:23:00,853 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:23:00,855 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:23:00,857 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:23:01,380 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:23:01,382 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:23:01,392 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:23:03,364 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:23:03,367 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:23:03,369 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:23:04,714 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:23:04,717 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:23:04,727 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:23:07,040 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:23:07,042 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:23:07,045 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:23:08,394 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:23:08,396 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:23:08,406 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:23:11,134 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:23:11,137 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:23:11,139 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:23:13,979 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:23:13,981 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:23:13,992 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:23:16,851 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:23:16,853 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:23:16,858 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:23:20,784 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:23:20,786 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:23:20,798 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:23:23,065 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:23:23,067 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:23:23,070 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:23:27,745 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:23:27,748 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:23:27,758 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:23:31,400 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:23:31,403 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:23:31,405 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:23:33,522 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:23:33,524 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:23:33,535 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:23:34,979 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:23:34,982 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:23:34,984 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:23:35,702 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:23:35,705 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:23:35,716 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:23:37,792 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:23:37,794 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:23:37,796 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:23:38,687 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:23:38,689 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:23:38,700 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:23:40,968 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:23:40,970 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:23:40,973 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:23:42,149 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:23:42,152 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:23:42,162 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:23:46,318 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:23:46,321 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:24:46,327 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:24:49,793 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:24:49,795 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:24:49,807 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:24:51,602 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:24:51,604 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:24:51,607 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:24:52,757 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:24:52,760 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:24:52,762 - INFO - 웹 검색 시작: 'modern schedule'
+2025-08-19 15:24:52,846 - INFO - response: https://www.bing.com/search?q=modern+schedule&pq=modern+schedule&cc=wt 200
+2025-08-19 15:24:52,847 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=modern%20schedule): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:24:53,432 - INFO - response: https://www.google.com/search?q=modern+schedule&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_rHd1YrV1KPqJEGO6cjRlBXM_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 15:24:53,572 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:24:53,582 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:24:57,109 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:24:57,111 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:24:57,113 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:24:57,655 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:24:57,657 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:24:57,667 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:24:59,981 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:24:59,983 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:24:59,986 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:01,673 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:01,673 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:01,681 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:03,521 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:03,523 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:03,526 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:05,682 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:05,685 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:05,686 - INFO - 웹 검색 시작: 'latest schedule'
+2025-08-19 15:25:05,697 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=latest%20schedule): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:25:06,201 - INFO - response: https://www.google.com/search?q=latest+schedule&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_rHd1YrV1KPqJEGO6cjRlBXM_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 15:25:06,342 - INFO - response: https://search.yahoo.com/search;_ylt=sUjlYWrEKWCFMs9oNZqHwZCb;_ylu=1FllfB-RrpGAOKjPvVLwAUysRHq87yef4G85kpJ0BC1PNec?p=latest+schedule 200
+2025-08-19 15:25:06,752 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:25:06,761 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:08,625 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:08,627 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:08,630 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:10,282 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:10,285 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:10,296 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:12,770 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:12,773 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:12,775 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:13,858 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:13,860 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:13,862 - INFO - 웹 검색 시작: 'latest news'
+2025-08-19 15:25:13,872 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=latest%20news): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:25:14,394 - INFO - response: https://www.google.com/search?q=latest+news&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_rHd1YrV1KPqJEGO6cjRlBXM_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 15:25:15,148 - INFO - response: https://www.mojeek.com/search?q=latest+news 403
+2025-08-19 15:25:15,149 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:25:15,159 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:17,235 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:17,237 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:17,239 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:17,971 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:17,972 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:17,983 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:20,114 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:20,117 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:20,119 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:22,873 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:22,876 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:22,878 - INFO - 웹 검색 시작: '최신 코로나 정보'
+2025-08-19 15:25:23,081 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%8B%A0%20%EC%BD%94%EB%A1%9C%EB%82%98%20%EC%A0%95%EB%B3%B4): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:25:23,282 - INFO - response: https://search.brave.com/search?q=%EC%B5%9C%EC%8B%A0+%EC%BD%94%EB%A1%9C%EB%82%98+%EC%A0%95%EB%B3%B4&source=web 429
+2025-08-19 15:25:24,537 - INFO - response: https://yandex.com/search/site/?text=%EC%B5%9C%EC%8B%A0+%EC%BD%94%EB%A1%9C%EB%82%98+%EC%A0%95%EB%B3%B4&web=1&searchid=6112215 200
+2025-08-19 15:25:24,631 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:25:24,641 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:26,053 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:26,054 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:26,056 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:26,721 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:26,722 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:26,729 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:27,877 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:27,878 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:27,879 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:29,350 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:29,352 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:29,364 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:31,613 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:31,616 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:31,619 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:36,173 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:36,176 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:36,185 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:39,928 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:39,930 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:39,933 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:42,817 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:42,820 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:42,822 - INFO - 웹 검색 시작: 'latest covid19 news coronavirus'
+2025-08-19 15:25:43,010 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=latest%20covid19%20news%20coronavirus): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:25:43,490 - INFO - response: https://www.google.com/search?q=latest+covid19+news+coronavirus&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_rHd1YrV1KPqJEGO6cjRlBXM_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=wt-WT&lr=lang_wt&cr=countryWT 200
+2025-08-19 15:25:44,301 - INFO - response: https://www.mojeek.com/search?q=latest+covid19+news+coronavirus 403
+2025-08-19 15:25:44,302 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:25:44,312 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:47,053 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:47,056 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:47,058 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:47,688 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:47,691 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:47,701 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:49,474 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:49,477 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:49,480 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:50,760 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:50,763 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:50,764 - INFO - 웹 검색 시작: '최신 코로나 정보 한국'
+2025-08-19 15:25:50,774 - INFO - Error in engine wikipedia: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%EC%B5%9C%EC%8B%A0%20%EC%BD%94%EB%A1%9C%EB%82%98%20%EC%A0%95%EB%B3%B4%20%ED%95%9C%EA%B5%AD): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: Name or service not known\\n    2: failed to lookup address information: Name or service not known')")
+2025-08-19 15:25:50,860 - INFO - response: https://www.bing.com/search?q=%EC%B5%9C%EC%8B%A0+%EC%BD%94%EB%A1%9C%EB%82%98+%EC%A0%95%EB%B3%B4+%ED%95%9C%EA%B5%AD&pq=%EC%B5%9C%EC%8B%A0+%EC%BD%94%EB%A1%9C%EB%82%98+%EC%A0%95%EB%B3%B4+%ED%95%9C%EA%B5%AD&cc=wt 200
+2025-08-19 15:25:51,390 - INFO - response: https://search.yahoo.com/search;_ylt=oUQw70aYKXGmS9_ZvMoxw6Lw;_ylu=YIPGVmW0bJvMYXqlaEHSFv-i0oZByORLXKeaJji5CCcHAXw?p=%EC%B5%9C%EC%8B%A0+%EC%BD%94%EB%A1%9C%EB%82%98+%EC%A0%95%EB%B3%B4+%ED%95%9C%EA%B5%AD 200
+2025-08-19 15:25:51,767 - INFO - 웹 검색 완료: 5개 결과 반환
+2025-08-19 15:25:51,774 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:53,090 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:53,093 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:53,095 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:54,318 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:54,321 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:54,331 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:56,078 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:56,080 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:56,083 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:57,381 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:57,384 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:57,395 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:25:59,869 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:25:59,872 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:25:59,874 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:26:07,411 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:26:07,413 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:26:07,474 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:26:27,333 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:26:27,336 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:26:27,394 - INFO - 결과가 simple_ai_blog_2025년_최신_AI_트렌드_20250819_152627.md에 저장되었습니다.
+2025-08-19 15:26:27,395 - INFO - 
+============================================================
+2025-08-19 15:26:27,395 - INFO - 🎉 작업 완료!
+2025-08-19 15:26:27,395 - INFO - ============================================================
+2025-08-19 15:26:27,395 - INFO - 
+📁 결과가 'simple_ai_blog_2025년_최신_AI_트렌드_20250819_152627.md' 파일에 저장되었습니다.
+2025-08-19 15:44:27,597 - INFO - ============================================================
+2025-08-19 15:44:27,597 - INFO - 🚀 간단한 CrewAI 시스템 시작
+2025-08-19 15:44:27,597 - INFO - 📋 연구 주제: 2025년 최신 AI 트렌드
+2025-08-19 15:44:27,597 - INFO - ============================================================
+2025-08-19 15:44:27,597 - INFO - 🔧 설정: mistral @ http://192.168.100.26:11434/v1
+2025-08-19 15:44:27,597 - INFO - LiteLLM 연결 테스트 중...
+2025-08-19 15:44:27,601 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:44:33,077 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:44:33,085 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:44:33,092 - INFO - LiteLLM 테스트 성공
+2025-08-19 15:44:33,092 - INFO - 구글 검색 기능 테스트 중...
+2025-08-19 15:44:33,092 - INFO - 구글 검색 시작: 'AI trends 2025'
+2025-08-19 15:44:33,493 - WARNING - ⚠️ 구글 검색 결과가 예상과 다릅니다
+2025-08-19 15:44:33,493 - INFO - LiteLLM 전역 설정 완료
+2025-08-19 15:44:33,493 - INFO - 
+🤖 3단계 AI 팀 구성 중...
+2025-08-19 15:44:33,498 - INFO - 
+============================================================
+2025-08-19 15:44:33,498 - INFO - 🎯 3단계 AI 팀 작업 시작
+2025-08-19 15:44:33,498 - INFO - 1️⃣ 검색 전략 수립 → 2️⃣ 정보 수집 → 3️⃣ 콘텐츠 작성
+2025-08-19 15:44:33,498 - INFO - ============================================================
+2025-08-19 15:44:33,548 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:44:37,073 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:44:37,074 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:44:37,120 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:44:39,117 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:44:39,119 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:44:39,125 - INFO - 구글 검색 시작: 'Latest advancements in AI 2025'
+2025-08-19 15:44:39,533 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:44:42,188 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:44:42,190 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:44:42,230 - INFO - 구글 검색 시작: 'Latest advancements in AI technology 2025 report'
+2025-08-19 15:44:42,667 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:44:45,846 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:44:45,849 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:44:45,851 - INFO - 구글 검색 시작: 'Latest advancements in AI technology report 2025'
+2025-08-19 15:44:46,287 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:44:48,847 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:44:48,849 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:44:48,851 - INFO - 구글 검색 시작: 'Generative AI market adoption trends'
+2025-08-19 15:44:49,341 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:44:52,203 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:44:52,205 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:44:52,207 - INFO - 구글 검색 시작: 'Generative AI market adoption trends 2025'
+2025-08-19 15:44:52,721 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:44:55,374 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:44:55,377 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:44:55,379 - INFO - 구글 검색 시작: 'Generative AI adoption trends in business 2025'
+2025-08-19 15:44:55,791 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:44:58,410 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:44:58,412 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:44:58,414 - INFO - 구글 검색 시작: 'Latest Developments in Artificial Intelligence Technologies for 2025'
+2025-08-19 15:44:59,524 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:02,813 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:45:02,813 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:45:02,814 - INFO - 구글 검색 시작: 'Latest advancements in Machine Learning and Deep Learning for 2025 (Korean)'
+2025-08-19 15:45:03,249 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:04,874 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:45:04,877 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:45:04,885 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:08,941 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:45:08,944 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:45:08,953 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:11,337 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:45:11,340 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:45:11,341 - INFO - 구글 검색 시작: 'Latest developments in Artificial Intelligence Technologies for 2025'
+2025-08-19 15:45:11,781 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:13,600 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:45:13,603 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:45:13,611 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:16,346 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:45:16,348 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:45:16,350 - INFO - 구글 검색 시작: '"Latest developments in Machine Learning (ML) for 2025" "Latest developments in Deep Learning (DL) for 2025" "Latest advancements in Robotics for 2025" "Latest trends in Natural Language Processing (NLP) for 2025" "Latest progress in Computer Vision (CV) for 2025"'
+2025-08-19 15:45:16,858 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:19,196 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:45:19,199 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:45:19,201 - INFO - 구글 검색 시작: 'Latest developments in Controlled Software'
+2025-08-19 15:45:19,710 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:21,193 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:45:21,196 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:45:21,198 - INFO - 구글 검색 시작: 'Latest news'
+2025-08-19 15:45:21,990 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:25,343 - INFO - ============================================================
+2025-08-19 15:45:25,343 - INFO - 🚀 간단한 CrewAI 시스템 시작
+2025-08-19 15:45:25,343 - INFO - 📋 연구 주제: 2025년 최신 AI 트렌드
+2025-08-19 15:45:25,343 - INFO - ============================================================
+2025-08-19 15:45:25,343 - INFO - 🔧 설정: mistral @ http://192.168.100.26:11434/v1
+2025-08-19 15:45:25,343 - INFO - LiteLLM 연결 테스트 중...
+2025-08-19 15:45:25,347 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:26,919 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:45:26,926 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:45:26,933 - INFO - LiteLLM 테스트 성공
+2025-08-19 15:45:26,934 - INFO - 구글 검색 기능 테스트 중...
+2025-08-19 15:45:26,934 - INFO - 구글 검색 시작: 'AI trends 2025'
+2025-08-19 15:45:27,339 - WARNING - ⚠️ 구글 검색 결과가 예상과 다릅니다
+2025-08-19 15:45:27,339 - INFO - LiteLLM 전역 설정 완료
+2025-08-19 15:45:27,339 - INFO - 
+🤖 3단계 AI 팀 구성 중...
+2025-08-19 15:45:27,344 - INFO - 
+============================================================
+2025-08-19 15:45:27,344 - INFO - 🎯 3단계 AI 팀 작업 시작
+2025-08-19 15:45:27,344 - INFO - 1️⃣ 검색 전략 수립 → 2️⃣ 정보 수집 → 3️⃣ 콘텐츠 작성
+2025-08-19 15:45:27,344 - INFO - ============================================================
+2025-08-19 15:45:27,393 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:30,524 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:45:30,526 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:45:30,581 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:32,595 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:45:32,598 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:45:32,601 - INFO - 구글 검색 시작: 'Artificial intelligence breakthroughs 2025'
+2025-08-19 15:45:33,125 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:34,699 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:45:34,701 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:45:34,709 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:35,967 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:45:35,970 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:45:35,974 - INFO - 구글 검색 시작: 'Artificial Intelligence Breakthroughs in 2025'
+2025-08-19 15:45:36,905 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:38,514 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:45:38,516 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:45:38,524 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:39,733 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:45:39,736 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:45:39,743 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:41,088 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:45:41,091 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:45:41,099 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:43,139 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:45:43,140 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:45:43,147 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:44,427 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:45:44,430 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:45:44,431 - INFO - 구글 검색 시작: 'AI breakthroughs 2025'
+2025-08-19 15:45:44,836 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:45,961 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:45:46,002 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:45:46,005 - INFO - 구글 검색 시작: 'AI technology advancements in 2025'
+2025-08-19 15:45:46,516 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:48,543 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:45:48,546 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:45:48,548 - INFO - 구글 검색 시작: 'AI news 2025'
+2025-08-19 15:45:48,988 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:51,227 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:45:51,230 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:45:51,232 - INFO - 구글 검색 시작: 'Artificial Intelligence Breakthroughs 2025'
+2025-08-19 15:45:51,652 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:53,673 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:45:53,676 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:45:53,678 - INFO - 구글 검색 시작: 'Latest audio recognition technology in universities'
+2025-08-19 15:45:54,441 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:57,010 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:45:57,013 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:45:57,090 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:45:59,505 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:45:59,508 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:45:59,510 - INFO - 구글 검색 시작: 'Artificial Intelligence Breakthroughs in 2023'
+2025-08-19 15:45:59,839 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:46:02,010 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:46:02,013 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:46:02,022 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:46:04,596 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:46:04,599 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:46:04,601 - INFO - 구글 검색 시작: 'latest AI research news'
+2025-08-19 15:46:04,969 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:46:07,460 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:46:07,463 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:46:07,472 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:46:08,994 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:46:08,996 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:46:08,998 - INFO - 구글 검색 시작: 'Artificial Neural Networks'
+2025-08-19 15:46:09,347 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:46:12,761 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:46:12,764 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:46:12,769 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:46:14,225 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:46:14,227 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:46:14,229 - INFO - 구글 검색 시작: 'latest artificial intelligence research news'
+2025-08-19 15:46:14,658 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:46:17,218 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:46:17,221 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:46:17,223 - INFO - 구글 검색 시작: 'latest ai advancements'
+2025-08-19 15:46:17,658 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:46:19,595 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:46:19,598 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:46:19,600 - INFO - 구글 검색 시작: 'latest AI research'
+2025-08-19 15:46:20,201 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:46:21,524 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:46:21,524 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:46:21,525 - INFO - 구글 검색 시작: 'latest AI news'
+2025-08-19 15:46:21,839 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:46:23,160 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:46:23,162 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:46:23,164 - INFO - 구글 검색 시작: 'latest AI news in 2023'
+2025-08-19 15:46:23,507 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:46:25,777 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:46:25,779 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:46:25,781 - INFO - 구글 검색 시작: 'latest AI advancements'
+2025-08-19 15:46:26,098 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:46:28,154 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:46:28,157 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:46:28,159 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:46:30,440 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:46:30,443 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:46:30,444 - INFO - 구글 검색 시작: 'Latest AI Advancements in 2023'
+2025-08-19 15:46:30,788 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:46:45,668 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:46:45,669 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:46:45,670 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:46:48,730 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:46:48,732 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:46:48,734 - INFO - 구글 검색 시작: 'Latest AI Advancements'
+2025-08-19 15:46:49,067 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:46:52,153 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:46:52,156 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:46:52,158 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:46:53,852 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:46:53,854 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:46:53,856 - INFO - 구글 검색 시작: 'Latest Artificial Intelligence Advancements'
+2025-08-19 15:46:54,176 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:46:57,454 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:46:57,456 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:46:57,458 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:47:00,573 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:47:00,575 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:47:00,577 - INFO - 구글 검색 시작: 'latest AI advances'
+2025-08-19 15:47:00,887 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:47:04,111 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:47:04,113 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:48:04,118 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:48:18,249 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:48:18,252 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:48:18,312 - INFO - 
+LiteLLM completion() model= mistral; provider = openai
+2025-08-19 15:48:33,332 - INFO - HTTP Request: POST http://192.168.100.26:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-19 15:48:33,334 - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-19 15:48:33,391 - INFO - 결과가 simple_ai_blog_2025년_최신_AI_트렌드_20250819_154833.md에 저장되었습니다.
+2025-08-19 15:48:33,391 - INFO - 
+============================================================
+2025-08-19 15:48:33,391 - INFO - 🎉 작업 완료!
+2025-08-19 15:48:33,391 - INFO - ============================================================
+2025-08-19 15:48:33,391 - INFO - 
+📁 결과가 'simple_ai_blog_2025년_최신_AI_트렌드_20250819_154833.md' 파일에 저장되었습니다.
