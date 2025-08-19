@@ -575,15 +575,6 @@ def run_default():
     return result
 
 if __name__ == "__main__":
-    # 패키지 확인
-    try:
-        import duckduckgo_search
-        logger.info("✅ duckduckgo-search 패키지 확인됨")
-    except ImportError:
-        logger.error("❌ duckduckgo-search 패키지가 설치되지 않았습니다.")
-        print("pip install duckduckgo-search 명령으로 설치해주세요.")
-        sys.exit(1)
-    
     # 명령행 인자가 있으면 CLI 모드, 없으면 기본 실행
     if len(sys.argv) > 1:
         main()
