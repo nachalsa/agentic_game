@@ -8,11 +8,7 @@ from dotenv import load_dotenv
 import argparse
 import re
 
-# DuckDuckGo Search
-try:
-    from ddgs import DDGS
-except ImportError:
-    from duckduckgo_search import DDGS
+from ddgs import DDGS
 
 # 로깅 설정
 logging.basicConfig(
@@ -53,12 +49,13 @@ class ResearchConfig:
 MODEL_NAME = os.getenv("DEFAULT_LLM", "cpatonn/Devstral-Small-2507-AWQ")
 API_BASE_URL = os.getenv("DEFAULT_URL", "http://localhost:54321")
 API_KEY = os.getenv("DEFAULT_API_KEY", "huntr/x_How_It's_Done")
+TIMEOUT = int(os.getenv("TIMEOUT", "30"))
 MAX_EXECUTION_TIME = int(os.getenv("MAX_EXECUTION_TIME", "600"))
 
 if not API_BASE_URL.endswith('/v1'):
     API_BASE_URL = API_BASE_URL.rstrip('/') + '/v1'
 
-# 웹 검색 도구 (개선된 버전)
+# 웹 검색 도구
 @tool("Web Search Tool")
 def web_search_tool(query: str) -> str:
     """웹에서 정보를 검색하는 도구"""
