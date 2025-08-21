@@ -51,15 +51,87 @@ class ResearchConfig:
         # 파일명용 안전한 토픽명 생성
         self.safe_topic = re.sub(r'[^\w\s-]', '', topic.replace(' ', '_'))[:50]
 
-# 환경 변수
-MODEL_NAME = os.getenv("DEFAULT_LLM", "cpatonn/Devstral-Small-2507-AWQ")
-API_BASE_URL = os.getenv("DEFAULT_URL", "http://localhost:54321")
-API_KEY = os.getenv("DEFAULT_API_KEY", "huntr/x_How_It's_Done")
+# 스마트 LLM 설정 함수
+def setup_llm_config():
+    """환경변수에서 LLM 설정을 자동으로 감지하고 설정"""
+    
+    # 기본 환경변수들
+    model_name = os.getenv("DEFAULT_LLM", "cpatonn/Devstral-Small-2507-AWQ")
+    api_key = os.getenv("DEFAULT_API_KEY", "http://localhost:54321")
+    api_base = os.getenv("DEFAULT_URL", None)
+    
+    # 모델명에서 프로바이더 자동 감지
+    model_lower = model_name.lower()
+    
+    if any(x in model_lower for x in ["gemini", "google"]):
+        # Gemini 설정
+        provider = "gemini"
+        if not api_key:
+            api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY", "")
+        model_prefix = "gemini"
+        api_base = None  # Gemini는 기본 URL 사용
+        
+    elif any(x in model_lower for x in ["gpt", "openai"]):
+        # OpenAI 설정
+        provider = "openai"
+        if not api_key:
+            api_key = os.getenv("OPENAI_API_KEY", "")
+        model_prefix = "openai"
+        if not api_base:
+            api_base = None  # OpenAI 기본 URL 사용
+            
+    elif any(x in model_lower for x in ["claude", "anthropic"]):
+        # Anthropic 설정
+        provider = "anthropic"
+        if not api_key:
+            api_key = os.getenv("ANTHROPIC_API_KEY", "")
+        model_prefix = "anthropic"
+        api_base = None  # Anthropic 기본 URL 사용
+        
+    else:
+        # Ollama/vLLM/기타 OpenAI 호환 (기존 방식 유지)
+        provider = "openai_compatible"
+        model_prefix = "openai"
+        if not api_base:
+            api_base = "http://localhost:11434"
+        if not api_key:
+            api_key = "ollama"
+        
+        # Ollama/vLLM의 OpenAI 호환 API는 /v1 경로 필요
+        if api_base and not api_base.endswith('/v1'):
+            api_base = api_base.rstrip('/') + '/v1'
+    
+    # 전체 모델명 생성
+    if "/" in model_name:
+        full_model_name = model_name  # 이미 프리픽스가 있는 경우
+    else:
+        full_model_name = f"{model_prefix}/{model_name}"
+    
+    # LiteLLM 설정
+    if api_base:
+        litellm.api_base = api_base
+        
+    if api_key:
+        litellm.api_key = api_key
+        
+    litellm.drop_params = True
+    
+    # 정보 출력
+    logger.info(f"🤖 프로바이더: {provider}")
+    logger.info(f"🤖 모델: {full_model_name}")
+    logger.info(f"🔗 API Base: {api_base or '기본값 사용'}")
+    logger.info(f"🔑 API 키: {'설정됨' if api_key else '없음'}")
+    
+    return {
+        "provider": provider,
+        "full_model_name": full_model_name,
+        "api_base": api_base,
+        "api_key": api_key
+    }
+
+# 환경 변수 (기존 유지)
 TIMEOUT = int(os.getenv("TIMEOUT", "30"))
 MAX_EXECUTION_TIME = int(os.getenv("MAX_EXECUTION_TIME", "900"))
-
-if not API_BASE_URL.endswith('/v1'):
-    API_BASE_URL = API_BASE_URL.rstrip('/') + '/v1'
 
 # 개선된 User-Agent 목록
 USER_AGENTS = [
@@ -70,7 +142,7 @@ USER_AGENTS = [
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0'
 ]
 
-# Helper 함수들
+# Helper 함수들 (기존과 동일)
 def get_random_headers():
     """랜덤한 헤더 생성"""
     return {
@@ -85,7 +157,7 @@ def get_random_headers():
     }
 
 def is_good_text(text):
-    """텍스트 품질 검증 (개선됨)"""
+    """텍스트 품질 검증"""
     if not text or len(text.strip()) < 50:
         return False
     
@@ -117,7 +189,7 @@ def is_good_text(text):
     return True
 
 def extract_with_requests_only(url):
-    """requests + trafilatura만으로 텍스트 추출 (개선됨)"""
+    """requests + trafilatura만으로 텍스트 추출"""
     try:
         logger.info(f"📄 requests + trafilatura로 추출 시도: {url}")
         
@@ -131,7 +203,7 @@ def extract_with_requests_only(url):
                     headers=headers, 
                     timeout=15,
                     allow_redirects=True,
-                    verify=False  # SSL 검증 비활성화
+                    verify=False
                 )
                 
                 if response.status_code == 200:
@@ -155,7 +227,7 @@ def extract_with_requests_only(url):
         if response.status_code != 200:
             return None
             
-        # trafilatura로 텍스트 추출 (파라미터 수정)
+        # trafilatura로 텍스트 추출
         try:
             import trafilatura
             
@@ -164,7 +236,6 @@ def extract_with_requests_only(url):
                 include_comments=False,
                 include_tables=True,
                 include_images=False,
-                # output_format 파라미터 제거 (기본값 사용)
             )
             
             if extracted_text and is_good_text(extracted_text):
@@ -202,7 +273,7 @@ def extract_with_playwright_improved(url):
                     '--no-sandbox',
                     '--disable-dev-shm-usage',
                     '--disable-images',
-                    '--disable-javascript',  # JS 비활성화로 속도 향상
+                    '--disable-javascript',
                     '--disable-plugins',
                     '--disable-extensions'
                 ]
@@ -217,7 +288,7 @@ def extract_with_playwright_improved(url):
             
             try:
                 page.goto(url, wait_until='domcontentloaded', timeout=15000)
-                time.sleep(1)  # 렌더링 대기 시간 단축
+                time.sleep(1)
                 content = page.content()
             except Exception as e:
                 logger.warning(f"⚠️ Playwright 페이지 로드 실패: {str(e)}")
@@ -293,7 +364,7 @@ def fallback_simple_extraction(url):
         
     return None
 
-# 개선된 통합 웹 검색 도구
+# 웹 검색 도구 (기존과 동일)
 @tool("Web Search Tool")
 def web_search_tool(query: str) -> str:
     """개선된 통합 웹 검색 및 텍스트 추출 도구"""
@@ -303,13 +374,12 @@ def web_search_tool(query: str) -> str:
         # 1단계: 웹 검색
         ddgs = DDGS()
         
-        # 검색 시도 (타임아웃 추가)
         try:
             search_results = ddgs.text(
                 query=query, 
                 region='wt-wt', 
                 safesearch='moderate', 
-                max_results=8  # 더 많은 결과로 증가
+                max_results=8
             )
         except Exception as e:
             logger.warning(f"⚠️ DuckDuckGo 검색 실패: {str(e)}")
@@ -323,7 +393,6 @@ def web_search_tool(query: str) -> str:
         unique_urls = []
         seen_urls = set()
         
-        # 접근하기 어려운 도메인 필터링
         blocked_domains = [
             'microsoft.com', 'apple.com', 'facebook.com', 'twitter.com',
             'linkedin.com', 'indeed.com', 'glassdoor.com'
@@ -334,7 +403,6 @@ def web_search_tool(query: str) -> str:
             title = result.get('title', '제목 없음')
             
             if url and url not in seen_urls:
-                # 차단된 도메인 체크
                 domain_blocked = any(domain in url.lower() for domain in blocked_domains)
                 if not domain_blocked:
                     unique_urls.append({'url': url, 'title': title})
@@ -345,9 +413,9 @@ def web_search_tool(query: str) -> str:
         if not unique_urls:
             return f"'{query}'에 대한 접근 가능한 URL을 찾을 수 없습니다."
         
-        # 2단계: 페이지 크롤링 및 텍스트 추출 (개선됨)
+        # 2단계: 페이지 크롤링 및 텍스트 추출
         extracted_contents = []
-        max_pages = min(4, len(unique_urls))  # 더 많은 페이지 시도
+        max_pages = min(4, len(unique_urls))
         
         for i, item in enumerate(unique_urls[:max_pages]):
             url = item['url']
@@ -380,7 +448,6 @@ def web_search_tool(query: str) -> str:
             else:
                 logger.warning(f"⚠️ 모든 추출 방법 실패: {url}")
             
-            # 요청 간격 추가
             time.sleep(random.uniform(1, 2))
         
         # 3단계: 결과 포맷팅
@@ -403,7 +470,7 @@ def web_search_tool(query: str) -> str:
         logger.error(error_msg)
         return error_msg
 
-# 주제별 프리셋 (동일)
+# 주제별 프리셋 (기존과 동일)
 RESEARCH_PRESETS = {
     "ai": "2025년 최신 AI 트렌드",
     "blockchain": "2025년 블록체인 기술 발전", 
@@ -421,23 +488,19 @@ def get_preset_topic(preset_name: str) -> str:
     """프리셋 주제 반환 (없으면 입력값 그대로 반환)"""
     return RESEARCH_PRESETS.get(preset_name.lower(), preset_name)
 
-# 범용 AI 리서치 크루 클래스 (기존 이름 유지)
+# 범용 AI 리서치 크루 클래스 (간소화)
 class UniversalResearchCrew:
     """모든 주제에 대해 리서치 보고서를 생성하는 AI 크루 시스템"""
     
     def __init__(self, config: ResearchConfig):
         self.config = config
-        self.setup_environment()
-    
-    def setup_environment(self):
-        """LiteLLM 환경 설정"""
-        litellm.api_base = API_BASE_URL
-        litellm.api_key = API_KEY
-        litellm.drop_params = True
-        logger.info("환경 설정 완료")
+        self.llm_config = setup_llm_config()
     
     def create_agents(self):
-        """에이전트 생성 (기존 구조 유지)"""
+        """에이전트 생성"""
+        
+        # 설정된 모델명 사용
+        full_model_name = self.llm_config["full_model_name"]
         
         planner = Agent(
             role='연구 계획 전문가',
@@ -446,7 +509,7 @@ class UniversalResearchCrew:
             복잡한 주제를 핵심 질문으로 분해하고, 최신 정보를 얻을 수 있는 검색어를 설계합니다.''',
             verbose=True,
             allow_delegation=False,
-            llm=f"openai/{MODEL_NAME}",
+            llm=full_model_name,
             max_tokens=1024,
             temperature=0.6
         )
@@ -459,7 +522,7 @@ class UniversalResearchCrew:
             verbose=True,
             allow_delegation=False,
             tools=[web_search_tool],
-            llm=f"openai/{MODEL_NAME}",
+            llm=full_model_name,
             max_tokens=2000,
             temperature=0.7
         )
@@ -471,7 +534,7 @@ class UniversalResearchCrew:
             다양한 분야의 최신 정보를 독자가 이해하기 쉽고 실용적인 콘텐츠로 변환합니다.''',
             verbose=True,
             allow_delegation=False,
-            llm=f"openai/{MODEL_NAME}",
+            llm=full_model_name,
             max_tokens=2000,
             temperature=0.8
         )
@@ -479,9 +542,9 @@ class UniversalResearchCrew:
         return planner, researcher, writer
     
     def create_tasks(self, planner, researcher, writer):
-        """태스크 생성 (기존 구조 유지, 내용만 개선)"""
+        """태스크 생성 (기존과 동일)"""
         
-        # 1. 검색 계획 수립 (동일)
+        # 1. 검색 계획 수립
         planning_task = Task(
             description=f'''"{self.config.topic}"에 대한 포괄적인 연구를 수행해야 합니다.
             
@@ -547,7 +610,7 @@ class UniversalResearchCrew:
             context=[planning_task]
         )
 
-        # 3. 콘텐츠 작성 (동일)
+        # 3. 콘텐츠 작성
         write_task = Task(
             description=f'''연구 요약 보고서를 바탕으로 "{self.config.topic}"에 대한 
             **반드시 {self.config.language}로만 작성된** {self.config.report_type}을 작성합니다.
@@ -587,7 +650,7 @@ class UniversalResearchCrew:
         return planning_task, research_task, write_task
     
     def save_result(self, result):
-        """결과를 파일로 저장 (동일)"""
+        """결과를 파일로 저장"""
         if not result:
             logger.warning("저장할 결과가 없습니다.")
             return None
@@ -602,8 +665,10 @@ class UniversalResearchCrew:
                 f.write(f"보고서 유형: {self.config.report_type}\n")
                 f.write(f"언어: {self.config.language}\n")
                 f.write(f"검색 쿼리 수: {self.config.search_queries_count}개\n")
-                f.write(f"페이지당 최대 크롤링: {self.config.max_pages_per_query}개\n\n")
-                f.write("---\n\n")
+                f.write(f"페이지당 최대 크롤링: {self.config.max_pages_per_query}개\n")
+                f.write(f"LLM 프로바이더: {self.llm_config['provider']}\n")
+                f.write(f"LLM 모델: {self.llm_config['full_model_name']}\n")
+                f.write("\n---\n\n")
                 f.write(str(result))
             
             logger.info(f"결과가 {filename}에 저장되었습니다.")
@@ -613,7 +678,7 @@ class UniversalResearchCrew:
             return None
     
     def research(self):
-        """메인 리서치 실행 메서드 (동일)"""
+        """메인 리서치 실행 메서드"""
         try:
             logger.info("=" * 60)
             logger.info(f"🚀 범용 AI 리서치 크루 시작")
@@ -658,9 +723,56 @@ class UniversalResearchCrew:
             logger.error(f"❌ 리서치 실행 오류: {e}", exc_info=True)
             return None
 
+def test_llm_connection():
+    """LLM 연결 테스트"""
+    try:
+        print("🧪 LLM 연결 테스트 시작...")
+        
+        # 설정 정보 출력
+        llm_config = setup_llm_config()
+        
+        # 간단한 테스트 요청
+        test_messages = [{"role": "user", "content": "안녕하세요! 간단한 테스트입니다. 한국어로 답변해주세요."}]
+        
+        start_time = time.time()
+        response = litellm.completion(
+            model=llm_config["full_model_name"],
+            messages=test_messages,
+            max_tokens=100,
+            temperature=0.7
+        )
+        end_time = time.time()
+        
+        # 결과 출력
+        response_time = end_time - start_time
+        content = response.choices[0].message.content
+        
+        print("✅ 연결 성공!")
+        print(f"📝 응답: {content}")
+        print(f"⏱️ 응답 시간: {response_time:.2f}초")
+        
+        if hasattr(response, 'usage') and response.usage:
+            print(f"📊 토큰 사용량: {response.usage.total_tokens}")
+        
+        return True
+        
+    except Exception as e:
+        print(f"❌ 연결 실패: {str(e)}")
+        
+        # 일반적인 오류 해결책 제안
+        error_str = str(e).lower()
+        if "api key" in error_str or "authentication" in error_str:
+            print("💡 해결책: API 키를 확인해주세요")
+        elif "connection" in error_str or "timeout" in error_str:
+            print("💡 해결책: 네트워크 연결을 확인해주세요")
+        elif "quota" in error_str or "rate limit" in error_str:
+            print("💡 해결책: API 사용량 한도를 확인해주세요")
+        
+        return False
+
 def main():
-    """메인 실행 함수 (기존 동일)"""
-    parser = argparse.ArgumentParser(description='범용 AI 리서치 크루 - 다단계 웹 검색으로 신뢰성 높은 보고서 생성')
+    """메인 실행 함수"""
+    parser = argparse.ArgumentParser(description='범용 AI 리서치 크루 - 다양한 LLM 프로바이더 지원')
     parser.add_argument('--topic', '-t', 
                         default='2025년 최신 AI 트렌드', 
                         help='연구 주제 (또는 프리셋: ai, blockchain, health, etc.)')
@@ -682,6 +794,9 @@ def main():
     parser.add_argument('--list-presets', 
                         action='store_true', 
                         help='사용 가능한 프리셋 주제 목록 출력')
+    parser.add_argument('--test-llm', 
+                        action='store_true', 
+                        help='LLM 연결 테스트만 실행')
     
     args = parser.parse_args()
     
@@ -690,6 +805,11 @@ def main():
         print("📋 사용 가능한 프리셋 주제:")
         for key, value in RESEARCH_PRESETS.items():
             print(f"  {key}: {value}")
+        return
+    
+    # LLM 테스트
+    if args.test_llm:
+        test_llm_connection()
         return
     
     # 설정 생성
@@ -729,7 +849,7 @@ def main():
         print(f"\n❌ 작업 실패. 로그를 확인해보세요.")
 
 def run_default():
-    """기본 실행 함수 (동일)"""
+    """기본 실행 함수"""
     print("🚀 범용 AI 리서치 크루 시작!")
     print("📋 기본 주제로 보고서를 생성합니다...")
     
@@ -757,6 +877,7 @@ def run_default():
     if result:
         print(f"\n✅ '{config.topic}' 연구 보고서가 성공적으로 생성되었습니다!")
         print("💡 다른 주제로 연구하려면: python script.py --topic '원하는 주제'")
+        print("💡 LLM 연결 테스트: python script.py --test-llm")
     else:
         print(f"\n❌ 작업 실패. 로그를 확인해보세요.")
     
