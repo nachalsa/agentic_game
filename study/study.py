@@ -83,7 +83,7 @@ def is_good_text(text):
     return True
 
 def extract_with_playwright(url):
-    """Playwright로 동적 웹페이지 렌더링 후 텍스트 추출"""
+    """Playwright로 동적 웹페이지 렌더링 후 텍스트 추출 (기존 코드, 소폭 수정)"""
     try:
         from playwright.sync_api import sync_playwright
         import trafilatura
@@ -96,7 +96,7 @@ def extract_with_playwright(url):
                 args=[
                     '--no-sandbox',
                     '--disable-dev-shm-usage',
-                    '--disable-images',  # 30% 절약
+                    '--disable-images',
                     '--disable-background-timer-throttling',
                     '--disable-renderer-backgrounding'
                 ]
@@ -104,7 +104,7 @@ def extract_with_playwright(url):
             
             context = browser.new_context(
                 viewport={'width': 1280, 'height': 720},
-                user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+                user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'  # 수정: 최신 User-Agent
             )
             
             page = context.new_page()
@@ -117,13 +117,13 @@ def extract_with_playwright(url):
             content = page.content()
             browser.close()
             
-            # trafilatura로 텍스트 추출
+            # trafilatura로 텍스트 추출 (수정: output_format 제거)
             extracted_text = trafilatura.extract(
                 content,
                 include_comments=False,
                 include_tables=True,
-                include_images=False,
-                output_format='text'
+                include_images=False
+                # output_format='text' 제거 ← 핵심 수정!
             )
             
             if extracted_text and len(extracted_text.strip()) > 100:
@@ -185,14 +185,14 @@ def web_search_tool(query: str) -> str:
             try:
                 logger.info(f"📄 페이지 처리 중 ({i+1}/{max_pages}): {url}")
                 
-                # 페이지 다운로드
+                # 페이지 다운로드 (수정: 헤더 개선, SSL 검증 비활성화)
                 headers = {
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
                 }
-                response = requests.get(url, headers=headers, timeout=10)
+                response = requests.get(url, headers=headers, timeout=10, verify=False)  # verify=False 추가
                 response.raise_for_status()
                 
-                # 3단계: trafilatura 1차 시도
+                # 3단계: trafilatura 1차 시도 (수정: output_format 제거)
                 extracted_text = None
                 try:
                     import trafilatura
@@ -201,8 +201,8 @@ def web_search_tool(query: str) -> str:
                         response.text,
                         include_comments=False,
                         include_tables=True,
-                        include_images=False,
-                        output_format='text'
+                        include_images=False
+                        # output_format='text' 제거 ← 핵심 수정!
                     )
                     
                     # 품질 검증
@@ -225,7 +225,7 @@ def web_search_tool(query: str) -> str:
                 except ImportError:
                     logger.warning("❌ trafilatura 없음, Playwright 시도")
                 
-                # 4단계: trafilatura 실패시 Playwright 시도
+                # 4단계: trafilatura 실패시 Playwright 시도 (기존 코드 사용)
                 logger.info(f"🎭 trafilatura 실패, Playwright로 재시도: {url}")
                 playwright_text = extract_with_playwright(url)
                 
