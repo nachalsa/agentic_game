@@ -60,10 +60,94 @@ MAX_EXECUTION_TIME = int(os.getenv("MAX_EXECUTION_TIME", "900"))
 if not API_BASE_URL.endswith('/v1'):
     API_BASE_URL = API_BASE_URL.rstrip('/') + '/v1'
 
+# Helper 함수들
+def is_good_text(text):
+    """텍스트 품질 검증"""
+    if not text or len(text.strip()) < 100:
+        return False
+    
+    # JavaScript 코드나 에러 감지
+    js_indicators = [
+        'function(', '.push([', 'self.__next_f', 'window.', 
+        'document.', 'var ', 'const ', 'let ', 'getElementById'
+    ]
+    
+    if any(indicator in text for indicator in js_indicators):
+        return False
+    
+    # 의미있는 단어 비율 확인
+    words = text.split()
+    if len(words) < 20:
+        return False
+        
+    return True
+
+def extract_with_playwright(url):
+    """Playwright로 동적 웹페이지 렌더링 후 텍스트 추출"""
+    try:
+        from playwright.sync_api import sync_playwright
+        import trafilatura
+        
+        logger.info(f"🎭 Playwright로 동적 렌더링: {url}")
+        
+        with sync_playwright() as p:
+            browser = p.chromium.launch(
+                headless=True,
+                args=[
+                    '--no-sandbox',
+                    '--disable-dev-shm-usage',
+                    '--disable-images',  # 30% 절약
+                    '--disable-background-timer-throttling',
+                    '--disable-renderer-backgrounding'
+                ]
+            )
+            
+            context = browser.new_context(
+                viewport={'width': 1280, 'height': 720},
+                user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            )
+            
+            page = context.new_page()
+            page.goto(url, wait_until='domcontentloaded', timeout=15000)
+            
+            # JavaScript 실행 대기
+            time.sleep(2)
+            
+            # 렌더링된 HTML 가져오기
+            content = page.content()
+            browser.close()
+            
+            # trafilatura로 텍스트 추출
+            extracted_text = trafilatura.extract(
+                content,
+                include_comments=False,
+                include_tables=True,
+                include_images=False,
+                output_format='text'
+            )
+            
+            if extracted_text and len(extracted_text.strip()) > 100:
+                clean_text = extracted_text.strip()
+                clean_text = re.sub(r'\n{3,}', '\n\n', clean_text)
+                if len(clean_text) > 2000:
+                    clean_text = clean_text[:2000] + "..."
+                
+                logger.info(f"✅ Playwright 추출 성공: {len(clean_text)}자")
+                return clean_text
+            
+        return None
+        
+    except ImportError:
+        logger.error("❌ Playwright가 설치되지 않았습니다: pip install playwright")
+        return None
+    except Exception as e:
+        logger.warning(f"⚠️ Playwright 추출 실패: {str(e)}")
+        return None
+
 # 통합 웹 검색 도구
 @tool("Web Search Tool")
 def web_search_tool(query: str) -> str:
-    """웹에서 정보를 검색하고 전체 페이지 내용을 추출하는 통합 도구"""
+    """웹에서 정보를 검색하고 전체 페이지 내용을 추출하는 통합 도구 (Playwright 백업 포함)"""
     try:
         logger.info(f"🔍 통합 웹 검색 시작: '{query}'")
         
@@ -92,14 +176,14 @@ def web_search_tool(query: str) -> str:
         
         # 2단계: 페이지 크롤링 및 텍스트 추출
         extracted_contents = []
-        max_pages = min(3, len(unique_urls))  # 최대 3개 페이지만 처리
+        max_pages = min(3, len(unique_urls))
         
         for i, item in enumerate(unique_urls[:max_pages]):
             url = item['url']
             title = item['title']
             
             try:
-                logger.info(f"📄 페이지 크롤링 중 ({i+1}/{max_pages}): {url}")
+                logger.info(f"📄 페이지 처리 중 ({i+1}/{max_pages}): {url}")
                 
                 # 페이지 다운로드
                 headers = {
@@ -108,11 +192,11 @@ def web_search_tool(query: str) -> str:
                 response = requests.get(url, headers=headers, timeout=10)
                 response.raise_for_status()
                 
-                # 3단계: trafilatura로 텍스트 추출
+                # 3단계: trafilatura 1차 시도
+                extracted_text = None
                 try:
                     import trafilatura
                     
-                    # HTML에서 깨끗한 텍스트 추출
                     extracted_text = trafilatura.extract(
                         response.text,
                         include_comments=False,
@@ -121,37 +205,41 @@ def web_search_tool(query: str) -> str:
                         output_format='text'
                     )
                     
-                    if extracted_text and len(extracted_text.strip()) > 100:
-                        # 텍스트 정제
+                    # 품질 검증
+                    if is_good_text(extracted_text):
                         clean_text = extracted_text.strip()
-                        # 여러 줄바꿈을 2개로 제한
                         clean_text = re.sub(r'\n{3,}', '\n\n', clean_text)
-                        # 너무 긴 텍스트는 첫 2000자만 사용
                         if len(clean_text) > 2000:
                             clean_text = clean_text[:2000] + "..."
                         
                         extracted_contents.append({
                             'title': title,
                             'url': url,
-                            'content': clean_text
+                            'content': clean_text,
+                            'method': 'trafilatura'
                         })
-                        logger.info(f"✅ 텍스트 추출 성공: {len(clean_text)}자")
-                    else:
-                        logger.warning(f"⚠️ 텍스트 추출 실패 또는 내용 부족: {url}")
+                        logger.info(f"✅ trafilatura 성공: {len(clean_text)}자")
+                        time.sleep(1)
+                        continue
                         
                 except ImportError:
-                    logger.error("❌ trafilatura 라이브러리가 설치되지 않았습니다")
-                    # 기본 HTML 태그 제거 방식으로 폴백
-                    clean_text = re.sub(r'<[^>]+>', '', response.text)
-                    clean_text = re.sub(r'\s+', ' ', clean_text).strip()
-                    if len(clean_text) > 500:
-                        extracted_contents.append({
-                            'title': title,
-                            'url': url,
-                            'content': clean_text[:1000] + "..."
-                        })
+                    logger.warning("❌ trafilatura 없음, Playwright 시도")
                 
-                # 요청 간 지연
+                # 4단계: trafilatura 실패시 Playwright 시도
+                logger.info(f"🎭 trafilatura 실패, Playwright로 재시도: {url}")
+                playwright_text = extract_with_playwright(url)
+                
+                if playwright_text and is_good_text(playwright_text):
+                    extracted_contents.append({
+                        'title': title,
+                        'url': url,
+                        'content': playwright_text,
+                        'method': 'playwright'
+                    })
+                    logger.info(f"✅ Playwright 성공: {len(playwright_text)}자")
+                else:
+                    logger.warning(f"⚠️ 모든 방법 실패: {url}")
+                
                 time.sleep(1)
                 
             except requests.RequestException as e:
@@ -161,14 +249,15 @@ def web_search_tool(query: str) -> str:
                 logger.warning(f"⚠️ 페이지 처리 오류 {url}: {str(e)}")
                 continue
         
-        # 4단계: 결과 포맷팅
+        # 5단계: 결과 포맷팅
         if not extracted_contents:
             return f"'{query}' 검색 결과에서 텍스트를 추출할 수 없었습니다."
         
         formatted_result = f"🔍 '{query}' 검색 및 텍스트 추출 결과:\n\n"
         
         for i, content in enumerate(extracted_contents, 1):
-            formatted_result += f"📄 {i}. {content['title']}\n"
+            method_icon = "⚡" if content['method'] == 'trafilatura' else "🎭"
+            formatted_result += f"📄 {i}. {content['title']} {method_icon}\n"
             formatted_result += f"🔗 출처: {content['url']}\n"
             formatted_result += f"📝 내용:\n{content['content']}\n"
             formatted_result += "-" * 80 + "\n\n"
